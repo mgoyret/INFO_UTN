@@ -1,0 +1,9 @@
+Realizar un programa donde el usuario cargue un conjunto de notas. No se sabe cuantas son.
+La carga finaliza con '0'.
+Una vez finalizada la carga, generar una mascara que permita obtener el ultimo tercio de las notas cargadas.
+
+cargar notas nota !=0
+disenar mascara para el ultimo tercio
+calcular vector
+mostrar resultado
+liberar memoria

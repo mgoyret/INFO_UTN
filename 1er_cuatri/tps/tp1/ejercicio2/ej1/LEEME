@@ -1,0 +1,3 @@
+para linkear  (gcc -c divisionint.c -o divisionint.o -Wall)
+para compilar (gcc divisionint.o -o divisionint.z -Wall)
+para ejecutar (./divisionint.z)

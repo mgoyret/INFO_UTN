@@ -1,0 +1,3 @@
+para linkear  (gcc -c numeraciones.c -o numeraciones.o -Wall)
+para compilar (gcc numeraciones.o -o numeraciones.z -Wall)
+para ejecutar (./numeraciones.z)

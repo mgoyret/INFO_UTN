@@ -1,0 +1,3 @@
+para linkear  (gcc -c pflimits.c -o pflimits.o -Wall)
+para compilar (gcc pflimits.o -o pflimits.z -Wall)
+para ejecutar (./pflimits.z)

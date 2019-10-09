@@ -1,0 +1,24 @@
+EJERCICIO 2:
+Una palabra puede estar delimitada por:
+punto, coma, guion, linea, espacio.
+Pueden haber dos palabras separadas por, por ejemplo, 3 espacios (tener esto en cuenta)
+
+EJERCICIO 3:
+'NivelLog' debe ser creado haciendo typedef.
+Para definir cada componente del NivelLog (debug, info, etc) enumerado, sin hacer un define para cada uno, hago:
+
+typedef enum    //enum es como una agrupacion de defines
+{
+    debug,  //si no numero al primero empieza en '0', y si hago 'debug = 4,' comenzara a contar desde 4
+    info,
+    warn,
+    error,
+    fatal
+} NivelLog;
+
+en 'cons char* archivo', si en ves de escribirle el nombre del archivo q quiero, le paso __FILE__ lo reemplaza al nombre del archivo actual.
+1en 'int linea' lo mismo pero pasa el numero d la linea del archivo en la que esta
+
+Esta funcion debe:  abrir archivo log, escribir el mensaje de error, y cerrar el archivo.
+
+INFO es el tipo de dato del mensaje de error. El numero q se escribe antes de INFO es el q devuelve la funcion 'time(NULL)' 

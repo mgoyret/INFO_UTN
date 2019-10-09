@@ -1,0 +1,3 @@
+El vector int v[5] es un vector de 5 elementos enteros.
+Si al primer elemento (v[0]) le fue asignada la direccion 0xbfff0000, la variable v[2], que es el tercer elemento,
+estara en la direccion 0xbfff0008, ya que cada elemento del vector pesa 4 bytes.

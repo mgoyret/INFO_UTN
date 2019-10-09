@@ -1,0 +1,5 @@
+No, no se puede.
+Dado el vector "int v[5] = {32, 12, 15, 89, 6}",  decir 'v' es lo mismo que decir '&v[0]'.
+Las direcciones son asignadas por el sistema operativo y, segun lo estudiado hasta ahora, no podemos cambiarlas.
+Escribir v++ seria como tratar de aumentar en uno la direccion de v[0], cosa que no podemos hacer, y que tampoco tendria sentido
+para recorrer el vector, ya que estariamos aumentando la direccion de v[0] en vez de aumentar el subindice del vector.

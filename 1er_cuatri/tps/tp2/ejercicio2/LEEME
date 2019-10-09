@@ -1,0 +1,3 @@
+para compilar  (gcc -c raices.c -o raices.o -Wall)
+para linkear (gcc raices.o -lm -o raices.z -Wall)
+para ejecutar (./raices.z)

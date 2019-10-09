@@ -1,0 +1,3 @@
+El numero "3" se suma con respecto a lo que este sumando. En este caso, el 3 esta siendo sumado a un vector de enteros,
+que pesan 4 bytes cada uno. Por lo tanto, al hacer V + 3, el resultado sera una direccion 3*4 (12) bytes mas grande que la direccion de V.
+V = 0Xbfff0000   =>   v+3 = 0Xbfff000c

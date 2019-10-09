@@ -1,0 +1,2 @@
+La cantidad de bytes que ocupa la direccion de una variable depende de la estructura de la pc. Puede variar entre 4 u 8 bytes,
+dependiendo de la capacidad de ancho de palabra soportado por los regitros de la pc. 

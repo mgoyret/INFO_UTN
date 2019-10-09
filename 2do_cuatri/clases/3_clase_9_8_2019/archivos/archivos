@@ -1,0 +1,9 @@
+Hay distintos tipos de archivos:
+
+Texto plano (el contenido es texto, comprensible a simple vista)
+por ejemplo:    .c .txt .h .sh
+
+texto plano semi-estructurado (tiene una estructura especifica como separar palabras por comas, etc)
+por ejemplo:    .csv .xml
+
+archivos binarios

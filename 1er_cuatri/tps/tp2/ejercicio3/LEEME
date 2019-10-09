@@ -1,0 +1,3 @@
+para compilar  (gcc -c calculadora.c -o calculadora.o -Wall)
+para linkear (gcc calculadora.o -o calculadora.z -Wall)
+para ejecutar (./calculadora.z)

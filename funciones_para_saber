@@ -1,0 +1,17 @@
+fgets()      =>      equivale a scanf()  pero escanea palabras con espacio
+
+atoi()      =>le damos caracteres, y lo transforma al numero:   atoi("18") = numero 18   (lo que recibio es '1' y '8')  ascii to integer  int atoi(const char)
+
+strcpy(buf, "18")    =>  copia el segundo argumento en el primero, caracter a caracter
+
+strlen(const char*)    =>   calcula el largo de palabra.
+
+strcat(char*, const char*)     =>  unir palabras. recibe (palabra destino, palabra origen)
+
+strcmp(p, "hola")       =>  devuelve 0 si p == "hola"
+
+hexdump -C <archivo>    =>
+
+xxd -b <archivo>        =>
+
+fileno(archivo)         =>  devuelve file descriptor. "fd"

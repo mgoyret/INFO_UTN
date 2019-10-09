@@ -1,0 +1,4 @@
+El rango de una variable tipo float va de 1.17549e-38 a 3.40282e+38
+El rabgo de una variable tipo double va de 2.22507e-308 a 1.79769e+308
+
+El programa que genera el cdigo fuente del archivo pflimits.c corrobora estos datos.

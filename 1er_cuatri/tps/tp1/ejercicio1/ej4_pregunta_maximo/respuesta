@@ -1,0 +1,1 @@
+El numero mas grande que se imprimira sera el mayor numero entero que el tipo de dato float pueda representar (3.40282e+038), ya que el programa tiene como argumento del while (1), osea verdadero, y esto hace que se ejecute eternamente ya que no hay ninguna condicion que lo haga parar.

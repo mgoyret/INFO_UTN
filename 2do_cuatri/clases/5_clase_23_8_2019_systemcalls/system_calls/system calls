@@ -1,0 +1,6 @@
+System Calls
+
+int open(char*, int, int); 
+int read(int, void*, int);
+int write(int, void*, int);
+inr close(int);

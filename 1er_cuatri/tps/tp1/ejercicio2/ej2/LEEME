@@ -1,0 +1,3 @@
+para linkear  (gcc -c divisionfloat.c -o divisionfloat.o -Wall)
+para compilar (gcc divisionfloat.o -o divisionfloat.z -Wall)
+para ejecutar (./divisionfloat.z)

@@ -1,0 +1,3 @@
+para compilar  (gcc -c plano.c -o plano.o -Wall)
+para linkear (gcc plano.o -lm -o plano.z -Wall)
+para ejecutar (./plano.z)

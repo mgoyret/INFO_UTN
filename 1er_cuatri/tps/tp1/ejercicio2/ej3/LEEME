@@ -1,0 +1,3 @@
+para linkear  (gcc -c divisioncast.c -o divisioncast.o -Wall)
+para compilar (gcc divisioncast.o -o divisioncast.z -Wall)
+para ejecutar (./divisioncast.z)

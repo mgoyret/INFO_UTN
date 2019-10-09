@@ -1,0 +1,2 @@
+escribir una funcion que reciba la direccion de comienzo de un vector de enteros, su largo, y permita informar el valor maximo y minimo de dicho vector.
+El valor max y min deberan ser obtenidos por pasaje de referencia

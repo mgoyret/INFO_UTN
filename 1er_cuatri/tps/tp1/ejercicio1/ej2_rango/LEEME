@@ -1,0 +1,3 @@
+para linkear  (gcc -c rango.c -o rango.o -Wall)
+para compilar (gcc rango.o -lm -o rango.z -Wall)
+para ejecutar (./rango.z)

@@ -1,0 +1,4 @@
+El sistema operativo asigna las direcciones de las variables cada vez que se ejecuta el programa,
+para evitar que pisen posiciones de memoria protegidas.
+En cada ejecucion, el S.O decide donde posicionar las variables segun lo nesecite, y es por eso que no tienen
+la misma direccion todas las veces que ejecutamos el programa.
