@@ -1,0 +1,7 @@
+Comentario:
+Tanto en servidor como en cliente dentro de la carpeta doc hay un 
+.txt de configuración el cual contiene los datos del servidor 
+[Dirección de IP]:[Puerto]
+Desde el programa levanto este archivo, lo hice para que sea más
+portable y no haya que compilar cada vez que se desee cambiar los datos
+del servidor.
