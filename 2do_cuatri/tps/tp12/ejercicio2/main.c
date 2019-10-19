@@ -1,24 +1,17 @@
+/**
+ * \file            main.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Oct 17, 2019
+ * \details         Usar MakeFile para compilar y linkear
+ */
 
-#include <signal.h>
-#include <stdio.h>
-#include <unistd.h>
-
-static int i = 0;
-
-void handler(int a);
+#include "functions.h"
 
 int main()
 {
+    /* 1. Al recibir senal SIGINT se ejecutara funcion handler  */
     signal(SIGINT, handler);
-    while(i < 5);
-    printf("CHAU!\n");
+    while(1);
     return 0;
-}
-
-void handler(int a)
-{
-    signal(SIGINT, SIG_IGN);
-    printf("Presionaste!\n");
-    i++;
-    signal(SIGINT, handler);
 }

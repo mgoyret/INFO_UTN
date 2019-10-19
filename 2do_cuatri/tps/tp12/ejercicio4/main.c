@@ -1,12 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/stat.h>
-#include <unistd.h>
-#include <signal.h>
-#include <sys/wait.h>
+/**
+ * \file            main.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Oct 17, 2019
+ * \details         Usar MakeFile para compilar y linkear
+ */
 
-void recive_hijo(int a);
-void recive_padre(int a);
+#include "functions.h"
 
 int main()
 {
@@ -35,18 +35,4 @@ int main()
     }
 
     return 0;
-}
-
-void recive_hijo(int a)
-{
-    printf("SIGUSR1 recibido por PID: %d, le enviare SIGUSR2 a mi padre PID: %d y luego morire\n", getpid(), getppid());
-    kill(getppid(), SIGUSR2);
-    exit(0);
-}
-
-void recive_padre(int a)
-{
-    printf("SIGUSR2 recivido por PID: %d, lo debe haber mandado mi hijo antes de morir. Muero yo tambien\n", getpid());
-    wait(NULL);
-    exit(0);
 }

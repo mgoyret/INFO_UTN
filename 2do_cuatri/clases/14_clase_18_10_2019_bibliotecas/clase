@@ -1,0 +1,12 @@
+bibliotecas estaticas
+
+Todo el codigo presente en la biblioteca es cargado en el ejecutable. Si luego de linkear borro la libreria, funcionara igual, ya q el codigo nesesario se encuentra DENTRO del arhcivo ejecutable
+
+bibliotecas compartidas
+
+al momento de linkear, no se carga todo el contenido de la biblioteca al arhcivo ejecutable, sino q se carga una referencia a la biblioteca. Cada vez que se ejecute ese programa, se busca la biblioteca referida. Si ejecuto 10 veces, la biblioteca no esta cargada 10 veces, esta una vez en la memoria, y es "vista" por los 10 programas. De esta manera, si borro la biblioteca el programa no funcionara.
+
+
+
+Al momento de linkear, el que linquea es el LINKER, pero en vez de hacerlo a mano, el GCC lo hace por nosotros.
+al momento de compilar

@@ -10,14 +10,13 @@
 
 int main()
 {
-    printf("Trata de matarme!!\n");
-    
-    signal(SIGINT, handler);
-    signal(SIGALRM, mi_alarma);
+    int hijos_pedidos = 0;
 
-    alarm(TIEMPO_ALARMA);
+    printf("Ingrese cantidad de hijos a crear: ");
+    scanf("%d", &hijos_pedidos);
 
-    while(1);
-    printf("CHAU!\n");
+    /* 2. Invoco a la función "son_creator", pasándole "hijos_pedidos" como argumento */
+    son_creator(hijos_pedidos);
+
     return 0;
 }
