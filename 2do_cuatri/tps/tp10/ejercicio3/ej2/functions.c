@@ -1,7 +1,23 @@
-#include "functions.h"
-#include <cv.h>
-#include <highgui.h>
+/**
+ * \file            functions.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Oct 20, 2019
+ * \details         Usar MakeFile para compilar y linkear
+ */
 
+#include "functions.h"
+
+/* 1. Definicion de la funcion "show_gray" */
+
+/**
+ * \fn      void show_gray(IplImage *img)
+ * \brief   Muestra imagen en escala de grises.
+ * \author  Marcos Goyret
+ * \date    Oct 20, 2019
+ * \param   img: Imagen a mostrar.
+ */
+    
 void show_gray(IplImage *img)
 {
     /* 1. Cargo imagen */
@@ -17,6 +33,16 @@ void show_gray(IplImage *img)
 }
 
 
+/* 2. Definicion de la funcion "show_negative" */
+
+/**
+ * \fn      void show_negative(IplImage *img)
+ * \brief   Muestra el negativo de una imagen.
+ * \author  Marcos Goyret
+ * \date    Oct 20, 2019
+ * \param   img: Imagen a mostrar.
+ */
+    
 void show_negative(IplImage *img)
 {
     int row, column;

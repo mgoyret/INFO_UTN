@@ -1,6 +1,12 @@
+/**
+ * \file            main.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Oct 20 2019
+ * \details         Usar MakeFile para compilar y linkear
+ */
+
 #include "functions.h"
-#include <cv.h>
-#include <highgui.h>
 
 int main()
 {
