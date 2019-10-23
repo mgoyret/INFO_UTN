@@ -12,7 +12,7 @@ int fin(char* msj)
 {
     int exit = 0;
 
-    if (strcmp(msj, "exit") == 0)
+    if (strcmp(msj, "/exit") == 0)
     {
         exit = 1;
     }
