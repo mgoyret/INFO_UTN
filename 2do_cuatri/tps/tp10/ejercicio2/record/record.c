@@ -13,7 +13,7 @@ int main(int argc, char** argv)
     int i, exit = 0, audio_name_start, rec_time, buff_size, sound_card_fd, i_time, f_time, status;
     HeaderIfw audio_prop;
  	unsigned char* buf = NULL;
-    FILE* audio_file_fd;
+    FILE* audio_file_fp;
 
     if (argc == 6)
     {
@@ -55,11 +55,11 @@ int main(int argc, char** argv)
             if (buf != NULL)
             {
                 /* 5. Creamos el archivo de audio */
-                audio_file_fd = fopen(argv[audio_name_start]+2, "w");
-                if (audio_file_fd != NULL)
+                audio_file_fp = fopen(argv[audio_name_start]+2, "w");
+                if (audio_file_fp != NULL)
                 {
                     /* 6. Lo primero en escribir al archivo es el header */
-                    load_header(audio_file_fd, audio_prop);
+                    load_header(audio_file_fp, audio_prop);
 
                     /* 7. Abro el "archivo" placa de sonido */
                     sound_card_fd = open("/dev/dsp", O_RDWR);
@@ -87,9 +87,9 @@ int main(int argc, char** argv)
                                     {
                                         exit = 7;
                                     }
-                                    /* 10. Copiamos el contenido de "buf" en el archivo apuntado por audio_file_fd. El buffer va copiando de a pequenos periodos
+                                    /* 10. Copiamos el contenido de "buf" en el archivo apuntado por audio_file_fp. El buffer va copiando de a pequenos periodos
                                             de tiempo, muchas veces, en vez de almacenar todo el audio y copiarlo de una. */
-                                    status = fwrite(buf, 1, buff_size, audio_file_fd);
+                                    status = fwrite(buf, 1, buff_size, audio_file_fp);
                                     if (status != buff_size)
                                     {
                                         fprintf(stderr,"Error en función write, Código de error: %s\n",strerror (status)); 
@@ -135,7 +135,7 @@ int main(int argc, char** argv)
     }
 
 	if (exit > 2) free (buf);
-	if (exit > 3) fclose(audio_file_fd);
+	if (exit > 3) fclose(audio_file_fp);
 	if (exit > 4) close(sound_card_fd);
     
 	return exit;

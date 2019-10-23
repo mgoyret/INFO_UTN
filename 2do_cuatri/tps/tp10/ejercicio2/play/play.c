@@ -11,7 +11,7 @@
 int main(int argc, char** argv)
 {
     int exit = 0, buff_size, sound_card_fd, i_time, f_time, status, rec_time, read_info;
-    FILE* audio_file_fd;
+    FILE* audio_file_fp;
  	unsigned char* buf = NULL;
     HeaderIfw audio_prop;
 
@@ -19,13 +19,13 @@ int main(int argc, char** argv)
     {
         if(  (*(*(argv+1)) == '-') && (*(*(argv+1)+1) == 'n')  )
         {
-            audio_file_fd = fopen(argv[1]+2, "r");
-            if(audio_file_fd != NULL)
+            audio_file_fp = fopen(argv[1]+2, "r");
+            if(audio_file_fp != NULL)
             {
-                /* 1. Invoco a la funcion "get_header", que carga el encabezado del archivo apuntado por "audio_file_fd" en la estructura "audio_prop" */
-                get_header(&audio_file_fd, &audio_prop);
+                /* 1. Invoco a la funcion "get_header", que carga el encabezado del archivo apuntado por "audio_file_fp" en la estructura "audio_prop" */
+                get_header(&audio_file_fp, &audio_prop);
                 /* 2. Invoco a la funcion "calculate_size", que calcula la duracion del audio en base a la informacion del encabezado del archivo */
-                rec_time = calculate_size(audio_file_fd, audio_prop);
+                rec_time = calculate_size(audio_file_fp, audio_prop);
 
                 /* 3. Calculamos dinámicamente el tamaño del buffer de audio */
                 buff_size = rec_time*audio_prop.sample_rate*audio_prop.bits_per_sample*atoi(&(audio_prop.num_channels))/BITS/MILI;
@@ -42,10 +42,10 @@ int main(int argc, char** argv)
                         i_time = time(NULL);
                         printf("\033[2J\n");
 
-                        while ((exit == 0) && (!feof(audio_file_fd)))
+                        while ((exit == 0) && (!feof(audio_file_fp)))
                         {
-                            /* 6. Cantidad "buff_size*1" bytes del archivo audio_file_fd es leida y almacenada en "buf" */
-                            read_info = fread(buf, 1, buff_size, audio_file_fd);
+                            /* 6. Cantidad "buff_size*1" bytes del archivo audio_file_fp es leida y almacenada en "buf" */
+                            read_info = fread(buf, 1, buff_size, audio_file_fp);
                             if(read_info >= 0)
                             {
                                 f_time = time(NULL);
@@ -101,7 +101,7 @@ int main(int argc, char** argv)
         exit = 1;
     }
     
-    if(exit > 2)    fclose(audio_file_fd);
+    if(exit > 2)    fclose(audio_file_fp);
     if(exit > 3)    free(buf);
     if(exit > 4)    close(sound_card_fd);    
     
