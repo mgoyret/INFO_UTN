@@ -1,10 +1,14 @@
 all:
-	gcc -c main.c -o main.o -Wall
-	gcc *.o -o program
-	rm *.o
+	gcc -c servidor.c -o servidor.o -Wall
+	gcc -c cliente.c -o cliente.o -Wall
+	gcc -c functions.c -o functions.o -Wall
+	gcc servidor.o functions.o -o server
+	gcc cliente.o functions.o -o client
 
 clean:
-	rm *.o program
+	rm -f *.o
+	rm -f client server
+	rm -f MIFIFO1
 
 view:
 	cat Makefile
