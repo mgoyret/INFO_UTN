@@ -10,9 +10,7 @@
 
 int main()
 {
-    int pid1 = 0, pid2 = 0, cnt = 0, fd[2], std_stdout = 0, std_stdin = 0;
-    std_stdout = dup(STDOUT_FILENO);
-    std_stdin = dup(STDIN_FILENO);
+    int pid1 = 0, pid2 = 0, cnt = 0, fd[2];
 
     /* 1. Si pipe() devuelve '-1' es porque hubo error */
     if (pipe(fd) != -1)
@@ -48,13 +46,8 @@ int main()
                 dup2(fd[LECTURA], STDIN_FILENO);
                 /* 6. Ejecuto con execlp() el archivo "run2.sh", que contiene la linea de codigo “head”.
                         Al comando "head" le llegaran como parametros lo que haya en el pipe. */
-                execlp("bash", "bash", "run2.sh", (char*)NULL);
-                /* 7. Segun investigue, execlp reemplaza el proceso desde el cual es llamado. Por lo tanto no tendria sentido continuar llamando funciones, pero
-                    como no estoy seguro, ya que si esto es asi, por ejemplo, la funcion termina sin cerrar el fd[LECTURA]. Dejo ese codigo en comentario */
-                //dup2(std_stdin, STDIN_FILENO);
-                //close(std_stdin);
-                //printf("HIJO2: Chau...\n");
-                //close(fd[LECTURA]);
+                execlp("head", "head", (char*)NULL);
+                /* 7. Execlp reemplaza el proceso desde el cual es llamado */
             }
             else
             {
@@ -70,13 +63,8 @@ int main()
             printf("HIJO1: PID %d (padre es %d)\n", getpid(), getppid());
             /* 9. Redirigo stdout al extremo de escritura del pipe (lo que saldria en pantalla, ahora es enviado por el pipe) */
             dup2(fd[ESCRITURA], STDOUT_FILENO);
-            /* 10. Ejecuto con execlp() el archivo "run1.sh", que contiene la linea de codigo “ps -e -o user,pid, %mem,command –sort - %mem” */
-            execlp("bash", "bash", "run1.sh", (char*)NULL);
-            /* 11. Idem punto '7' */
-            //dup2(std_stdout, STDOUT_FILENO);
-            //close(std_stdout);
-            //printf("HIJO1: Chau...\n");
-            //close(fd[ESCRITURA]);
+
+            execlp("ps", "ps", "-e", "-ouser,pid,%mem,command", "--sort", "-%mem",NULL);
         }
         else
         {

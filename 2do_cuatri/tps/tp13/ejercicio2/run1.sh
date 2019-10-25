@@ -1,1 +1,0 @@
-ps -e -o user,pid,%mem,command --sort -%mem
