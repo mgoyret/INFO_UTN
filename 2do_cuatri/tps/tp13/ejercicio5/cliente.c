@@ -142,6 +142,7 @@ int main()
 
     /* 12. Elimino el archivo temporal sobre el cual fue copiada la cancion */
     remove(TEMP_FILE);
-    
+    remove(FIFO_FILE1);
+
 	return exit;
 }
