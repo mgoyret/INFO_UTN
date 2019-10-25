@@ -28,8 +28,8 @@ int main()
             printf("PADRE: Escribiendo en el pipe 1\n");
             write(fd1[ESCRITURA], "Luke, soy tu padre!!", MAX_MSJ);
 
-            /* 3. Doy tiempo para que los mensajes se impriman ordenados */
-            sleep(2);
+            /* 3. Tiempo para printf ordenados */
+            usleep(1000);
             printf("PADRE: Leyendo desde el pipe 2\n");
             read(fd2[LECTURA], buffer, MAX_MSJ);
             printf("PADRE: Lei \"%s\"\n", buffer);
@@ -48,7 +48,6 @@ int main()
             close(fd1[ESCRITURA]);
             close(fd2[LECTURA]);
 
-            sleep(1);
             printf(" HIJO: Leyendo desde el pipe 1\n");
             read(fd1[LECTURA], buffer, MAX_MSJ);
             printf(" HIJO: Lei \"%s\"\n", buffer);
