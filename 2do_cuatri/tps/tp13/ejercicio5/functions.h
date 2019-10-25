@@ -18,16 +18,14 @@
 #include <unistd.h>
 #include <time.h>
 #include <string.h>
-/* PLAY */
 #include <sys/ioctl.h>
 #include <linux/soundcard.h>
 
-/* Defines para comodidad de indentacion */
-#define BITS 8 //Bits por bytes
-#define MILI 1000 //Milisengundos por segundo
-
-#define FIFO_FILE1   "MIFIFO1"
-#define FIFO_FILE2   "MIFIFO2"
+/* 1. Defines para comodidad de indentacion */
+#define BITS         8      //Bits por bytes
+#define MILI        1000    //Milisengundos por segundo
+#define FIFO_FILE1  "MIFIFO1"
+#define FIFO_FILE2  "MIFIFO2"
 #define MAX         100
 #define set_space   printf("\n\n");
 #define set_default printf("\033[00m");
@@ -36,8 +34,8 @@
 #define clr_screen  printf("\033[2J\n");
 #define TEMP_FILE   "temp_file"
 #define BUF_S       100000
-
-/* 3. Estrructura con informacion del archivo de audio */
+#define K           *1000
+/* 2. Estrructura con informacion del archivo de audio */
 typedef struct HeaderIfw
 {
     char format[9]; //Siempre vale "INFOWAVE"
@@ -46,18 +44,19 @@ typedef struct HeaderIfw
     char num_channels;
 }HeaderIfw;
 
-/* 4. Declaracion de la funcion "play". Reproduce audio */
+/* 3. Declaracion de la funcion "play". Reproduce audio */
 int play(char* camino_cancion, char* nombre_cancion);
 
-/* 5. Declaracion de la funcion "set_audio_prop". Establece los parametros de configuracion de la placa de sonido */
+/* 4. Declaracion de la funcion "set_audio_prop". Establece los parametros de configuracion de la placa de sonido */
 void set_audio_prop (int sound_card_fd, HeaderIfw *audio_prop);
 
-/* 6. Declaracion de la funcion "get_header". Copia el encabezado de un archivo "infowave" en una estructura */
+/* 5. Declaracion de la funcion "get_header". Copia el encabezado de un archivo "infowave" en una estructura */
 int get_header(FILE** audio_file_fd, HeaderIfw* audio_prop);
 
-/* 7. Declaracion de la funcion "calculate_size". Calcula los segundos de duracion de un archivo de audio a partir del peso y de los parametros del audio */
+/* 6. Declaracion de la funcion "calculate_size". Calcula los segundos de duracion de un archivo de audio a partir del peso y de los parametros del audio */
 int calculate_size(FILE* audio_file_fd, HeaderIfw audio_prop);
 
+/* 7. Declaracion de la funcion "file_size". Calcula la cantidad de bytes de un archivo pasado como parametro */
 int file_size(char* file_name);
 
 #endif  //FUNCTIONS_H_ 

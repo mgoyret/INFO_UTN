@@ -199,7 +199,7 @@ int get_header(FILE** audio_file_fd, HeaderIfw* audio_prop)
     
 int calculate_size(FILE* audio_file_fd, HeaderIfw audio_prop)
 {
-	int time = -1;
+	int time = 0;
 	int byte_cnt = 0;
 	int channel_cnt = atoi(&(audio_prop.num_channels));
 

@@ -31,6 +31,7 @@ int main(int argc, char** argv)
                     writen += fread(auxbuf, 1, BUF_S, fp_song);
                     fwrite(auxbuf, 1, BUF_S, fp1);
                     clr_screen
+                    /* 2. Calculo porcentaje del archivo que fue enviado enviado */
                     pst = (writen*100)/size;
                     printf("\033[1;1HTRANSFER: %ld%c\n", pst, '%');
                 }
@@ -47,7 +48,8 @@ int main(int argc, char** argv)
             {
                 printf("Error leyendo cancion\n");
             }
-            sleep(2); //tiempo antes de cerrar el fifo para que el cliente llegue a copiar al temp_file
+            /* 3. Tiempo antes de cerrar el FIFO para que el cliente llegue a copiar al temp_file */
+            sleep(1);
             fclose(fp1);   
         }
         else
