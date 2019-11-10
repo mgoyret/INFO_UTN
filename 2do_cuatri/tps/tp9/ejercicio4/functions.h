@@ -35,8 +35,8 @@ typedef enum options
 
 typedef enum EXIT
 {
+    ERROR = -1,
     SUCCES,
-    ERROR,
     DELETION,
     ADDITION
 }EXIT;

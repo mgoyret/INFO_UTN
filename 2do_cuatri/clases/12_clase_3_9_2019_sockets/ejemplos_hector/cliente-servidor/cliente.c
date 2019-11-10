@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <arpa/inet.h>
 
 //sockets
 #include <netinet/in.h>
@@ -18,7 +19,7 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-#define PUERTO 1299
+#define PUERTO "1299"
 #define MAXBUFFER 1024
 
 int main(void) {
@@ -27,15 +28,21 @@ int main(void) {
 	int socketCliente;
 	struct sockaddr_in datosServer;
 	int enviados;
+	char puerto[5];
+	int ip, port;
 
 	// Creo el socket
 	socketCliente = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP) ;
 
+	strcpy(puerto, PUERTO);
+	port = atoi(puerto);
+	ip = inet_addr("127.0.0.1");
+	printf("IP es '%d' o '%X'\n", ip, ip);
 
 	// Lleno la estructura con la info del server
 	datosServer.sin_family = AF_INET;
-	datosServer.sin_addr.s_addr = INADDR_ANY;
-	datosServer.sin_port = htons(PUERTO);
+	datosServer.sin_addr.s_addr = ip;
+	datosServer.sin_port = htons(port);
 	memset(datosServer.sin_zero,0,8);
 
 	//Me conecto al server

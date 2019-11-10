@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 //sockets
 #include <netinet/in.h>
 #include <sys/types.h>
@@ -18,9 +19,8 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-
-#define MAXCONEXIONES 30
-#define MAXBUFFER 1024
+#define MAXCONEXIONES	30
+#define MAXBUFFER		1024
 
 int main(void) {
 

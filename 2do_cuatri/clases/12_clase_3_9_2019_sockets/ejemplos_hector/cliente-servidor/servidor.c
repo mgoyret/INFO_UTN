@@ -19,7 +19,7 @@
 #include <sys/time.h>
 #include <sys/types.h>
 
-#define PUERTO 1299
+#define PUERTO "1299"
 #define MAXCONEXIONES 10
 #define MAXBUFFER 1024
 
@@ -33,14 +33,20 @@ int main(void) {
 	  	int clienteConectado; //Flag 
 	  	int sizeMensaje; //Tama�o del mensaje recibido
 	  	int on=1;//Necesario para setsockop
+		char puerto[5];
+		int ip, port;
 
 	  	// Creo el socket
 		listener = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP) ;
 
+		strcpy(puerto, PUERTO);
+		port = atoi(puerto);
+		ip = inet_addr("127.0.0.1");
+
 		// Lleno la estructura con la info del server
 		datosServer.sin_family = AF_INET;
-		datosServer.sin_addr.s_addr = INADDR_ANY; //Localhost
-		datosServer.sin_port = htons(PUERTO);
+		datosServer.sin_addr.s_addr = ip; //Localhost
+		datosServer.sin_port = htons(port);
 		memset(datosServer.sin_zero,0,8);
 
 		/*Si el server se cierra bruscamente queda ocupado el puerto hasta que

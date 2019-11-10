@@ -163,14 +163,15 @@ int sign_in(user* client, int user_cnt)
             scanf(" %c", &op);
             if ((op == 'y') || (op == 'Y'))
             {
-                if(delete_user(client, psn, user_cnt))
+                /* delete_user() devuelve DELETION si se borro un usuario, o ERROR en caso contrario */
+                status = delete_user(client, psn, user_cnt); 
+                if(status == DELETION)
                 {
                     SPACE
                     HIGHLIGHT
                     printf("Usuario eliminado exitosamente\n");
                     DEFAULT
                     SPACE
-                    status = DELETION;
                 }
                 else
                 {
@@ -179,8 +180,8 @@ int sign_in(user* client, int user_cnt)
                     printf("Error al eliminar usuario");
                     DEFAULT
                     SPACE
-                    status = ERROR;
                 }
+                printf("Status vale %d\n", status);
             }
             else
             {
@@ -304,11 +305,13 @@ void stolower(char* name)
 int user_check(user* client, char* name, int user_cnt)
 {
     int i = 0, position = ERROR;
-
+    
     for (i = 0; i < user_cnt; i++)
     {
         if (strcmp(client[i].name, name) == 0)
+        {
             position = i;
+        }        
     }
     return position;    //devuelve el numero del elemento del vector en el q coincidio
 }
@@ -334,9 +337,8 @@ int delete_user(user* client, int psn, int user_cnt)
         strcpy(client[i].name, client[i+1].name);
         strcpy(client[i].key, client[i+1].key);
     }
-    strcpy(client[user_cnt-1].name, " ");
-    strcpy(client[user_cnt-1].key, " ");
-    status = SUCCES;
+    client = (user*)realloc(client, user_cnt-1);
+    status = DELETION;
 
     return status;
 }
