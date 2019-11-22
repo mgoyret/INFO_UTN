@@ -21,7 +21,6 @@
 
 #define MAXCONEXIONES 	10
 #define MAXBUFFER		10000
-#define HOST_IP			"10.5.59.111"
 
 #define SEPARATOR   printf("//////////////////////////////////////////////////////////////////////////////\n");
 #define SPACE       printf("\n\n");
@@ -44,21 +43,20 @@ int main(int argc, char** argv)
   	int sizeMensaje; //Tamano del mensaje recibido
   	int on = 1;//Necesario para setsockop
 	char puerto[10], auxIp[25];
-	int ip, port;
+	int port;
 
 
 	if	(argc == 2)
 	{
 		strcpy(puerto, argv[1]);
 		port = atoi(puerto);
-		ip = inet_addr(HOST_IP);
 
 		// Creo el socket
 		listener = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP) ;
 
 		// Lleno la estructura con la info del server
 		datosServer.sin_family = AF_INET;
-		datosServer.sin_addr.s_addr = ip; //Localhost
+		datosServer.sin_addr.s_addr = INADDR_ANY; //Localhost
 		datosServer.sin_port = htons(port);
 		memset(datosServer.sin_zero, 0, 8);
 

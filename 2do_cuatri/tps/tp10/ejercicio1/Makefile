@@ -13,7 +13,7 @@ YEAR="2019"
 
 CC=gcc
 CFLAGS=-c -Wall
-LDFLAGS=-lm
+LDFLAGS=-lm -L. -lfun
 
 ################################################################
 # SOURCES, HEADERS, OBJECTS AND EXECUTABLE                     #
