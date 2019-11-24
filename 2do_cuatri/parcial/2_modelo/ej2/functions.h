@@ -26,6 +26,6 @@ typedef struct DATOS
 
 DATOS buscar_disp(char* disp, char* camp, char* file, int val);
 
-DATOS cambiar_valor(char* disp, char* camp, FILE* fp, int* flag, int val);
+DATOS cambiar_valor(char* disp, char* camp, FILE* fp, int* flag, int val, char* buff);
 
 #endif

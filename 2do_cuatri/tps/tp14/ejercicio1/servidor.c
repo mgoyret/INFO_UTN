@@ -4,37 +4,59 @@
  *	\author Fernando Pose (fernandoepose@gmail.com)
  *	\date 2014.11.24
  */
-#include "../../inc/functions.h"
 
-//void send_image(int cliente);
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//sockets
+#include <netinet/in.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <sys/time.h>
+#include <sys/types.h>
+
+#define MAXCONEXIONES 	10
+#define MAXBUFFER		10000
+
+#define SEPARATOR   printf("//////////////////////////////////////////////////////////////////////////////\n");
+#define SPACE       printf("\n\n");
+#define DEFAULT     printf("\033[00m");
+#define SET_RED     printf("\033[31m");
+#define SET_GREEN   printf("\033[32m");
+#define HIGHLIGHT   printf("\033[07m");
+
+void send_image(int cliente);
 
 int main(int argc, char** argv)
 {
 
 	int listener; //Socket que recibe las conexiones
 	int cliente; //Socket que se me conecto
-	int addrlen = sizeof(struct sockaddr_in); //Tamano necesario para accept()
+	unsigned int addrlen = sizeof(struct sockaddr_in); //Tamano necesario para accept()
 	struct sockaddr_in datosServer, datosCliente; //Datos del cliente y servidor
 	char buffer[MAXBUFFER]; //Buffer para recibir mensajes
   	int clienteConectado; //Flag 
   	int sizeMensaje; //Tamano del mensaje recibido
   	int on = 1;//Necesario para setsockop
 	char puerto[10], auxIp[25];
-	int ip, port;
+	int port;
 
 
 	if	(argc == 2)
 	{
 		strcpy(puerto, argv[1]);
 		port = atoi(puerto);
-		ip = inet_addr(HOST_IP);
 
 		// Creo el socket
 		listener = socket(AF_INET,SOCK_STREAM,IPPROTO_TCP) ;
 
 		// Lleno la estructura con la info del server
 		datosServer.sin_family = AF_INET;
-		datosServer.sin_addr.s_addr = ip; //Localhost
+		datosServer.sin_addr.s_addr = INADDR_ANY; //Localhost
 		datosServer.sin_port = htons(port);
 		memset(datosServer.sin_zero, 0, 8);
 
@@ -44,7 +66,7 @@ int main(int argc, char** argv)
 		SPACE
 		printf("Server conectado\n\n");
 		DEFAULT
-		printf("ip:\t%s\nPuerto:\t%d\n", auxIp, port);
+		printf("Puerto:\t%d\n", port);
 		SPACE
 		SEPARATOR
 		SPACE
@@ -64,7 +86,7 @@ int main(int argc, char** argv)
 			printf("Esperando conexiones\n\n");
 
 			//Acepto una conexion
-			cliente = accept(listener, &datosCliente, &addrlen);
+			cliente = accept(listener, (struct sockaddr *)&datosCliente, &addrlen);
 			clienteConectado = 1;
 
 			//Muestro la IP del cliente, la obtengo de datosCliente
@@ -122,12 +144,14 @@ int main(int argc, char** argv)
 
 	return 0;
 }
-/*
+
+
+
+
 void send_image(int cliente)
 {
 	char buffer[MAXBUFFER];
 	FILE* fp;
-	int i = 1;
 
 	fp = fopen("lenna.png", "r");
 	if (fp != NULL)
@@ -149,4 +173,3 @@ void send_image(int cliente)
 		DEFAULT
 	}
 }
-*/

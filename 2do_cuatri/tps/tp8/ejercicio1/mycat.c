@@ -12,6 +12,7 @@
 int main(int argc, char **argv)
 {
     FILE *fp;
+    char c = 0;
     
     if(argc == 2)
     {
@@ -20,7 +21,8 @@ int main(int argc, char **argv)
         {
             while(!feof(fp))
             {   
-                printf("%c", fgetc(fp));
+                printf("%c", c);
+                c = fgetc(fp);
             }
             fclose(fp);
         }

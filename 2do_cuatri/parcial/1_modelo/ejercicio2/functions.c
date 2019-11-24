@@ -18,13 +18,11 @@ float calcular(char* patron, char* medida)
             obtener_valores(line_p, &xp, &yp, &vp);
 
             HIGHLIGHT
-            //printf("Vuelta %d de patron\n", cntp);
             DEFAULT
             while (fgets(line_m, TAM, fp_m) != NULL)
             {
                 cntm++;
                 obtener_valores(line_m, &xm, &ym, &vm);
-                //printf("Vuelta %d de medida\n", cntm);
 
                 if ((xp == xm) && (yp == ym))
                 { 
@@ -34,7 +32,6 @@ float calcular(char* patron, char* medida)
                         diferencia = diferencia*(-1);
                     }
                     error += diferencia;
-                    //printf("Error: %f\n", error);
                 }
             }
             totm = cntm;
@@ -42,6 +39,9 @@ float calcular(char* patron, char* medida)
             rewind(fp_m);
         }
         status = error/totm;
+
+        fclose(fp_p);
+        fclose(fp_m);
     }
     else
     {
