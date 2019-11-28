@@ -3,6 +3,7 @@
 int lecturaPacientes(paciente_t **inicio, char* archivo)
 {
     FILE* fp = NULL;
+    paciente_t *aux = NULL;
     int exit = 0, cnt = 0;
     char name[40], buff[30];
     long dni = -1;
@@ -15,6 +16,10 @@ int lecturaPacientes(paciente_t **inicio, char* archivo)
     {
         while (!feof(fp))
         {
+            memset(name, '\0', 40);
+            dni = -1;
+            time = -1;
+            
             if(fread(name, sizeof(char), 40, fp) != 0)
             {
                 printf("LEI: '%s'\n", name);
@@ -30,23 +35,31 @@ int lecturaPacientes(paciente_t **inicio, char* archivo)
                         memset(buff, '\0', 30);
                         if (cnt == 0)
                         {
-                            *inicio = (paciente_t*)malloc(sizeof(paciente_t)*(cnt+1));
+                            aux = (paciente_t*)malloc(sizeof(paciente_t)*(++cnt));
                         }
                         else
                         {
-                            *inicio = (paciente_t*)realloc(*inicio, sizeof(paciente_t)*(cnt+1));
+                            aux = (paciente_t*)realloc((*inicio), sizeof(paciente_t)*(++cnt));
                         }
-                        if(inicio != NULL)
+                        
+                        if(aux != NULL)
                         {
-                            cnt++;
+                            (*inicio) = aux;
                             /* (*arr).camp = arr->camp */
-                            printf("tiene: '%s'\n", inicio[cnt-1]->name);
-                            strcpy((inicio[cnt-1])->name, name);
-                            printf("Nombre cargado. En array: '%s'\n", (*inicio[cnt-1]).name);
-                            (*inicio[cnt-1]).dni = dni;
-                            printf("Dni cargado. En array: '%ld'\n", inicio[cnt-1]->dni);
-                            (*inicio[cnt-1]).time = time;
-                            printf("Hora cargada. En array: '%f'\n", inicio[cnt-1]->time);
+
+                            printf("Cargando nuevo elemento del array de estructuras estructura\n");
+
+                            memset((*inicio)[cnt-1].name, '\0', 40);
+                            (*inicio)[cnt-1].dni = 0;
+                            (*inicio)[cnt-1].time = 0;
+
+                            strcpy((*inicio)[cnt-1].name, name);
+                            (*inicio)[cnt-1].dni = dni;
+                            (*inicio)[cnt-1].time = time;
+
+                            GREEN
+                            printf("Nueva posicion del array:\n\nName '%s'\nDNI '%ld'\nTime '%f'\n\n", (*inicio)[cnt-1].name, (*inicio)[cnt-1].dni, (*inicio)[cnt-1].time);
+                            DEFAULT
                         }
                         else
                         {
