@@ -16,7 +16,7 @@ typedef enum EXIT
 
 typedef enum OPTIONS
 {
-    ENCOLAR,
+    ENCOLAR = 1,
     DESENCOLAR,
     ESPIAR,
     MOSTRAR,
@@ -39,13 +39,13 @@ typedef struct NODE
 
 #define VALID_OP    ((op >= INSERT) && (op <= END))
 
-int encolar(NODE** pile, int* len, NODE node);
+int encolar(NODE** cola, int* len, NODE node);
 
-int desencolar(NODE** pile, int* len, NODE* temp_node);
+int desencolar(NODE** cola, int* len, NODE* temp_node);
 
-int espiar(NODE* pile, int len, NODE* temp_node);
+int espiar(NODE* cola, int len, NODE* temp_node);
 
-int mostrar(NODE* pile, int len);
+int mostrar(NODE* cola, int len);
 
 int set_temp(NODE *temp_node);
 

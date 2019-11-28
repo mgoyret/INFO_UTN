@@ -27,7 +27,7 @@ typedef struct user
 /* 1. Defino un enum con las opciones para facilitar el manejo del array de funciones */
 typedef enum options
 {
-    SIGNIN,
+    SIGNIN = 1,
     SIGNUP,
     SHOW,
     END
@@ -56,16 +56,16 @@ typedef enum EXIT
 
 
 /* 3. Declaración de la función "sign_up". */
-int sign_up(user**, int);
+int sign_up(user**, int*);
 
 /* 4. Declaración de la función "sign_in". */
-int sign_in(user*, int);
+int sign_in(user*, int*);
 
 /* 5. Declaración de la función "show_data". */
 int show_data(user*, int);
 
 /* 6. Declaración de la función "end". */
-int end(user**, int);
+int end(user**);
 
 /* 7. Declaración de la función "user_check". */
 int user_check(user*, char*, int);

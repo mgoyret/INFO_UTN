@@ -91,7 +91,7 @@ int main(void) {
 	        		if (i==0)  // Si se preciono enter
 	        		{
 	        			for (j=3;j<=fdmax;j++) close(j);  // Cierro files descriptors
-						printf("Chau a todos y todas (?\n");
+						printf("Chau a todos (?\n");
 						return 0;
 	        		}
 	        		
@@ -109,7 +109,7 @@ int main(void) {
 							perror ("Error en accept:");
 						}						
 			    	}
-			    	else  // Si se descanecto alguno o hay algun msj nuevo
+			    	else  // Si se desconecto alguno o hay algun msj nuevo
 			    	{
 			    		cantidadRec = recvfrom(i, buffer, MAXBUFFER, 0, NULL, 0); // Intento leer
 			    		if (cantidadRec<1)  // Se desconecto??

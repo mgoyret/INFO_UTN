@@ -6,6 +6,16 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  Consigna
+    Realizar un programa que primeramente deberá crear un pipe y luego generar dos procesos hijo. El
+    primer proceso hijo debe redirigir stdout al extremo de escritura del pipe y luego ejecuta con execlp()
+    el comando “ps -e -o user,pid, %mem,command –sort - %mem”. El segundo proceso hijo debe redirigir
+    su entrada desde stdin al extremo de lectura del pipe, y luego ejecuta el comando “head”. Después de
+    crear ambos procesos, el proceso padre simplemente debe esperar a que los procesos hijo finalicen su
+    ejecución. En definitiva, el proceso padre hace lo mismo que un shell que ejecuta el comando “ps -e
+    -o user,pid, %mem,command –sort - %mem | head”.
+*/
+
 #include "functions.h"
 
 int main()

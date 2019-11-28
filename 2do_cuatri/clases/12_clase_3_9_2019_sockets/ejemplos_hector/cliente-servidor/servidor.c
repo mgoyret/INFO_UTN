@@ -67,7 +67,7 @@ int main(void) {
 			printf("Esperando conexiones\n");
 
 			//Acepto una conexion
-			cliente = accept(listener, &datosCliente, &addrlen);
+			cliente = accept(listener, (struct sockaddr*)&datosCliente, (socklen_t*)&addrlen);
 			clienteConectado = 1;
 
 			//Muestro la IP del cliente, la obtengo de datosCliente

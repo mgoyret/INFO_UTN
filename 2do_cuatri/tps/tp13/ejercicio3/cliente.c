@@ -6,6 +6,15 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  Consigna
+    Realizar dos programas que se comunicarán a través de un named pipe (FIFO). El primer programa
+    debe enviarle al segundo programa un comando (“/refran”, “/cancion” o “/pelicula”) a lo que el
+    segundo programa debe responder con un refrán, el nombre de una canción o el nombre de una
+    pelı́cula. Luego ambos programas deben terminar. Colocar los printf() que considere necesario para
+    demostrar el correcto funcionamiento de la comunicación. Opcional: Hacer que lo devuelto varı́e
+    aleatoriamente dentro de una lista de posibles valores.
+*/
+
 #include "functions.h"
 
 int main()

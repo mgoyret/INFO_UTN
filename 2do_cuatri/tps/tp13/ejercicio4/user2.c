@@ -6,6 +6,12 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  Consigna
+    Realizar un chat simple entre dos programas. Dichos programas se comunicarán a través de un named
+    pipe (FIFO). Tener en cuenta que la comunicación será por turnos (un mensaje de cada programa por
+    vez), y la misma terminará cuando uno de los dos programas envı́e el comando “/exit”.
+*/
+
 #include "functions.h"
 
 int main()

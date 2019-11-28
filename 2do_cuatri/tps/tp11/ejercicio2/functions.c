@@ -68,18 +68,31 @@ int set_temp(NODE *temp_node)
 int show(NODE* pile, int len)
 {
     int i = 0, status = ERROR;
-    SPACE
-    HIGHLIGHT
-    printf("Cantidad de usuarios:   %d\n", len);
-    DEFAULT
-    SPACE
-    for (i = 0; i < len; i++)
+
+    if (len > 0)
     {
-        printf("name:\t%s\n", pile[i].user);
-        printf("key:\t%d", pile[i].key);
         SPACE
-        status = SUCCES;
+        HIGHLIGHT
+        printf("Cantidad de usuarios:   %d\n", len);
+        DEFAULT
+        SPACE
+        for (i = 0; i < len; i++)
+        {
+            printf("name:\t%s\n", pile[i].user);
+            printf("key:\t%d", pile[i].key);
+            SPACE
+            status = SUCCES;
+        }
     }
+    else
+    {
+        SPACE
+        HIGHLIGHT
+        SET_RED
+        printf("Pila vacia\n");
+        DEFAULT
+        SPACE
+    }   
     
     return status;
 }
@@ -88,11 +101,23 @@ int show(NODE* pile, int len)
 int obtain(NODE* pile, int len, NODE* temp_node)
 {
     int status = ERROR;
-    strcpy((*temp_node).user, pile[len-1].user);
-    (*temp_node).key = pile[len-1].key;
-    printf("Usuario:\t%s\nClave:\t\t%d", (*temp_node).user, (*temp_node).key);
-    SPACE
-    status = SUCCES;
+
+    if(len > 0)
+    {
+        strcpy((*temp_node).user, pile[len-1].user);
+        (*temp_node).key = pile[len-1].key;
+        printf("Usuario:\t%s\nClave:\t\t%d", (*temp_node).user, (*temp_node).key);
+        SPACE
+        status = SUCCES;
+    }
+    else
+    {
+        SPACE
+        HIGHLIGHT
+        printf("Pila vacia\n");
+        DEFAULT
+        SPACE
+    }
 
     return status;
 }
@@ -101,16 +126,26 @@ int obtain(NODE* pile, int len, NODE* temp_node)
 int pop(NODE** pile, int* len, NODE* temp_node)
 {
     int status = ERROR;
-
-    (*pile) = (NODE*)realloc((*pile), sizeof(NODE)*(*len) - sizeof(NODE));
-    (*len)--;
-    status = SUCCES;
-    SPACE
-    HIGHLIGHT
-    SET_GREEN
-    printf("Usiario eliminado con exito!!\n");
-    DEFAULT
-    SPACE   
+    if (*len > 0)
+    {
+        (*pile) = (NODE*)realloc((*pile), sizeof(NODE)*(*len) - sizeof(NODE));
+        (*len)--;
+        status = SUCCES;
+        SPACE
+        HIGHLIGHT
+        SET_GREEN
+        printf("Usiario eliminado con exito!!\n");
+        DEFAULT
+        SPACE   
+    }
+    else
+    {
+        SPACE
+        HIGHLIGHT
+        printf("Pila vacia\n");
+        DEFAULT
+        SPACE
+    }
 
     return status;
 }

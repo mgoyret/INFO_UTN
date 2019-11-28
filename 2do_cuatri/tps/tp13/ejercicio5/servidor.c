@@ -6,6 +6,15 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  Consigna
+    Realizar un programa, llamado “servidor”, el cual recibirá el nombre de un archivo de audio como
+    argumento. Luego, enviará dicho archivo de audio a un programa “cliente” a través de un named
+    pipe (FIFO). El programa cliente deberá recibir dicho archivo y reproducirlo. Al finalizar el envı́o,
+    el programa servidor terminará su ejecución y lo mismo ocurrirá en el programa cliente al terminar
+    la reproducción. Nota: Se debe utilizar como programa cliente el mismo programa “play”
+    desarrollado en el ejercicio 10.2.
+*/
+
 #include "functions.h"
 
 int main(int argc, char** argv)

@@ -13,28 +13,29 @@
 /* 1. Tomo numero ingresado por usuario y pido esa cantidad de bytes al S.O. Es para testear el logfile*/
 int main ()
 {
-    int *vec = NULL;
-    int val = 0, cant = 0;
+    char *vec = NULL;
+    long long val = 0, cant = 0;
 
     printf("\ningrese numero de bytes:    ");
-    scanf("%d", &val);
+    scanf("%lld", &val);
     log_msg(INFO, __FILE__, __LINE__, "Numero pedido asignado a variable var");
 
     if(val != 0)
     {
-        vec = (int*)malloc((cant + 1)*sizeof(int));
+        vec = (char*)malloc((++cant)*sizeof(char));
         if(vec != NULL)
         {
             log_msg(INFO, __FILE__, __LINE__, "memoria alocada exitosamente");
             while (val != 0)
             {
                 printf("ingrese numero de bytes:    ");
-                scanf("%d", &val);
+                scanf("%lld", &val);
                 if(val != 0)
                 {
-                    vec = (int*)realloc(vec, val*sizeof(int));
+                    vec = (char*)realloc(vec, val*sizeof(char));
                     if(vec != NULL)
                     {
+                        cant+= val;
                         log_msg(INFO, __FILE__, __LINE__, "Memoria realocada exitosamente");
                     }
                     else

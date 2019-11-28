@@ -156,6 +156,23 @@ double complejo_fase_grados(const complejo x)
     
     res = atan(b/a);
 
+    if((b>=0) && (a<0))
+    {
+        res += 180;
+    }
+    else if( (b<0) && (a<0))
+    {
+        res -= 180;
+    }
+    else if ((b>0) && (a==0))
+    {
+        res = 90;
+    }
+    else if((b<0) && (a==0))
+    {
+        res = -90;
+    }
+
     return res;
 }
 
@@ -175,6 +192,23 @@ double complejo_fase_radianes(const complejo x)
     double res;
     
     res = (atan(b/a)/180)*M_PI;
+
+        if((b>=0) && (a<0))
+    {
+        res += M_PI;
+    }
+    else if( (b<0) && (a<0))
+    {
+        res -= M_PI;
+    }
+    else if ((b>0) && (a==0))
+    {
+        res = M_PI/2;
+    }
+    else if((b<0) && (a==0))
+    {
+        res = -(M_PI/2);
+    }
 
     return res;
 }

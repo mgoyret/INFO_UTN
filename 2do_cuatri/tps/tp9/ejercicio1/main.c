@@ -34,11 +34,19 @@ int main()
     res2 = complejo_modulo(x);
     printf("Modulo:\t\t%.3lf\n", res2);
 
-    res2 = complejo_fase_grados(x);
-    printf("Fase(g):\t%.3lf\n", res2);
+    if (!((a==0) && (b==0)))
+    {
+        res2 = complejo_fase_grados(x);
+        printf("Fase(g):\t%.3lf\n", res2);
 
-    res2 = complejo_fase_radianes(x);
-    printf("Fase(r):\t%.3lf\n", res2);
+        res2 = complejo_fase_radianes(x);
+        printf("Fase(r):\t%.3lf\n", res2);
+    }
+    else
+    {
+        printf("Fase indefinida\n");
+    }
+    
     
     SPACE
 

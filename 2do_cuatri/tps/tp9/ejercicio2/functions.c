@@ -102,7 +102,7 @@ void stolower(char* aux)
 void ordenar(string* pal, int q)
 {
     int i = 0, j = 0;
-    char aux[TAM];
+    string auxs;
 
     for (i=0; i<(q-1); i++)
     {
@@ -110,31 +110,10 @@ void ordenar(string* pal, int q)
         {
             if (strcmp(pal[j].spal, pal[j+1].spal) > 0)
             {
-                strcpy(aux, pal[j].spal);
-                strcpy(pal[j].spal, pal[j+1].spal);
-                strcpy(pal[j+1].spal, aux);
-            }
-        }
-    }
-}
-/*
-    ESTE ESTA CORREGIDO
-void ordenar(string* pal, int q)
-{
-    int i = 0, j = 0;
-    string aux;
-
-    for (i=0; i<(q-1); i++)
-    {
-        for(j=0; j<(q-i-1); j++)
-        {
-            if (strcmp(pal[j].spal, pal[j+1].spal) > 0)
-            {
-                aux = pal[j];
+                auxs = pal[j];
                 pal[j] = pal[j+1];
-                pal[j+1] = pal[j];
+                pal[j+1] = auxs;
             }
         }
     }
 }
-*/

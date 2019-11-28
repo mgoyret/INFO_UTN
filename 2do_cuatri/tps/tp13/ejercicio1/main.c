@@ -6,6 +6,16 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  
+    Consigna
+    Realizar un programa que genere dos procesos, uno padre y uno hijo. Dichos procesos deben comunicarse
+    a través de dos pipes (debido a que son unidireccionales). El proceso padre debe enviarle al proceso
+    hijo la leyenda “Luke, yo soy tu padre”, a lo que el proceso hijo debe responder “Noooooooooo!!!”.
+    Colocar los printf() que considere necesario para demostrar el correcto funcionamiento de la comunicación.
+*/
+
+
+
 #include "functions.h"
 
 int main()

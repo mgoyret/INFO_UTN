@@ -23,19 +23,19 @@
  * \return  '3' Si pudo registrarse. '-1' en caso contrario.
  */
 
-int sign_up (user** client, int user_cnt)
+int sign_up (user** client, int* user_cnt)
 {
     char name[MAX], key[MAX];
     int status = ERROR;
     user* aux = NULL;
 
-    if (user_cnt == 0)
+    if (*user_cnt == 0)
     {
         aux = (user*)malloc(sizeof(user)*1);
     }
     else
     {
-        aux = (user*)realloc((*client), sizeof(user)*(user_cnt+1));
+        aux = (user*)realloc((*client), sizeof(user)*(*user_cnt+1));
     }
     if (aux != NULL)
     {
@@ -57,7 +57,7 @@ int sign_up (user** client, int user_cnt)
                 stolower(name);
 
                 /* 1.2 Chequeo si el nombre de usuario esta usado */ 
-                if (user_check((*client), name, user_cnt) == ERROR) //user_check devuelve ERROR si no encuentra coincidencia
+                if (user_check((*client), name, *user_cnt) == ERROR) //user_check devuelve ERROR si no encuentra coincidencia
                 {
                     printf("Clave:\t\t\t");
                     HIDE
@@ -71,15 +71,16 @@ int sign_up (user** client, int user_cnt)
                     SPACE
 
                     /* 1.3 El valor de la cantidad de usuarios coincide con el valor de la primera posicion vacia del array 'cliente' sobre la cual escribir el nuevo usuario */
-                    strcpy((*client)[user_cnt].name, name);
-                    strcpy((*client)[user_cnt].key, key);
-                    (*client)[user_cnt].time = time(NULL);
+                    strcpy((*client)[*user_cnt].name, name);
+                    strcpy((*client)[*user_cnt].key, key);
+                    (*client)[*user_cnt].time = time(NULL);
                     SET_GREEN
                     HIGHLIGHT
                     printf("Registrado con exito\n");
                     DEFAULT
                     SPACE
 
+                    *user_cnt += 1;
                     status = ADDITION;   
                 }
                 else
@@ -112,7 +113,7 @@ int sign_up (user** client, int user_cnt)
         DEFAULT
         SPACE
     }
-    printf("Posicion 1: '%s'\n", (*client)[user_cnt].name);
+    printf("Posicion 1: '%s'\n", (*client)[*user_cnt].name);
     return status;
 }
 
@@ -127,7 +128,7 @@ int sign_up (user** client, int user_cnt)
  * \return  '1' Si pudo ingresar. '2' Si se elimino un usuario. '-1' Si no se puedo acceder.
  */
 
-int sign_in(user* client, int user_cnt)
+int sign_in(user* client, int* user_cnt)
 {
     int status = ERROR, psn = 0;
     char name[MAX], key[MAX], op;
@@ -142,7 +143,7 @@ int sign_in(user* client, int user_cnt)
     scanf("%s", name);
     
     stolower(name);
-    psn = user_check(client, name, (user_cnt));
+    psn = user_check(client, name, (*user_cnt));
     if(psn != ERROR)
     {
         printf("Clave:\t\t\t");
@@ -164,7 +165,7 @@ int sign_in(user* client, int user_cnt)
             if ((op == 'y') || (op == 'Y'))
             {
                 /* delete_user() devuelve DELETION si se borro un usuario, o ERROR en caso contrario */
-                status = delete_user(client, psn, user_cnt); 
+                status = delete_user(client, psn, *user_cnt); 
                 if(status == DELETION)
                 {
                     SPACE
@@ -172,6 +173,8 @@ int sign_in(user* client, int user_cnt)
                     printf("Usuario eliminado exitosamente\n");
                     DEFAULT
                     SPACE
+
+                    *user_cnt -= 1;
                 }
                 else
                 {
@@ -181,7 +184,6 @@ int sign_in(user* client, int user_cnt)
                     DEFAULT
                     SPACE
                 }
-                printf("Status vale %d\n", status);
             }
             else
             {
@@ -226,7 +228,7 @@ int sign_in(user* client, int user_cnt)
  * \return  '1'.
  */
 
-int end(user** client, int dummy)
+int end(user** client)
 {
     if ((*client) != NULL)
         free(*client);
@@ -357,8 +359,7 @@ int delete_user(user* client, int psn, int user_cnt)
 void time_order(user* client, int user_cnt)
 {
     int i = 0, j = 0, flag = 0;
-    char aux_name[MAX], aux_key[MAX];
-    unsigned int aux_time = 0;
+    user aux;
 
 
     for(i = 0; i < (user_cnt-1); i++)
@@ -369,17 +370,9 @@ void time_order(user* client, int user_cnt)
         {
             if (client[j].time < client[j+1].time)
             {
-                strcpy(aux_name, client[j+1].name);
-                strcpy(aux_key, client[j+1].key);
-                aux_time = client[j+1].time;
-
-                strcpy(client[j+1].name, client[j].name);
-                strcpy(client[j+1].key, client[j].key);
-                client[j+1].time = client[j].time;
-
-                strcpy(client[j].name, aux_name);
-                strcpy(client[j].key, aux_key);
-                client[j].time = aux_time;
+                aux = client[j+1];
+                client[j+1] = client[j];
+                client[j] = aux;
 
                 flag = 0; //solo lo hace si tuvo que swappear alguna vez
             }

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int encolar(NODE** pile, int* len, NODE node)
+int encolar(NODE** cola, int* len, NODE node)
 {
     int status = ERROR;
     NODE* aux;
@@ -10,11 +10,11 @@ int encolar(NODE** pile, int* len, NODE node)
     if (len == 0)
         aux = (NODE*)malloc(sizeof(NODE));
     else
-        aux = (NODE*)realloc((*pile), sizeof(NODE)*(*len+1));
+        aux = (NODE*)realloc((*cola), sizeof(NODE)*(*len+1));
 
     if (aux != NULL)
     {
-        (*pile) = aux;
+        (*cola) = aux;
 
         SPACE
         HIGHLIGHT
@@ -22,9 +22,9 @@ int encolar(NODE** pile, int* len, NODE node)
         DEFAULT
         SPACE
 
-        /* . El valor de la cantidad de usuarios coincide con el valor de la primera posicion vacia del array 'pile' sobre la cual escribir el nuevo usuario */
-        strcpy((*pile)[*len].user, node.user);
-        (*pile)[*len].key = node.key;
+        /* . El valor de la cantidad de usuarios coincide con el valor de la primera posicion vacia del array 'cola' sobre la cual escribir el nuevo usuario */
+        strcpy((*cola)[*len].user, node.user);
+        (*cola)[*len].key = node.key;
         SET_GREEN
         HIGHLIGHT
         printf("Insertado con exito\n");
@@ -46,17 +46,17 @@ int encolar(NODE** pile, int* len, NODE node)
 }
 
 
-int desencolar(NODE** pile, int* len, NODE* temp_node)
+int desencolar(NODE** cola, int* len, NODE* temp_node)
 {
     int i = 0, status = ERROR;
 
     for(i = 0; i < (*len); i++)
     {
-        strcpy((*pile)[i].user, (*pile)[i+1].user);
-        (*pile)[i].key = (*pile)[i+1].key;
+        strcpy((*cola)[i].user, (*cola)[i+1].user);
+        (*cola)[i].key = (*cola)[i+1].key;
     }
 
-    (*pile) = (NODE*)realloc((*pile), sizeof(NODE)*(*len) - sizeof(NODE));
+    (*cola) = (NODE*)realloc((*cola), sizeof(NODE)*(*len) - sizeof(NODE));
     (*len)--;
     status = SUCCES;
     SPACE
@@ -89,7 +89,7 @@ int set_temp(NODE *temp_node)
 }
 
 
-int mostrar(NODE* pile, int len)
+int mostrar(NODE* cola, int len)
 {
     int i = 0, status = ERROR;
     SPACE
@@ -99,8 +99,8 @@ int mostrar(NODE* pile, int len)
     SPACE
     for (i = 0; i < len; i++)
     {
-        printf("name:\t%s\n", pile[i].user);
-        printf("key:\t%d", pile[i].key);
+        printf("name:\t%s\n", cola[i].user);
+        printf("key:\t%d", cola[i].key);
         SPACE
         status = SUCCES;
     }
@@ -109,15 +109,27 @@ int mostrar(NODE* pile, int len)
 }
 
 
-int espiar(NODE* pile, int len, NODE* temp_node)
+int espiar(NODE* cola, int len, NODE* temp_node)
 {
     int status = ERROR;
 
-    strcpy((*temp_node).user, pile[len-1].user);
-    (*temp_node).key = pile[len-1].key;
-    printf("Usuario:\t%s\nClave:\t\t%d", (*temp_node).user, (*temp_node).key);
-    SPACE
-    status = SUCCES;
+    if(len > 0)
+    {
+        strcpy((*temp_node).user, cola[len-1].user);
+        (*temp_node).key = cola[len-1].key;
+        printf("Usuario:\t%s\nClave:\t\t%d", (*temp_node).user, (*temp_node).key);
+        SPACE
+        status = SUCCES;
+    }
+    else
+    {
+        SPACE
+        HIGHLIGHT
+        SET_RED
+        printf("Cola vacia\n");
+        SPACE
+        DEFAULT
+    }
 
     return status;
 }

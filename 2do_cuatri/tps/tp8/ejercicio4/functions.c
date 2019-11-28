@@ -28,7 +28,10 @@ int leer_linea(FILE* fp, char* line)
     int status = ERROR;
 
     if (fgets(line, TAM, fp) != NULL)//fgets lee hasta '\n' y devuelve con '\0' */
-        status = EXITO;
+    {
+        line[strlen(line)-1] = '\0'; //borro el \n que esta en la ultima posicion
+        status = EXITO;   
+    }
 
     return status;
 }
@@ -51,8 +54,7 @@ int escribir_linea(FILE* fp, const char* line)
     int  status = ERROR;
 
     if (fputs(line, fp) != EOF)
-    {   /* el fseek lo puse para que busque el '\0' (SEEK_END) y borre una posicion, osea borre ese caracter. No es nesesario porque fputs copia un string SIN en '\0' */
-        //fseek(fp, -1, SEEK_END);
+    {   /* fputs copia un string SIN el '\0' */
         fputc('\n', fp);
         fflush(fp);
         status = EXITO;

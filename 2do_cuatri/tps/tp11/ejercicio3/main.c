@@ -6,33 +6,31 @@
 int main()
 {
     int op = 0, status = ERROR, len = 0;
-    NODE temp_node, *pile = NULL;
+    NODE temp_node, *cola = NULL;
 
     printf("Bienvenido!\n");
 
     do
     {
-        printf("Seleccione a continuación la operación que desea realizar:\n1 - Insertar\n2 - Eliminar\n3 - Ver ultimo en la pila\n4 - Mostrar\n5 - Fin");
+        printf("Seleccione a continuación la operación que desea realizar:\n1 - Insertar\n2 - Eliminar\n3 - Ver ultimo en la cola\n4 - Mostrar\n5 - Fin");
         SPACE
         scanf(" %d", &op);
         
-        /* . Decremento 'op' en uno para que su valor concuerde con la posicion de la opcion deseada en el array de funciones */
-        op--;
 
         switch (op)
         {
             case ENCOLAR:       set_temp(&temp_node);
-                                status = encolar(&pile, &len, temp_node);
+                                status = encolar(&cola, &len, temp_node);
                 break;
 
-            case DESENCOLAR:    status = desencolar(&pile, &len, &temp_node);
+            case DESENCOLAR:    status = desencolar(&cola, &len, &temp_node);
 
                 break;
                 
-            case ESPIAR:        status = espiar(pile, len, &temp_node);
+            case ESPIAR:        status = espiar(cola, len, &temp_node);
                 break;
                                 
-            case MOSTRAR:       status = mostrar(pile, len);
+            case MOSTRAR:       status = mostrar(cola, len);
                 break;
 
             case END:           SPACE

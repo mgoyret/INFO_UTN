@@ -22,16 +22,41 @@
 int total_cnt(FILE *fp)
 {
 /* 2. Recibo 'fp' como parametro de la función y retorno el contenido de 'tcnt' */
-	int tcnt = 0;
-    char pal[30];
+	int tcnt = 0, vueltas = 0, i = 0;
+    char c, *buff = NULL;
 
     rewind(fp);
 
-	while(feof(fp) == 0)
+	while(!feof(fp))
 	{
-        if (fscanf(fp, "%s", pal) == 1)
-  		    tcnt++;
+        c = fgetc(fp);
+        if (c != EOF)
+        {
+            if(vueltas == 0)
+            {
+                buff = (char*)malloc(++vueltas);
+            }
+            else if(vueltas > 0)
+            {
+                buff = (char*)realloc(buff, ++vueltas);
+            }
+            if((c > 64) && (c < 91))
+            {
+                c += 32;
+            }
+
+            buff[vueltas-1] = c;
+        }
 	}
+    for (i = 0; i < strlen(buff); i++)
+    {
+        if((buff[i] != ' ') && (buff[i] != '.') && (buff[i] != '-') && (buff[i] != ';') && (buff[i] != ':') && (buff[i] != '\n') && (buff[i] != ',') && (buff[i] != EOF))
+            if((buff[i+1] == ' ') || (buff[i+1] == '.') || (buff[i+1] == '-') || (buff[i+1] == ';') || (buff[i+1] == ':') || (buff[i+1] == '\n') || (buff[i+1] == ',') || (buff[i+1] == EOF))
+            {
+                printf("i:\t'%c'\ni+1:\t'%c'\n", buff[i], buff[i+1]);
+                tcnt++;
+            }
+    }
 	return tcnt;
 }
 
@@ -47,31 +72,52 @@ int total_cnt(FILE *fp)
  * \return  Cantidad de veces que aparecio la palabra.
  */
 
-int word_cnt(FILE *fp, char argv[2])
+int word_cnt(FILE *fp, char* argv)
 {
 /* 4. Recibo 'fp' y 'argv[2]' como parámetros de la función y retorno el contenido de 'wcnt' */
-    int wcnt = 0, i = 0, j = 0, slen = 0, auxcnt = 0;
-    char aux [TAM];
+    int wcnt = 0, i = 0, j = 0, slen = 0, bufflen = 0, auxcnt = 0, vueltas = 0;
+    char c, *buff = NULL;
 
-    slen = strlen(argv);
-    while(feof(fp)==0)
+    while(!feof(fp))
     {
-        fread(aux, sizeof(char), TAM, fp);
-
-        for ( i = 0; i < TAM; i++)
+        c = fgetc(fp);
+        if (c != EOF)
         {
-            for(j=0; j<slen; j++)
+            if(vueltas == 0)
             {
-                if((tolower(aux[i+j])) == (tolower(argv[j])))
-                {
-                    auxcnt++;
-                }
-                if(auxcnt == slen)
-                    wcnt++; 
+                buff = (char*)malloc(++vueltas);
             }
-            if(i != (TAM-1))    //si diodo termina de escribirce en otro renglon, osea si vencian coincidiendo las letras y se termina el string, no reseteo la variable auxcnt
-                auxcnt = 0;
+            else if(vueltas > 0)
+            {
+                buff = (char*)realloc(buff, ++vueltas);
+            }
+            if((c > 64) && (c < 91))
+            {
+                c += 32;
+            }
+
+            buff[vueltas-1] = c;
         }
     }
+    slen = strlen(argv);
+    bufflen = strlen(buff);
+    printf("argv = %s\nbuff = %s\n", argv, buff);
+    for (i=0; i<bufflen; i++)
+    {
+        for(j=0; j<slen; j++)
+        {
+            if(buff[i+j] == tolower(argv[j]))
+            {
+                auxcnt++;
+            }
+            if(auxcnt == slen)
+            {
+                wcnt++;
+            }
+        }
+        auxcnt = 0;
+    }
+
+
     return wcnt;
 }

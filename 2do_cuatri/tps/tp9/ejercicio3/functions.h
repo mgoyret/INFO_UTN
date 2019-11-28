@@ -6,14 +6,14 @@
  * \details         Usar MakeFile para compilar y linkear
  */
 
+#ifndef functions_H_
+#define functions_H_
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 #include <time.h>
 #include <stdlib.h>
-
-#ifndef functions_H_
-#define functions_H_
 
 #define MAX 20  //cantidad maxima de letras del nombre/clave
 #define CNT 10  //cantidad maxima de usuarios
@@ -28,7 +28,7 @@ typedef struct user
 /* 1. Defino un enum con las opciones para facilitar el manejo del array de funciones */
 typedef enum options
 {
-    SIGNIN,
+    SIGNIN = 1,
     SIGNUP,
     SHOW,
     END
@@ -53,16 +53,16 @@ typedef enum options
 
 
 /* 3. Declaración de la función "sign_up". */
-int sign_up(user*, int);
+int sign_up(user*, int*);
 
 /* 4. Declaración de la función "sign_in". */
-int sign_in(user*);
+int sign_in(user*, int*);
 
 /* 5. Declaración de la función "show_data". */
 int show_data(user*);
 
 /* 6. Declaración de la función "end". */
-int end(user* client);
+int end(void);
 
 /* 7. Declaración de la función "user_check". */
 int user_check(user*, char*);

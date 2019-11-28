@@ -23,12 +23,12 @@
  * \return  '1' Si pudo registrarce. '-1' en caso contrario.
  */
 
-int sign_up (user* client, int user_cnt)
+int sign_up (user* client, int* user_cnt)
 {
     char name[MAX], key[MAX];
     int status = ERROR; 
 
-    if (user_cnt < CNT)
+    if (*user_cnt < CNT)
     {   
         HIGHLIGHT SPACE
         printf("A continuacion comenzara el proceso de registro");
@@ -57,14 +57,15 @@ int sign_up (user* client, int user_cnt)
                     SPACE DEFAULT
 
                     /* El valor de la cantidad de usuarios coincide con el valor de la primera posicion vacia del array 'cliente' sobre la cual escribir el nuevo usuario */
-                    strcpy(client[user_cnt].name, name);
-                    strcpy(client[user_cnt].key, key);
-                    client[user_cnt].time = time(NULL);
+                    strcpy(client[*user_cnt].name, name);
+                    strcpy(client[*user_cnt].key, key);
+                    client[*user_cnt].time = time(NULL);
 
                     HIGHLIGHT SET_GREEN
                     printf("Registrado con exito\n");
                     DEFAULT SPACE
 
+                    *user_cnt += 1;
                     status = SUCCES;   
                 }
                 else
@@ -102,7 +103,7 @@ int sign_up (user* client, int user_cnt)
  * \return  '1' Si pudo ingresar. '2' Si se elimino un usuario. '-1' Si no se puedo acceder.
  */
 
-int sign_in(user* client)
+int sign_in(user* client, int* user_cnt)
 {
     int status = ERROR, psn = 0;
     char name[MAX], key[MAX], op;
@@ -138,6 +139,7 @@ int sign_in(user* client)
             {
                 if(delete_user(client, psn))
                 {
+                    *user_cnt -= 1;
                     SPACE
                     HIGHLIGHT
                     printf("Usuario eliminado exitosamente\n");
@@ -200,7 +202,7 @@ int sign_in(user* client)
  * \return  '1'.
  */
 
-int end(user* client)
+int end()
 {
     SPACE
     HIGHLIGHT
@@ -350,8 +352,7 @@ void clearn_arr(user* client)
 void time_order(user* client)
 {
     int i = 0, j = 0, flag = 0;
-    char aux_name[MAX], aux_key[MAX];
-    unsigned int aux_time = 0;
+    user aux;
 
 
     for(i = 0; i < (CNT-1); i++)
@@ -362,17 +363,9 @@ void time_order(user* client)
         {
             if (client[j].time < client[j+1].time)
             {
-                strcpy(aux_name, client[j+1].name);
-                strcpy(aux_key, client[j+1].key);
-                aux_time = client[j+1].time;
-
-                strcpy(client[j+1].name, client[j].name);
-                strcpy(client[j+1].key, client[j].key);
-                client[j+1].time = client[j].time;
-
-                strcpy(client[j].name, aux_name);
-                strcpy(client[j].key, aux_key);
-                client[j].time = aux_time;
+                aux = client[j+1];
+                client[j+1] = client[j];
+                client[j] = aux;
 
                 flag = 0; //solo lo hace si tuvo que swappear alguna vez
             }
