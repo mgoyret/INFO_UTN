@@ -14,6 +14,20 @@
 	    long 	dni; 	
 	    float   horaTurno;	
     }paciente_t;
+	
+    Se pide implementar una función que genere una array dinámico a partir de la lectura del archivo con los turnos insertando
+    de forma ordenada los pacientes por horario. El nombre del archivo con el formato correcto se recibe como parámetro de la función,
+    el prototipo es el siguiente:
+
+    int lecturaPacientes(paciente_t **inicio, char *archivo);
+    
+    La función deberá devolver:
+        • -1 si hubo algún error en la lectura del archivo
+        • -2 si hubo algún error en la asignación de memoria dinámica
+        • 0 si la lectura se realizó con éxito.
+
+
+
 */
 
 #include "functions.h"
