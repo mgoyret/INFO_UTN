@@ -1,9 +1,16 @@
 /**
- *	\file cliente.c
- *	\brief funcion main del cliente. Diapositivas de clase.
- *	\author Fernando Pose (fernandoepose@gmail.com)
- *	\date 2014.11.24
+ * \file            cliente.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Nov 30, 2019
+ * \details         Usar MakeFile para compilar y linkear
  */
+
+/*  
+    Consigna
+	Modificar el ejercicio 1 para que cada instancia de conexión se maneje mediante un proceso hijo,
+	mientras que el proceso padre se encargará de recibir las conexiones entrantes.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,18 +39,17 @@
 #define SET_GREEN   printf("\033[32m");
 #define HIGHLIGHT   printf("\033[07m");
 
-void show_image(char* img_name);
+void show_image(const char* img_name);
 
 int main(int argc, char** argv)
 {	
 	char buffer[MAXBUFFER];
 	int socketCliente;
 	struct sockaddr_in datosServer;
-	int enviados;
+	int enviados, conectado = 1, recibiendo = 1;
 	char puerto[10];
 	int ip, port;
 	FILE* fp;
-	int i = 0;
 
 	if (argc == 3)
 	{
@@ -71,7 +77,9 @@ int main(int argc, char** argv)
 			printf("Conexion establecida\n");
 			DEFAULT
 			printf("Server\nip:\t%s\nPuerto:\t%d\n\n", argv[1], port);
+			HIGHLIGHT
 			printf("Para desconectarse escriba \"salir\"\n");
+			DEFAULT
 			SEPARATOR
 			SPACE
 
@@ -81,15 +89,19 @@ int main(int argc, char** argv)
 			printf("Server dice: '%s'\n", buffer);
 			memset(buffer, '\0', MAXBUFFER);
 
-			while(1)
+			while(conectado)
 			{	
 				printf("Escriba mensaje a enviar: ");
 				fgets(buffer, MAXBUFFER, stdin);
 				buffer[strlen(buffer)-1] = '\0'; //fgets almacena el "\n"
 
-				if(strcmp(buffer, "salir") == 0) break;
-				
-				if (strcmp(buffer, "/imagen") == 0)
+				if(strcmp(buffer, "salir") == 0)
+				{
+					send(socketCliente, buffer, strlen(buffer), 0);
+					conectado = 0;					
+					printf("Adios\n");
+				}
+				else if (strcmp(buffer, "/imagen") == 0)
 				{
 					send(socketCliente, buffer, strlen(buffer), 0);
 					memset(buffer, '\0', MAXBUFFER);
@@ -99,7 +111,7 @@ int main(int argc, char** argv)
 					if (fp != NULL)
 					{
 						printf("Creando imagen temporal\n");
-						while (1)
+						while (recibiendo)
 						{
 							/* Antes de cada recv vacio el buffer para que luego solo tenga lo recivido, y no haya basura */
 							memset(buffer, '\0', MAXBUFFER);
@@ -111,7 +123,7 @@ int main(int argc, char** argv)
 							else
 							{
 								printf("Imagen recibida\n");
-								break;
+								recibiendo = 0;
 							}
 						}
 						show_image(TEMP_IMG);
@@ -136,7 +148,7 @@ int main(int argc, char** argv)
 						SET_RED
 						printf("Error servidor\n");
 						DEFAULT
-						break;
+						conectado = 0;
 					}	
 				}
 			}
@@ -162,7 +174,7 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-void show_image(char* img_name)
+void show_image(const char* img_name)
 {
     IplImage *img = NULL;
 

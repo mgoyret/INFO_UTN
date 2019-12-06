@@ -14,8 +14,6 @@
     Colocar los printf() que considere necesario para demostrar el correcto funcionamiento de la comunicación.
 */
 
-
-
 #include "functions.h"
 
 int main()

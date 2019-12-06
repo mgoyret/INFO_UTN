@@ -1,10 +1,16 @@
 /**
- *	\file servidor.c
- *	\brief funcion main del servidor. Diapositivas de clase.
- *	\author Fernando Pose (fernandoepose@gmail.com)
- *	\date 2014.11.24
+ * \file            servidor.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Nov 30, 2019
+ * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  
+    Consigna
+	Modificar el ejercicio 1 para que cada instancia de conexión se maneje mediante un proceso hijo,
+	mientras que el proceso padre se encargará de recibir las conexiones entrantes.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,9 +52,8 @@ int main(int argc, char** argv)
 	unsigned int addrlen = sizeof(struct sockaddr_in); //Tamano necesario para accept()
 	struct sockaddr_in datos_server, datos_cliente; //Datos del cliente y servidor
   	int on = 1;//Necesario para setsockop
-	char puerto[10], auxIp[25];
+	char puerto[10];
 	int port, pid = 0;
-
 
 	if	(argc == 2)
 	{
@@ -77,13 +82,14 @@ int main(int argc, char** argv)
 		// Pongo el socket a la escucha ("enciendo" el server)
 		listen(listener_socket_fd,MAXCONEXIONES);
 
+
 		SPACE
 		SEPARATOR
 		HIGHLIGHT
 		SET_GREEN
 		printf("Server conectado\n\n");
 		DEFAULT
-		printf("Puerto:\t%d\nIp:\t\t%s\n", port, auxIp);
+		printf("Puerto:\t%d\n", port);
 		SPACE
 		SEPARATOR
 		SPACE
@@ -131,7 +137,6 @@ void send_image(int client_socket_fd)
 {
 	char buffer[MAXBUFFER];
 	FILE* fp;
-	int i = 0;
 
 	HIGHLIGHT
 	printf("Comenzando proceso de envio de imagen\n");
@@ -198,14 +203,23 @@ int child_process(int client_socket_fd, struct sockaddr_in datos_cliente)
 		printf("Esperando mensaje\n");
 
 		//Recibo mensaje del cliente
+		memset(buffer, '\0', MAXBUFFER);
 		sizeMensaje = recv(client_socket_fd, buffer, MAXBUFFER, 0);
+		SET_GREEN
+		printf("EL MENSAJE ES [%s]\n", buffer);
+		DEFAULT
 
 		if(sizeMensaje > 0)
 		{
-			if (strcmp(buffer, "/imagen") == 0)
+			if (!strcmp(buffer, "/imagen"))
 			{
 				printf("%s: Imagen solicitada\n", auxIp);							
 				send_image(client_socket_fd);
+			}
+			else if(!strcmp(buffer, "salir"))
+			{
+				printf("[%s]: Desea desconectarce\n", auxIp);
+				clienteConectado = 0;
 			}
 			else
 			{
@@ -217,10 +231,11 @@ int child_process(int client_socket_fd, struct sockaddr_in datos_cliente)
 		else
 		{
 			clienteConectado = 0;
+			printf("Recivi size < 0\n");
 		}
 	}
 	HIGHLIGHT
-	printf("Se desconecto el cliente\n");
+	printf("[%s] fue desconectado\n", auxIp);
 	DEFAULT
 
 	//Cierro el socket del cliente

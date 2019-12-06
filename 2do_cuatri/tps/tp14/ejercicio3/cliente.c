@@ -1,9 +1,16 @@
 /**
- *	\file cliente.c
- *	\brief funcion main del cliente. Diapositivas de clase.
- *	\author Fernando Pose (fernandoepose@gmail.com)
- *	\date 2014.11.24
+ * \file            cliente.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Nov 30, 2019
+ * \details         Usar MakeFile para compilar y linkear
  */
+
+/*  
+    Consigna
+	Modificar el ejercicio 1 para que cada instancia de conexión se maneje en el mismo proceso, evitando
+	bloquear su ejecución mediante el uso de la función select().
+*/
 
 #include <stdio.h>
 #include <stdlib.h>

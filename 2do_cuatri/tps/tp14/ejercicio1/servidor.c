@@ -1,10 +1,16 @@
 /**
- *	\file servidor.c
- *	\brief funcion main del servidor. Diapositivas de clase.
- *	\author Fernando Pose (fernandoepose@gmail.com)
- *	\date 2014.11.24
+ * \file            servidor.c
+ * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \author          Marcos Goyret
+ * \date            Nov 30, 2019
+ * \details         Usar MakeFile para compilar y linkear
  */
 
+/*  
+    Consigna
+	Modificar el ejercicio 1 para que cada instancia de conexión se maneje mediante un proceso hijo,
+	mientras que el proceso padre se encargará de recibir las conexiones entrantes.
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
