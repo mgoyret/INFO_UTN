@@ -40,9 +40,7 @@ int main()
         - Identificador del tipo de mensaje que queremos recibir. En este caso se quiere un mensaje de tipo 1, que es el que envia el proceso cola1.c
         - flags. En este caso se quiere que el programa quede bloqueado hasta que llegue un mensaje de tipo 1. Si se pone 17IPC_NOWAIT, se devolvería
             un error en caso de que no haya mensaje de tipo 1 y el programa continuaría ejecutándose. */
-    msgrcv (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje,
-    sizeof(Un_Mensaje.Dato_Numerico) +
-    sizeof(Un_Mensaje.Mensaje), 1, 0);
+    msgrcv (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje, sizeof(Un_Mensaje.Dato_Numerico) + sizeof(Un_Mensaje.Mensaje), 1, 0);
     printf("Recibido mensaje tipo 1");
     printf("Dato_Numerico = %d");
     printf("Mensaje = %s",Un_Mensaje.Mensaje);
@@ -60,8 +58,6 @@ int main()
         - Tamaño total de los campos de datos de nuestro mensaje, es decir de Dato_Numerico y de Mensaje
         - Unos flags. IPC_NOWAIT indica que si el mensaje no se puede enviar habitualmente porque la cola de mensajes esta llena,
             que no espere y de un error. Si no se pone este flag, el programa queda bloqueado hasta que se pueda enviar el mensaje */
-    msgsnd (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje,
-    sizeof(Un_Mensaje.Dato_Numerico)+sizeof(Un_Mensaje.Mensaje),
-    IPC_NOWAIT);
+    msgsnd (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje, sizeof(Un_Mensaje.Dato_Numerico)+sizeof(Un_Mensaje.Mensaje), IPC_NOWAIT);
     return 0;
 }
