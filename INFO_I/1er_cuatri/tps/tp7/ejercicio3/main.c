@@ -1,5 +1,5 @@
 /**
- * \file            functions.h
+ * \file            main.c
  * \brief           Funciones - Archivos Header - Función definida por el usuario
  * \author          Marcos Goyret
  * \date            Jun 21, 2019
