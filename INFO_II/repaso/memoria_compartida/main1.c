@@ -1,3 +1,5 @@
+#include "functions.h"
+
 int main()
 {
     key_t Clave;
