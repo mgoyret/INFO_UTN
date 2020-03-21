@@ -2,7 +2,7 @@
  * \file            functions.h
  * \brief           Funciones - Archivos Header - Función definida por el usuario
  * \author          Marcos Goyret
- * \date            Mar , 2020
+ * \date            Mar 21, 2020
  * \details         Usar MakeFile para compilar y linkear
  */
 
@@ -10,12 +10,9 @@
 #define FUNCTIONS_H_
 
 #include <stdio.h>
-/*
-#include <stdlib.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
 #include <string.h>
-*/
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/msg.h>
+
 #endif /* FUNCTIONS_H_ */

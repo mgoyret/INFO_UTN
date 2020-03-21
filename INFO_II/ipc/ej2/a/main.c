@@ -2,7 +2,7 @@
  * \file            main.c
  * \brief           Funciones - Archivos Header - Función definida por el usuario
  * \author          Marcos Goyret
- * \date            Mar , 2020
+ * \date            Mar 21, 2020
  * \details         Usar MakeFile para compilar y linkear
  */
 
