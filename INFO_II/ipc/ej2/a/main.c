@@ -17,6 +17,23 @@
 
 int main (char argc, char** argv)
 {
+    key_t qkey;
+    int qid;
+    qmsg msg;
+
+    qkey = ftok("/bin/ls", 10);
+    if (qkey != -1)
+    {
+        qid = msgget(qkey, 0600 | IPC_CREAT);
+        if (qid != -1)
+        {
+            
+        }
+        else
+        printf("ERROR [2]")
+    }
+    else
+        printf("ERROR [1]\n");
 
     return 0;
 }

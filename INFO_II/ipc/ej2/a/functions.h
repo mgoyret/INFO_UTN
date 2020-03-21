@@ -15,4 +15,15 @@
 #include <sys/ipc.h>
 #include <sys/msg.h>
 
+#define MAX 30
+
+typedef struct qmsg
+{
+    long msg_type;
+    unsigned long legajo;
+    char area[MAX];
+    char nombre[MAX];
+    char apellido[MAX]:
+}qmsg;
+
 #endif /* FUNCTIONS_H_ */
