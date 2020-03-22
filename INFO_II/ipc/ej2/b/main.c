@@ -16,8 +16,27 @@
 
 #include "functions.h"
 
-int main (char argc, char** argv)
+int main (int argc, char** argv)
 {
+    FILE* fp1, fp2;
+    char line[TOTAL];
+
+    if(argc == 3)
+    {
+        fp = fopen(argv[1], "r");
+        if(fp != NULL)
+        {
+            while(!feof(fp))
+            {
+               /* 4. La ultima vuelta el fgets toma 0 bytes, cuando encuentra el EOF */
+               if(fgets(line, TOTAL, fp) > 0)
+            }
+        }
+        else
+            printf("ERROR [2]\n");
+    }
+    else
+        printf("ERROR [1]\n./<programa> <archivo>\n\n");
 
     return 0;
 }
