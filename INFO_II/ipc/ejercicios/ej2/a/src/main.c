@@ -50,6 +50,8 @@ int main (int argc, char** argv)
                             build_msg(&msg, line);
                             memset(line, '\0', TOTAL);
                             printf("Estructura %d armada:\ntype\t\t[%ld]\nlegajo\t\t[%s]\narea\t\t[%s]\nnombre\t\t[%s]\napellido\t[%s]\n", ++i, msg.type, msg.legajo, msg.area, msg.nombre, msg.apellido);
+                            //el 3er parametro esta mal. no se si devo mandar los strlen de cada campo, o el espacio q tiene en la estructura. 
+                            //Osea si le reserve 30bytes, y le escribi "hola\0" no se si debo poner 30 o 5
                             msgsnd(qid, (struct msgbuf*)&msg, sizeof(msg.legajo)+sizeof(msg.area)+sizeof(msg.nombre)+sizeof(msg.apellido), IPC_NOWAIT);
                         }
                         else
@@ -68,12 +70,7 @@ int main (int argc, char** argv)
                         }
                     }
 
-                    printf("Cola cargada con todos los usuarios. En 5 segundos la borro...\n");
-                    sleep(5);
-                    /* 6. Se borra y cierra la cola de mensajes. 15IPC_RMID indica que se quiere borrar. El puntero del final son
-                        datos que se quieran pasar para otros comandos. IPC_RMID no necesita datos, así que se pasa un puntero a NULL */
-                    msgctl (qid, IPC_RMID, (struct msqid_ds *)NULL);
-                    printf("Cola eliminada\n");
+                    printf("Cola cargada con todos los usuarios. Proceso productor se va y deja que el consumidor\nelimine la cola cuando termine de usarla\n");
                 }
                 else
                     printf("ERROR [4]\n");
