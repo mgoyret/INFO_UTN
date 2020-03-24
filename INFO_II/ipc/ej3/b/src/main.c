@@ -19,7 +19,7 @@
     primeras N muestras e informar del promedio de temperatura.
 */
 
-#include "functions.h"
+#include "../src/functions.h"
 
 int main (char argc, char** argv)
 {

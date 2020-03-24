@@ -1,10 +1,11 @@
 all:
-	gcc -c main.c -o main.o -Wall
-	gcc *.o -o program
-	rm *.o
+	mkdir build
+	gcc -c src/main.c -o build/main.o -Wall
+	gcc -c src/functions.c -o build/functions.o -Wall
+	gcc build/main.o build/functions.o -o program
 
 clean:
-	rm *.o program
+	rm -r build program
 
 view:
 	cat Makefile

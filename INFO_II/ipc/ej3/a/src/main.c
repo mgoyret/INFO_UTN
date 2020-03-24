@@ -1,6 +1,6 @@
 /**
  * \file            main.c
- * \brief           Funciones - Archivos Header - Función definida por el usuario
+ * \brief           Archivos Header - Prototipos de funciones definidas por el usuario
  * \author          Marcos Goyret
  * \date            Mar , 2020
  * \details         Usar MakeFile para compilar y linkear
@@ -16,10 +16,17 @@
     Dicho programa puede ser utilizado por diferentes procesos para cargar datos en forma simultánea. 
 */
 
-#include "functions.h"
+#include "../src/functions.h"
 
 int main (char argc, char** argv)
 {
+    FILE *fp1;
+
+    if(argc == 2)
+    {
+    }
+    else
+        printf("ERROR [1]\n./<programa> <archivo>\n");
 
     return 0;
 }

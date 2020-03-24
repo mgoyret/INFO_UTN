@@ -10,12 +10,11 @@
 #define FUNCTIONS_H_
 
 #include <stdio.h>
-/*
-#include <stdlib.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <string.h>
-*/
+
+typedef struct meassure
+{
+    unsigned int sensorid;
+    unsigned int value;
+}meassure;
+
 #endif /* FUNCTIONS_H_ */
