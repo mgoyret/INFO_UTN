@@ -14,5 +14,3 @@ pristine: clean
 
 %: %.c
 	$(CC) $(CCOPTS) -o $@ $<
-
-
