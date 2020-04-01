@@ -42,7 +42,7 @@ int main()
             printf("FIN DE LA COLA\n");
             /* 3. Se borra y cierra la cola de mensajes. 15IPC_RMID indica que se quiere borrar. El puntero del final son
                 datos que se quieran pasar para otros comandos. IPC_RMID no necesita datos, así que se pasa un puntero a NULL */
-            msgctl (qid, IPC_RMID, (struct msqid_ds *)NULL);
+            msgctl (Id_Cola_Mensajes, IPC_RMID, (struct msqid_ds *)NULL);
             printf("Cola eliminada\n");
 
         }

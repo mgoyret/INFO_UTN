@@ -13,7 +13,7 @@
 
 typedef struct meassure
 {
-    unsigned int sensorid;
+    unsigned int s_id;
     unsigned int value;
 }meassure;
 

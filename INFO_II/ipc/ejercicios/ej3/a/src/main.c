@@ -24,6 +24,7 @@ int main (char argc, char** argv)
 
     if(argc == 2)
     {
+        
     }
     else
         printf("ERROR [1]\n./<programa> <archivo>\n");
