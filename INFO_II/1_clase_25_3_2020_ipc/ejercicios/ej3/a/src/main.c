@@ -16,18 +16,37 @@
     Dicho programa puede ser utilizado por diferentes procesos para cargar datos en forma simultánea. 
 */
 
-#include "../src/functions.h"
+#include "../inc/functions.h"
 
-int main (char argc, char** argv)
+int main (int argc, char** argv)
 {
-    FILE *fp1;
+    FILE *fp;
+    meassure *msr;
+    int cnt;
 
     if(argc == 2)
     {
-        
+        if((fp = fopen(argv[1], "r")) != NULL)
+        {
+            cnt = msr_tot(fp);
+            printf("Total de mediciones [%d]\n", cnt);
+            if((msr = (meassure*)malloc(sizeof(meassure)*cnt)) != NULL)
+            {
+                ln_st(fp, msr, cnt);
+                show(msr, cnt);
+                
+            }
+            else
+                printf("ERROR [3]\n");
+
+            fclose(fp);
+        }
+        else
+            printf("ERROR [2]\n");
     }
     else
         printf("ERROR [1]\n./<programa> <archivo>\n");
+
 
     return 0;
 }
