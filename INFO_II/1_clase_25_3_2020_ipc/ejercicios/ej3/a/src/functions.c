@@ -60,7 +60,6 @@ void ln_st(FILE* fp, meassure* msr, int cnt)
     for (i = 0; i < cnt; i++)
     {
         fgets(line, LINE, fp);
-        //printf("Linea [%s]\n", line);
         token = strtok(line, ",");
         msr[i].id = atoi(token);
         token = strtok(NULL, "\n");
@@ -103,8 +102,9 @@ int set_shm(int* pos, int* flag)
     key_t key;
     int out = 1, shmid;
 
-    if((key = ftok("key.txt", 'r')) != -1)
+    if((key = ftok("../key.txt", 'M')) != -1)
     {
+        printf("\nKEY MEMORIA [%d]\n\n", key);
         /* 1. Trato de crear bloque de memoria compartida */
         shmid = shmget(key, (size_t)(sizeof(int)*SHM_SIZE),  0644 | IPC_CREAT| IPC_EXCL);
         if(shmid >= 0)
@@ -181,10 +181,11 @@ int shm_clean(int** data, int tam)
 
 int set_sem(union semun* arg)
 {
-    int semid, key;
+    int semid = -1, key;
 
-	if ((key = ftok("key.txt", 'o')) != -1)
+	if ((key = ftok("../key.txt", 'S')) != -1)
     {
+        printf("\nKEY SEMAFORO [%d]\n\n", key);
         /* 1. Intento de crear un nuevo semaforo */
         semid = semget(key,1, IPC_CREAT| IPC_EXCL | 0600);
       	if(semid >= 0) 

@@ -42,73 +42,57 @@ int main (int argc, char** argv)
                 //show(msr, cnt);
 
                 /* 5. Creo semaforo o me uno si ya existe */
-                printf("arg.val = %d\n", arg.val);
-                semid = set_sem(&arg);
-                printf("ahora arg.val = %d\n", arg.val);
-
-                /* 6. Bloqueo el semaforo para escribir en la memoria compartida */
-                printf("Estoy frente al semaforo\n");
-                sb.sem_op = -1; 
-
-/////////////////////////////////////////////// SEMAFORO ABIERTO ///////////////////////////////////////////////////////
-
-                if (semop(semid, &sb, 1) != -1)
+                if((semid = set_sem(&arg)) != -1)
                 {
-                    printf("Semaforo reservado para esto\n");
-                    /* 7. Creo la memoria compartira o me uno si ya existe */
-                    if((shmid = set_shm(&pos, &flag)) != -1)
+                    printf("\nIDENTIFICACION SEMAFORO [%d]\n\n", semid);
+                    /* 6. Bloqueo el semaforo para escribir en la memoria compartida */
+                    printf("Estoy frente al semaforo\n");
+                    sb.sem_op = -1; 
+
+    /////////////////////////////////////////////// SEMAFORO ABIERTO ///////////////////////////////////////////////////////
+
+                    if (semop(semid, &sb, 1) != -1)
                     {
-                        if((data = (int*)shmat(shmid, NULL, 0)) != (void*)-1)
+                        printf("Semaforo verde!\n");
+                        /* 7. Creo la memoria compartira o me uno si ya existe */
+                        if((shmid = set_shm(&pos, &flag)) != -1)
                         {
-                            printf("attache a la memoria realizado, flag es %d\n", flag);
-                            /* 8. Si es un nuevo bloque de memoria */
-                            if (flag == NEW_MEM)
+                            printf("\nIDENTIFICACION MEMORIA COMPARTIDA [%d]\n\n", shmid);
+                            if((data = (int*)shmat(shmid, NULL, 0)) != (void*)-1)
                             {
-                                printf("Se limpiara el nuevo bloque de memoria\n");
-                                for(i=0; i< SHM_SIZE; i++)
+                                printf("attache a la memoria realizado, flag es %d\n", flag);
+                                /* 8. Si es un nuevo bloque de memoria */
+                                if (flag == NEW_MEM)
                                 {
-                                    data[i] = 0;
+                                    printf("Se limpiara el nuevo bloque de memoria\n");
+                                    for(i=0; i< SHM_SIZE; i++)
+                                    {
+                                        data[i] = 0;
+                                    }
+                                    printf("Memoria seteada a 0\n");
+                                    /* 9. En 'pos' almaceno la primera posicion sobre la que se puede escribir */
+                                    pos = 1;
+                                    printf("pos seteado a %d\n", pos);
                                 }
-                                printf("Memoria seteada a 0\n");
-                                /* 9. En 'pos' almaceno la primera posicion sobre la que se puede escribir */
-                                pos = 1;
-                                printf("pos seteado a %d\n", pos);
+                                else if(flag == OLD_MEM)
+                                {
+                                    pos = data[0];
+                                }
                             }
-                            else if(flag == OLD_MEM)
+                            printf("pos seteado a %d\n", pos);
+
+                            printf("Comenzando escritura\n");
+                            first_cnt = cnt;
+                            /* 10. Si quiero escribir mas posiciones de las que quedan disponibles en esta vuelta del array */
+                            if ((pos-1+cnt) > (SHM_SIZE-1))
                             {
-                                pos = data[0];
-                                printf("pos seteado a %d data era %d\n", pos, data[0]);
+                                printf("Se escribira la cantidad restante de posiciones del array y se retomara desde el inicio del mismo\n");
+                                /* 11. Ahora first_cnt es la cantidad de posiciones disponibles para escribir
+                                    antes de comenzar de vuelta */
+                                first_cnt = ((SHM_SIZE-1) - pos + 1);
+                                scnd_cnt = cnt -((SHM_SIZE-1) - pos + 1);
                             }
-                        }
-                        printf("pos vale %d\n", pos);
-
-                        printf("Comenzando escritura\n");
-                        first_cnt = cnt;
-                        /* 10. Si quiero escribir mas posiciones de las que quedan disponibles en esta vuelta del array */
-                        if ((pos-1+cnt) > (SHM_SIZE-1))
-                        {
-                            printf("Se escribira la cantidad restante de posiciones del array y se retomara desde el inicio del mismo\n");
-                            /* 11. Ahora first_cnt es la cantidad de posiciones disponibles para escribir
-                                antes de comenzar de vuelta */
-                            first_cnt = ((SHM_SIZE-1) - pos + 1);
-                            scnd_cnt = cnt -((SHM_SIZE-1) - pos + 1);
-                        }
-                        printf("cnt [%d] first_cnt [%d]\nse escribira desde pos [%d] hasta [%d] inclusive\n", cnt, first_cnt, pos, (first_cnt+pos-1));
-                        for(i=pos; i<first_cnt+pos; i++)
-                        {
-                            data[i] = msr[j].value;
-                            usleep(2500); //para chequear semaforo
-                            printf("data[%d] = [%d]\n", i, data[i]);
-                            tot++;
-                            j++;
-                        }
-
-                        /* 12. Si se lleno el array se comienza desde el inicio nuevamente */
-                        if ((pos-1+cnt) > (SHM_SIZE-1))
-                        {
-                            printf("Escribiendo desde inicio del array\n");
-                            pos = 1;
-                            for(i=pos; i<=scnd_cnt; i++)
+                            for(i=pos; i<first_cnt+pos; i++)
                             {
                                 data[i] = msr[j].value;
                                 usleep(2500); //para chequear semaforo
@@ -116,48 +100,41 @@ int main (int argc, char** argv)
                                 tot++;
                                 j++;
                             }
-                            pos = i;
-                            printf("Se escribieron %d posiciones\n", tot);
-                            printf("pos seteado en [%d]\n", pos); 
+
+                            /* 12. Si se lleno el array se comienza desde el inicio nuevamente */
+                            if ((pos-1+cnt) > (SHM_SIZE-1))
+                            {
+                                printf("Escribiendo desde inicio del array\n");
+                                pos = 1;
+                                for(i=pos; i<=scnd_cnt; i++)
+                                {
+                                    data[i] = msr[j].value;
+                                    usleep(2500); //para chequear semaforo
+                                    printf("data[%d] = [%d]\n", i, data[i]);
+                                    tot++;
+                                    j++;
+                                }
+                                pos = i;
+                                printf("Se escribieron %d posiciones\n", tot);
+                                printf("pos seteado en [%d]\n", pos); 
+                            }
+                            else
+                            {
+                                printf("Se escribieron %d posiciones\n", tot);
+                                pos = pos + tot;
+                                printf("pos seteado en [%d]\n", pos);
+                            } 
                         }
                         else
                         {
-                            printf("Se escribieron %d posiciones\n", tot);
-                            pos = pos + tot;
-                            printf("pos seteado en [%d]\n", pos);
-                        } 
-                    }
-                    else
-                    {
-                        printf("ERROR main set_shm [4]\n");
-                    }
-                    /* 13. Actualizo el valor del subindice sobre el cual debe continuar llenandose el array */
-                    data[0] = pos;
-                    printf("data[0] quedo en %d\n", data[0]);
-                    shmdt(data);
-                    printf("Desattacheado de memoria compartida\n");
-                    printf("presione:\n1 = eliminar bloque de memoria compartida\n2 = continuar sin eliminar\n");
-                    do
-                    {
-                        printf("opcion:");
-                        scanf("%d", &op);
-                    }while ((op != 1) && (op != 2));
-                    if(op == 1)
-                    {
-                        shmctl(shmid, IPC_RMID, 0);
-                        printf("Bloque de memoria compartida eliminado\n");
-                    }
-                    else
-                    {
-                        printf("Continuando sin eliminar\n");
-                    }
-                    /* 14. Desbloqueo semaforo */
-                    sb.sem_op = 1;
-                    if (semop(semid, &sb, 1) != -1)
-                    {
-                        printf("Semaforo desbloqueado\n");
-
-                        printf("presione:\n1 = eliminar semaforo\n2 = continuar sin eliminar\n");
+                            printf("ERROR main set_shm [4]\n");
+                        }
+                        /* 13. Actualizo el valor del subindice sobre el cual debe continuar llenandose el array */
+                        data[0] = pos;
+                        printf("data[0] quedo en %d\n", data[0]);
+                        shmdt(data);
+                        printf("Desattacheado de memoria compartida\n");
+                        printf("presione:\n1 = eliminar bloque de memoria compartida\n2 = continuar sin eliminar\n");
                         do
                         {
                             printf("opcion:");
@@ -165,24 +142,50 @@ int main (int argc, char** argv)
                         }while ((op != 1) && (op != 2));
                         if(op == 1)
                         {
-                            if (semctl(semid, 0, IPC_RMID, arg) != -1)
-                            {
-                                printf("semaforo eliminado\n");
-                            }
-                            else
-                            {
-                                printf("ERROR main semctl [6]\n");
-                            }
+                            shmctl(shmid, IPC_RMID, 0);
+                            printf("Bloque de memoria compartida eliminado\n");
                         }
                         else
                         {
                             printf("Continuando sin eliminar\n");
                         }
+                        /* 14. Desbloqueo semaforo */
+                        sb.sem_op = 1;
+                        if (semop(semid, &sb, 1) != -1)
+                        {
+                            printf("Semaforo desbloqueado\n");
+
+                            printf("presione:\n1 = eliminar semaforo\n2 = continuar sin eliminar\n");
+                            do
+                            {
+                                printf("opcion:");
+                                scanf("%d", &op);
+                            }while ((op != 1) && (op != 2));
+                            if(op == 1)
+                            {
+                                if (semctl(semid, 0, IPC_RMID, arg) != -1)
+                                {
+                                    printf("semaforo eliminado\n");
+                                }
+                                else
+                                {
+                                    printf("ERROR main semctl [6]\n");
+                                }
+                            }
+                            else
+                            {
+                                printf("Continuando sin eliminar\n");
+                            }
+                        }
+                        else
+                        {
+                            printf("ERROR main semop() [5]\n");
+                        }       
                     }
-                    else
-                    {
-                        printf("ERROR main semop() [5]\n");
-                    }       
+                }
+                else
+                {
+                    printf("ERROR main set_sem\n");
                 }
             }
             else
