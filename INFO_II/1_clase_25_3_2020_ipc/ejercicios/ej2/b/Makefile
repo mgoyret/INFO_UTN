@@ -1,4 +1,5 @@
 all:
+	rm -r -f build program
 	mkdir build
 	gcc -c src/main.c -o build/main.o -Wall
 	gcc -c src/functions.c -o build/functions.o -Wall

@@ -63,3 +63,20 @@ void set_line(char *line, FILE* fp2)
     fprintf(stdout, "Escribiendo linea [%s-%s-%s]\n", apellido, nombre, legajo);
     fprintf(fp2, "%s-%s-%s\n", apellido, nombre, legajo);
 }
+
+/**
+ * \fn      void clean_struct(qmsg* msg)
+ * \brief   Setea cada campo de la estructura "msg" en '0' (int), y '\0' (char)
+ * \author  Marcos Goyret.
+ * \date    Mar 22, 2020
+ * \param	msg: Estructura a limpiar
+ */
+
+void clean_struct(qmsg* msg)
+{
+    msg->type = 0;
+    memset(msg->legajo, '\0', MAX);
+    msg->area = 0;
+    memset(msg->nombre, '\0', MAX);
+    memset(msg->apellido, '\0', MAX);
+}

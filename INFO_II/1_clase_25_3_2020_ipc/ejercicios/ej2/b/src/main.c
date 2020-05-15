@@ -1,78 +1,90 @@
 /**
- * \file            main.c
+ * \file            main2.c
  * \brief           Funciones - Archivos Header - Función definida por el usuario
  * \author          Marcos Goyret
- * \date            Mar , 2020
+ * \date            Mar 22, 2020
  * \details         Usar MakeFile para compilar y linkear
  */
 
-/*
-    Consigna
-    A partir de un archivo separado por comas que contiene los siguientes campos: legajo,area,nombre,apellido	
-    Recibir por línea de comandos el códidgo del área del empleado (valor entero) y generar un nuevo archivo solo
-    con los empleados que corresponden a esa área, con el siguiente formato: Apellido-Nombre,legajo 
-    Nota: es importante que la primera letra del nombre y del apellido se garanticen en mayúscula y el resto en minúscula.
-*/
-
 #include "../inc/functions.h"
 
-int main (int argc, char** argv)
+int main(int argc, char** argv)
 {
-    FILE *fp1, *fp2;
-    char line[TOTAL];
-    int exit = 0, cnt = 0;
-
-    if(argc == 4)
+    key_t Clave1;
+    int Id_Cola_Mensajes, op = -1;
+    qmsg Un_Mensaje;
+    FILE* fp;
+    
+    if(argc == 2)
     {
-        fp1 = fopen(argv[1], "r");
-        if(fp1 != NULL)
+        Clave1 = ftok("../key.txt", 10);
+        if (Clave1 != (key_t)-1)
         {
-            fp2 = fopen(argv[3], "w");
-            if(fp2 != NULL)
+            Id_Cola_Mensajes = msgget(Clave1, 0600 | IPC_CREAT);
+            if (Id_Cola_Mensajes != -1)
             {
-                while(!feof(fp1))
+                if ((fp = fopen("output.cvs", "w")) != NULL)
                 {
-                    /* 1. Leo el archivo funete linea a linea.
-                        La ultima vuelta fgets encuentra el EOF, su longitud sera 0 */
-                    if(fgets(line, TOTAL, fp1) > 0)
+                    clean_struct(&Un_Mensaje);
+                    do
                     {
-                        /* 2. Invoco a la funcion area_check() para verificar si la linea actual coincide con el area deseada.
-                            argv[3] es el area deseada */
-                        if(area_check(line, argv[2]))
+
+                        /* 1. Se recibe un mensaje del otro proceso. Los parámetros son:
+                            - Id de la cola de mensajes.
+                            - Dirección del sitio en el que queremos recibir el mensaje, convirtiéndolo en puntero a (struct msgbuf *).
+                            - Tamaño máximo de nuestros campos de datos.
+                            - Identificador del tipo de mensaje que queremos recibir. En este caso se quiere un mensaje de tipo 1, que es el que envia el proceso cola1.c
+                            - flags. En este caso se quiere que el programa quede bloqueado hasta que llegue un mensaje de tipo 1. Si se pone 17IPC_NOWAIT, se devolvería
+                                un error en caso de que no haya mensaje de tipo 1 y el programa continuaría ejecutándose. */
+                        
+                        /* 2. El 3er parametro esta mal. no se si devo mandar los strlen de cada campo, o el espacio q tiene en la estructura. 
+                            Osea si le reserve 30bytes, y le escribi "hola\0" no se si debo poner 30 o 5 */
+                        msgrcv (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje, sizeof(Un_Mensaje.legajo)+sizeof(Un_Mensaje.area)+sizeof(Un_Mensaje.nombre)+sizeof(Un_Mensaje.apellido),(long)atoi(argv[1]), IPC_NOWAIT);
+                        if (errno != ENOMSG)
                         {
-                            /* 3. Escribo nueva linea en el nuevo archivo e incremento contador del total de coincidencias encontradas */
-                            set_line(line, fp2);
-                            cnt++;
+                            Un_Mensaje.apellido[0] = toupper(Un_Mensaje.apellido[0]);
+                            Un_Mensaje.nombre[0] = toupper(Un_Mensaje.nombre[0]);
+                            fprintf(stdout, "Escribiendo linea [%s-%s-%s]\n", Un_Mensaje.apellido, Un_Mensaje.nombre, Un_Mensaje.legajo);
+                            fprintf(fp, "%s-%s-%s\n", Un_Mensaje.apellido, Un_Mensaje.nombre, Un_Mensaje.legajo);
+                        }
+                    }while(errno != ENOMSG);
+                    printf("FIN DE LA COLA\n");
+                    /* 3. Se borra y cierra la cola de mensajes. 15IPC_RMID indica que se quiere borrar. El puntero del final son
+                        datos que se quieran pasar para otros comandos. IPC_RMID no necesita datos, así que se pasa un puntero a NULL */
+                    printf("Desea borrar la cola?\n1 - si\n2 - no");
+                    do
+                    {
+                        printf("\nopcion: ");
+                        scanf("%d", &op);
+                    } while ((op != 1) && (op != 2));
+                    if (op == 1)
+                    {
+                        if((msgctl(Id_Cola_Mensajes, IPC_RMID, (struct msqid_ds *)NULL)) != -1)
+                        {
+                            printf("Cola eliminada\n");
+                        }
+                        else
+                        {
+                            printf("ERROR msgctl() errno = [%d]\n", errno);
                         }
                     }
-
+                    else
+                    {
+                        printf("Continuando sin eliminar\n");
+                    }
+                    
                 }
-                printf("Se encontraron [%d] personas pertenecientes al area [%s]\n", cnt, argv[2]);
-                if(cnt == 0)
-                    remove(argv[2]);
+                else
+                {
+                    printf("ERROR fopen\n");
+                } 
             }
-            else
-            {
-                printf("ERROR [3]\n");
-                exit = 3;
-            }
-        }
-        else
-        {
-            printf("ERROR [2]\n");
-            exit = 2;
         }
     }
     else
     {
-        printf("ERROR [1]\n./<programa> <archivo fuente> <area> <nuevo archivo>\n\n");
-        exit = 1;
+        printf("ERROR [1]: ./<programa> <codigo de area>\n");
     }
-
-    if(exit > 1)
-        fclose(fp1);
-    if(exit > 2)
-        fclose(fp2);
-
-    return exit;
+    
+    return 0;
 }

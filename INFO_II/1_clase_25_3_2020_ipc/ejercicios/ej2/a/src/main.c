@@ -31,7 +31,7 @@ int main (int argc, char** argv)
         /* 2. Igual que en cualquier recurso compartido (memoria compartida, semaforos o colas) se obtiene una clave a partir de
             un archivo existente cualquiera y de un entero cualquiera. Todos los procesos que quieran compartir este semaforo,
             deben usar el mismo archivo y el mismo entero */
-        qkey = ftok("/bin/ls", 10);
+        qkey = ftok("../key.txt", 10);
         if (qkey != (key_t)-1)
         {
             /* 3. Se crea la cola de mensajes y se obtiene un identificador para ella. El IPC_CREAT indica que cree la cola de mensajes si no lo está ya.
@@ -49,7 +49,7 @@ int main (int argc, char** argv)
                         {
                             build_msg(&msg, line);
                             memset(line, '\0', TOTAL);
-                            printf("Estructura %d armada:\ntype\t\t[%ld]\nlegajo\t\t[%s]\narea\t\t[%s]\nnombre\t\t[%s]\napellido\t[%s]\n", ++i, msg.type, msg.legajo, msg.area, msg.nombre, msg.apellido);
+                            printf("Estructura %d armada:\ntype\t\t[%ld]\nlegajo\t\t[%s]\narea\t\t[%d]\nnombre\t\t[%s]\napellido\t[%s]\n", ++i, msg.type, msg.legajo, msg.area, msg.nombre, msg.apellido);
                             //el 3er parametro esta mal. no se si devo mandar los strlen de cada campo, o el espacio q tiene en la estructura. 
                             //Osea si le reserve 30bytes, y le escribi "hola\0" no se si debo poner 30 o 5
                             msgsnd(qid, (struct msgbuf*)&msg, sizeof(msg.legajo)+sizeof(msg.area)+sizeof(msg.nombre)+sizeof(msg.apellido), IPC_NOWAIT);

@@ -20,23 +20,17 @@
 /* 1. Defines para comodidad de indentacion */
 #define MAX     30
 #define TOTAL   (30*3)+8+1
+#define END     -1
 
 /* 2. Estrructura a enviar a la cola de mensajes */
 typedef struct qmsg
 {
     long type;
     char legajo[8];
-    char area[MAX];
+    int area;
     char nombre[MAX];
     char apellido[MAX];
 }qmsg;
-
-/* 3. Creo enum con los distintos tipos de mensajes para facilitar indentacion */
-typedef enum msg_types
-{
-    MSG = 1,
-    END
-}msg_types;
 
 /* 3. Declaracion de la funcion "build_msg". Carga vuelca los datos de "line" en "msg" */
 void build_msg(qmsg* msg, char *line);

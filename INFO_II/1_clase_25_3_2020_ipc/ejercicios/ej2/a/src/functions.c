@@ -22,13 +22,11 @@ void build_msg(qmsg* msg, char *line)
     char *token;
 
     clean_struct(msg);
-
-    msg->type = MSG;
     
     token = strtok(line, ",");
     strcpy(msg->legajo, token);
     token = strtok(NULL, ",");
-    strcpy(msg->area, token);
+    msg->area = atoi(token);
     
     token = strtok(NULL, ",");
     strcpy(msg->nombre, token);
@@ -36,6 +34,7 @@ void build_msg(qmsg* msg, char *line)
     token = strtok(NULL, "\n");
     strcpy(msg->apellido, token);
 
+    msg->type = (long)msg->area;
 }
 
 /**
@@ -50,7 +49,7 @@ void clean_struct(qmsg* msg)
 {
     msg->type = 0;
     memset(msg->legajo, '\0', MAX);
-    memset(msg->area, '\0', MAX);
+    msg->area = 0;
     memset(msg->nombre, '\0', MAX);
     memset(msg->apellido, '\0', MAX);
 }

@@ -1,4 +1,5 @@
 all:
+	rm -r -f build prog1 prog2
 	mkdir build
 	gcc -c src/main.c -o build/main.o -Wall
 	gcc -c src/main2.c -o build/main2.o -Wall

@@ -14,7 +14,7 @@ int main()
     int Id_Cola_Mensajes;
     qmsg Un_Mensaje;
     
-    Clave1 = ftok("/bin/ls", 10);
+    Clave1 = ftok("../key.txt", 10);
     if (Clave1 != (key_t)-1)
     {
         Id_Cola_Mensajes = msgget(Clave1, 0600 | IPC_CREAT);
@@ -37,7 +37,7 @@ int main()
                 msgrcv (Id_Cola_Mensajes, (struct msgbuf *)&Un_Mensaje, sizeof(Un_Mensaje.legajo)+sizeof(Un_Mensaje.area)+sizeof(Un_Mensaje.nombre)+sizeof(Un_Mensaje.apellido), 0, 0);
                 printf("Recibido mensaje tipo %ld\n", Un_Mensaje.type);
                 if(Un_Mensaje.type != END)
-                    printf("legajo [%s]\narea [%s]\nnombre [%s]\napellido [%s]\n\n", Un_Mensaje.legajo, Un_Mensaje.area, Un_Mensaje.nombre, Un_Mensaje.apellido);
+                    printf("legajo [%s]\narea [%d]\nnombre [%s]\napellido [%s]\n\n", Un_Mensaje.legajo, Un_Mensaje.area, Un_Mensaje.nombre, Un_Mensaje.apellido);
             }
             printf("FIN DE LA COLA\n");
             /* 3. Se borra y cierra la cola de mensajes. 15IPC_RMID indica que se quiere borrar. El puntero del final son
