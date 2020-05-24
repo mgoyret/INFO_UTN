@@ -20,7 +20,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuConfiguracion">
@@ -29,6 +29,7 @@
     </property>
     <addaction name="actionAlmacenamiento"/>
     <addaction name="actionComunicacion"/>
+    <addaction name="actionGetCantidad"/>
    </widget>
    <widget class="QMenu" name="menuAcceso">
     <property name="title">
@@ -54,8 +55,8 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionIniciar_Sesion">
    <property name="icon">
-    <iconset resource="recursos.qrc">
-     <normaloff>:/img/img/login.jpg</normaloff>:/img/img/login.jpg</iconset>
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/login.png</normaloff>:/img/login.png</iconset>
    </property>
    <property name="text">
     <string>Iniciar Sesion</string>
@@ -65,24 +66,36 @@
    </property>
   </action>
   <action name="actionCerrar_Sesion">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/logout.png</normaloff>:/img/logout.png</iconset>
+   </property>
    <property name="text">
     <string>Cerrar Sesion</string>
    </property>
   </action>
   <action name="actionAlmacenamiento">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/almacenamiento.png</normaloff>:/img/almacenamiento.png</iconset>
+   </property>
    <property name="text">
     <string>Almacenamiento</string>
    </property>
   </action>
   <action name="actionComunicacion">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/comunicacion.png</normaloff>:/img/comunicacion.png</iconset>
+   </property>
    <property name="text">
     <string>Comunicacion</string>
    </property>
   </action>
   <action name="actionSalir">
    <property name="icon">
-    <iconset resource="recursos.qrc">
-     <normaloff>:/img/img/quit.png</normaloff>:/img/img/quit.png</iconset>
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/quit.png</normaloff>:/img/quit.png</iconset>
    </property>
    <property name="text">
     <string>Salir</string>
@@ -92,6 +105,10 @@
    </property>
   </action>
   <action name="actionAgregar_Usuario">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/add.png</normaloff>:/img/add.png</iconset>
+   </property>
    <property name="text">
     <string>Agregar Usuario</string>
    </property>
@@ -100,18 +117,40 @@
    </property>
   </action>
   <action name="actionModificar_Usuario">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/tools.png</normaloff>:/img/tools.png</iconset>
+   </property>
    <property name="text">
     <string>Modificar Usuario</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
   </action>
   <action name="actionEliminar_Usuario">
+   <property name="icon">
+    <iconset resource="../img/recursos.qrc">
+     <normaloff>:/img/remove.png</normaloff>:/img/remove.png</iconset>
+   </property>
    <property name="text">
     <string>Eliminar Usuario</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="actionGetCantidad">
+   <property name="text">
+    <string>GetCantidad</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
    </property>
   </action>
  </widget>
  <resources>
-  <include location="recursos.qrc"/>
+  <include location="../img/recursos.qrc"/>
  </resources>
  <connections/>
 </ui>
