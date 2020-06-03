@@ -72,6 +72,10 @@ public:
 
         claveLine = new QLineEdit(verticalLayoutWidget);
         claveLine->setObjectName(QString::fromUtf8("claveLine"));
+        claveLine->setEnabled(true);
+        claveLine->setTabletTracking(false);
+        claveLine->setEchoMode(QLineEdit::PasswordEchoOnEdit);
+        claveLine->setClearButtonEnabled(false);
 
         horizontalLayout_2->addWidget(claveLine);
 

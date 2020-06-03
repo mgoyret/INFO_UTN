@@ -73,6 +73,9 @@
    <property name="text">
     <string>Cerrar Sesion</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
   </action>
   <action name="actionAlmacenamiento">
    <property name="icon">

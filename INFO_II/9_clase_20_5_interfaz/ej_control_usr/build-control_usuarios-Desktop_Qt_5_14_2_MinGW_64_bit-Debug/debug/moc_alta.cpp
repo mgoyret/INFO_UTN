@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../control_usuarios/alta.h"
+#include "../../../../com_user_serie_completo/ej_control_usr/control_usuarios/alta.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

@@ -130,6 +130,9 @@ public:
         actionIniciar_Sesion->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+I", nullptr));
 #endif // QT_CONFIG(shortcut)
         actionCerrar_Sesion->setText(QCoreApplication::translate("MainWindow", "Cerrar Sesion", nullptr));
+#if QT_CONFIG(shortcut)
+        actionCerrar_Sesion->setShortcut(QCoreApplication::translate("MainWindow", "Ctrl+O", nullptr));
+#endif // QT_CONFIG(shortcut)
         actionAlmacenamiento->setText(QCoreApplication::translate("MainWindow", "Almacenamiento", nullptr));
         actionComunicacion->setText(QCoreApplication::translate("MainWindow", "Comunicacion", nullptr));
         actionSalir->setText(QCoreApplication::translate("MainWindow", "Salir", nullptr));

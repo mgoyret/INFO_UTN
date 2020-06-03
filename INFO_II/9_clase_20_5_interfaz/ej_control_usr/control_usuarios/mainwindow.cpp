@@ -1,13 +1,13 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
-#include "ingreso.h"
-#include "qmessagebox.h"
 #include "alta.h"
+#include "ingreso.h"
+#include "ui_mainwindow.h"
+#include "qmessagebox.h"
 #include <QFile>
 #include <QDebug>
 #include <QString>
 
-//#define ADD_LINE stream<<file[i].at(CAMPO::NOMBRE)<<","<<file[i].at(CAMPO::APELLIDO)<<","<<file[i].at(CAMPO::EMAIL)<<","<<file[i].at(CAMPO::USUARIO)<<","<<file[i].at(CAMPO::CLAVE)<<endl;
+#define ADD_LINE stream << list[i].at(CAMPO::NOMBRE) << "," << list[i].at(CAMPO::APELLIDO) << "," << list[i].at(CAMPO::EMAIL)<<","<< list[i].at(CAMPO::USUARIO)<<"," << list[i].at(CAMPO::CLAVE)<<"\n";
 #define FILE_NAME "dataBase.csv"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -57,48 +57,41 @@ int MainWindow::ingresoDatos()
 
 void MainWindow::on_actionIniciar_Sesion_triggered()
 {
+    int i = 1;
     QMessageBox box;
     ingreso a;
     QString usuario, clave;
-    QString line;
-    QStringList list;
+    QStringList current;
     QFile file(FILE_NAME);
     QTextStream stream(&file);
 
-    if(a.exec() == QDialog::Accepted)
+    a.setWindowTitle("Inicio de sesion");
+    while(i)
     {
-        usuario = a.getUser();
-        clave = a.getClave();
-
-        if(file.exists())
+        if(a.exec() == QDialog::Accepted)
         {
-            if(file.open(QIODevice::ReadOnly | QIODevice::Text))
-            {
-                while(!stream.atEnd())
-                {
-                    list = stream.readLine().split(',');
-                    if((list.at(3) == usuario) && (list.at(4) == clave))
-                    {
-                        box.setText("Bienvenido " + usuario);
-                        box.exec();
-                        setWindowTitle(usuario);
-                        ui->actionCerrar_Sesion->setEnabled(true);
-                        ui->actionModificar_Usuario->setEnabled(true);
-                        ui->actionEliminar_Usuario->setEnabled(true);
-                        usuarioIn = list;
+            usuario = a.getUser();
+            clave = a.getClave();
 
-                        break;
-                    }
-                }
-                file.close();
+            if(userCheck(usuario, clave, current))
+            {
+                box.setText("Bienvenido " + usuario);
+                box.exec();
+                setWindowTitle(usuario);
+                ui->actionCerrar_Sesion->setEnabled(true);
+                ui->actionModificar_Usuario->setEnabled(true);
+                ui->actionEliminar_Usuario->setEnabled(true);
+                usuarioIn = current;
+                i=0;
+                ui->actionIniciar_Sesion->setEnabled(false);
             }
-            else{/*problema al abrir archivo*/}
-        }
-    }
-    else
-    {
-        box.setText("No se pudo iniciar sesion");
-        box.exec();
+            if(i)
+            {
+                QMessageBox::critical(this, "ERROR", "Usuario y/o clave incorrectos");
+            }
+            file.close();
+        }else
+            i=0;
     }
 }
 
@@ -115,7 +108,7 @@ void MainWindow::on_actionAgregar_Usuario_triggered()
     }
     else
     {
-        box.setText("No se pudo agregar usuario");
+        box.setText("Usuario no agregado");
         box.exec();
     }
 }
@@ -131,6 +124,7 @@ void MainWindow::closeUser()
     ui->actionCerrar_Sesion->setEnabled(false);
     ui->actionModificar_Usuario->setEnabled(false);
     ui->actionEliminar_Usuario->setEnabled(false);
+    ui->actionIniciar_Sesion->setEnabled(true);
     usuarioIn.clear();
 }
 
@@ -142,36 +136,27 @@ void MainWindow::on_actionEliminar_Usuario_triggered()
     QMessageBox box;
 
     QFile file(FILE_NAME);
-    file.open(QIODevice::ReadOnly | QIODevice::Text);
-    QTextStream stream(&file);
-
-    for(i=0; i<totalUsers; i++)
+    //pido clave
+    if(file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
+        QTextStream stream(&file);
 
-        line = stream.readLine();
-        box.setText(line);
-        box.exec();
-        if( line != curUser )
+        for(i=0; i<totalUsers; i++)
         {
-            list[j++] = line.split(',');
-            box.setText("agregado");
-            box.exec();
+            line = stream.readLine();
+            if( line != curUser )
+                list[j++] = line.split(',');
         }
-        else
+        if(newFile(list, totalUsers-1))
         {
-            box.setText("Excluyendo de lista a: " + curUser);
+            box.setText("Usuario eliminado");
             box.exec();
+            totalUsers--;
+            closeUser();
         }
-    }
-    box.setText("fin del for");
-    box.exec();
-    if(newFile(list, totalUsers-1))
-    {
-        box.setText("Usuario eliminado");
-        box.exec();
-        totalUsers--;
-        closeUser();
-    }
+        file.close();
+    }//else problema al abrir archivo
+
 }
 /**
   newFile recibe un array de qstringlist llamado "list", y reescribe el archivo "FILE_NAME" con la informacion contenida en list
@@ -185,80 +170,77 @@ int MainWindow::newFile(QStringList *list, int len)
     {
         QTextStream stream(&file);
         for(i=0; i<len; i++)
-        {
-            stream << list[i].at(CAMPO::NOMBRE) << ",";
-            stream << list[i].at(CAMPO::APELLIDO) << ",";
-            stream << list[i].at(CAMPO::EMAIL)<<",";
-            stream << list[i].at(CAMPO::USUARIO)<<",";
-            stream << list[i].at(CAMPO::CLAVE)<<"\n";
-        }
+            ADD_LINE
+
         if(i==len)
-        {
             exit = 1;
-        }
 
         file.close();
-    }
-    // else -> problema al crear el archivo
-
+    }// else problema al crear el archivo
     return exit;
 }
 
 void MainWindow::on_actionModificar_Usuario_triggered()
 {
-    int i, j=0;
+    int i=1, j=0, k=1;
     QStringList list[totalUsers];
     QMessageBox box;
     QString line, curUser = usuarioIn.join(',');
     alta a(this, usuarioIn.at(CAMPO::NOMBRE), usuarioIn.at(CAMPO::APELLIDO),
                         usuarioIn.at(CAMPO::EMAIL), usuarioIn.at(CAMPO::USUARIO), usuarioIn.at(CAMPO::CLAVE));
+    ingreso b(this, usuarioIn.at(CAMPO::USUARIO));
+    QStringList dump; //para poder usar userCheck
 
-    QFile file(FILE_NAME);
-    file.open(QIODevice::ReadOnly | QIODevice::Text);
-    QTextStream stream(&file);
-
-    for(i=0; i<totalUsers; i++)
+    while(k)
     {
-
-        line = stream.readLine();
-        list[i] = line.split(',');
-        if( line == curUser )
+        if(b.exec())
         {
-            box.setText("COINCIDENCIA |"+line+"|"+curUser+"|");
-            box.exec();
+            if(userCheck(b.getUser(), b.getClave(), dump))
+            {
+                k=0;
+                QFile file(FILE_NAME);
+                if(file.open(QIODevice::ReadOnly | QIODevice::Text))
+                {
+                    QTextStream stream(&file);
 
-            j=i;
-        }
-    }
-    box.setText("SOS "+list[j].at(CAMPO::USUARIO));
-    box.exec();
-    if(a.exec()) // == accepted
-    {
-        list[j][CAMPO::NOMBRE] = a.getNombre();
-        list[j][CAMPO::APELLIDO] = a.getApellido();
-        list[j][CAMPO::EMAIL] = a.getEmail();
-        list[j][CAMPO::USUARIO] = a.getUsuario();
-        list[j][CAMPO::CLAVE] = a.getClave();
+                    for(i=0; i<totalUsers; i++)
+                    {
+                        line = stream.readLine();
+                        list[i] = line.split(',');
+                        if( line == curUser )
+                            j=i;
+                    }
+                    file.close();
+                }
 
-        box.setText("ahora sos "+list[j].at(CAMPO::USUARIO));
-        box.exec();
-        if(newFile(list, totalUsers))
-        {
-            box.setText("Usuario modificado");
-            box.exec();
-        }
-        else
-        {
-            box.setText("No se pudo modificar usuario [on_actionModificar_Usuario_triggered() |2|]");
-            box.exec();
-        }
-    }
-    else
-    {
-        box.setText("No se pudo modificar usuario [on_actionModificar_Usuario_triggered() |1|]");
-        box.exec();
-    }
+                if(a.exec()) // == accepted
+                {
+                    list[j][CAMPO::NOMBRE] = a.getNombre();
+                    list[j][CAMPO::APELLIDO] = a.getApellido();
+                    list[j][CAMPO::EMAIL] = a.getEmail();
+                    list[j][CAMPO::USUARIO] = a.getUsuario();
+                    list[j][CAMPO::CLAVE] = a.getClave();
 
+                    if(newFile(list, totalUsers))
+                    {
+                        box.setText("Usuario modificado");
+                        box.exec();
+                    }else
+                    {
+                        QMessageBox::critical(this, "ERROR", "No se pudo modificar usuario [on_actionModificar_Usuario_triggered() |2|]");
+                    }
+                }else
+                {
+                    QMessageBox::critical(this, "ERROR", "No se pudo modificar usuario [on_actionModificar_Usuario_triggered() |1|]");
+
+                }
+            }
+            else
+            {
+                QMessageBox::critical(this, "ERROR", "usuario/clave incorrectos");
+            }
+        }else{k=0;}
+    }
 }
 
 int MainWindow::cntUsers()
@@ -274,15 +256,38 @@ int MainWindow::cntUsers()
         stream.readLine();
         exit++;
     }
-
-    box.setText("Cantidad de usuarios: " + QString::number(exit));
-
-    box.exec();
-
     return exit;
 }
 
 void MainWindow::on_actionGetCantidad_triggered()
 {
-    cntUsers();
+    QMessageBox box;
+    box.setText("Cantidad de usuarios: " + QString::number(cntUsers()));
+    box.exec();
+}
+
+int MainWindow::userCheck(QString usuario, QString clave, QStringList &current)
+{
+    int exit = 0;
+    QFile file(FILE_NAME);
+    QTextStream stream(&file);
+
+    if(file.exists())
+    {
+        if(file.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
+            while(!stream.atEnd())
+            {
+                current = stream.readLine().split(',');
+                if((current.at(3) == usuario) && (current.at(4) == clave))
+                {
+                    exit = 1;
+                    break;
+                }
+            }
+            file.close();
+        }//else problema al abrir archivo
+    }
+
+    return exit;
 }

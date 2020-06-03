@@ -28,6 +28,7 @@ public:
     int newFile(QStringList*, int);
     int cntUsers();
     void closeUser();
+    int userCheck(QString, QString, QStringList&);
 
 private slots:
     //void on_actionSalir_triggered();

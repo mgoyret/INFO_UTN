@@ -112,6 +112,7 @@ public:
 
         usuarioLine = new QLineEdit(verticalLayoutWidget);
         usuarioLine->setObjectName(QString::fromUtf8("usuarioLine"));
+        usuarioLine->setEchoMode(QLineEdit::Normal);
 
         horizontalLayout_3->addWidget(usuarioLine);
 
@@ -127,6 +128,7 @@ public:
 
         claveLine = new QLineEdit(verticalLayoutWidget);
         claveLine->setObjectName(QString::fromUtf8("claveLine"));
+        claveLine->setEchoMode(QLineEdit::PasswordEchoOnEdit);
 
         horizontalLayout_2->addWidget(claveLine);
 

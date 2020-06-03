@@ -47,7 +47,20 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="claveLine"/>
+       <widget class="QLineEdit" name="claveLine">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::PasswordEchoOnEdit</enum>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>

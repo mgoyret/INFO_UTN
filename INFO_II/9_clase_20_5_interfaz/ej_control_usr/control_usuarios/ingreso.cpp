@@ -9,6 +9,14 @@ ingreso::ingreso(QWidget *parent) :
     ui->setupUi(this);
 }
 
+ingreso::ingreso(QWidget *parent, QString user) :
+    QDialog(parent),
+    ui(new Ui::ingreso)
+{
+    ui->setupUi(this);
+    ui->userLine->setText(user);
+}
+
 ingreso::~ingreso()
 {
     delete ui;
@@ -34,3 +42,4 @@ void ingreso::on_cancelButton_clicked()
 {
     reject();
 }
+

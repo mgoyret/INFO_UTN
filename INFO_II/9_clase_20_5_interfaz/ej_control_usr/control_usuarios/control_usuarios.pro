@@ -38,9 +38,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     ../img/recursos.qrc
-
-DISTFILES += \
-    ../img/login.png \
-    ../img/logout.png \
-    ../img/quit.png \
-    ../img/tools.png
