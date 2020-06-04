@@ -6,7 +6,7 @@
 namespace Ui {
 class ingreso;
 }
-
+/*
 typedef struct CLIENTE
 {
     QString nombre;
@@ -16,7 +16,7 @@ typedef struct CLIENTE
     QString clave;
 
 }CLIENTE;
-
+*/
 class ingreso : public QDialog
 {
     Q_OBJECT
