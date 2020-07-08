@@ -1,0 +1,1500 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                              ./Aplicacion/PuertaCorrediza.o (Inicializacion)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarPLL)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarRGB)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                              ./Aplicacion/PuertaCorrediza.o (InicializarSalidas)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarSysTick)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarTeclado)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o) (AnalizarTimers)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (UART0_Inicializacion)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (UART1_Inicializacion)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarADC)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o) (SetDIR)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o) (InicializarLCD)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o) (SetPINSEL)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+                              ./Primitivas/AP_FuncionesMdeE.o (Relays)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o) (BarridoDisplay)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o) (RefrescoBuzzer)
+C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o) (DebounceEntradas)
+c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                              ./Driver/cr_startup_lpc175x_6x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_FuncionesMdeE.o
+ .text          0x00000000        0x0 ./Primitivas/AP_FuncionesMdeE.o
+ .data          0x00000000        0x0 ./Primitivas/AP_FuncionesMdeE.o
+ .bss           0x00000000        0x0 ./Primitivas/AP_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_MdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_MdeE.o
+ .group         0x00000000        0xc ./Primitivas/AP_MdeE.o
+ .text          0x00000000        0x0 ./Primitivas/AP_MdeE.o
+ .data          0x00000000        0x0 ./Primitivas/AP_MdeE.o
+ .bss           0x00000000        0x0 ./Primitivas/AP_MdeE.o
+ .debug_macro   0x00000000      0xa9c ./Primitivas/AP_MdeE.o
+ .debug_macro   0x00000000       0x22 ./Primitivas/AP_MdeE.o
+ .group         0x00000000        0xc ./Driver/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./Driver/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./Driver/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0xa9c ./Driver/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0xc ./Driver/crp.o
+ .group         0x00000000        0xc ./Driver/crp.o
+ .text          0x00000000        0x0 ./Driver/crp.o
+ .data          0x00000000        0x0 ./Driver/crp.o
+ .bss           0x00000000        0x0 ./Driver/crp.o
+ .debug_macro   0x00000000      0xa9c ./Driver/crp.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc ./Aplicacion/PuertaCorrediza.o
+ .text          0x00000000        0x0 ./Aplicacion/PuertaCorrediza.o
+ .data          0x00000000        0x0 ./Aplicacion/PuertaCorrediza.o
+ .bss           0x00000000        0x0 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0xa9c ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x2e ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0x130 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x64 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0x172 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0x196 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x76 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0x118 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x40 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x16 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x16 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x10 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x10 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x10 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x28 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000      0x100 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x40 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x28 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x10 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x1c ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x16 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00000000       0x3a ./Aplicacion/PuertaCorrediza.o
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x16 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x16 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x3a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .bss.TMR_handlers
+                0x00000000       0x78 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .bss.Tmr_Base  0x00000000       0x1e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .text.TimerEvent
+                0x00000000       0x48 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss.UART0_outRX
+                0x00000000        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .text.UART0_PopRX
+                0x00000000       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .text.UART0_PushTX
+                0x00000000       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000      0x196 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss.UART1_outRX
+                0x00000000        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .text.UART1_PopRX
+                0x00000000       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .text.UART1_PushTX
+                0x00000000       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000      0x196 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000      0x130 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000      0x196 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00000000       0x3a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .text          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .data          0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .bss           0x00000000        0x0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x172 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x118 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x100 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/AP_FuncionesMdeE.o
+LOAD ./Primitivas/AP_MdeE.o
+LOAD ./Driver/cr_startup_lpc175x_6x.o
+LOAD ./Driver/crp.o
+LOAD ./Aplicacion/PuertaCorrediza.o
+LOAD C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a
+START GROUP
+LOAD c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a
+LOAD c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000     0x19c8
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./Driver/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x19c8 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x19c8 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x1054 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x128 ./Driver/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000136                bss_init
+                0x0000016c                ResetISR
+                0x000001e0                NMI_Handler
+                0x000001e6                HardFault_Handler
+                0x000001ec                MemManage_Handler
+                0x000001f2                BusFault_Handler
+                0x000001f8                UsageFault_Handler
+                0x000001fe                SVC_Handler
+                0x00000204                DebugMon_Handler
+                0x0000020a                PendSV_Handler
+                0x00000216                EINT3_IRQHandler
+                0x00000216                CANActivity_IRQHandler
+                0x00000216                TIMER3_IRQHandler
+                0x00000216                USBActivity_IRQHandler
+                0x00000216                EINT2_IRQHandler
+                0x00000216                IntDefaultHandler
+                0x00000216                PLL0_IRQHandler
+                0x00000216                CAN_IRQHandler
+                0x00000216                I2C0_IRQHandler
+                0x00000216                SSP0_IRQHandler
+                0x00000216                I2C1_IRQHandler
+                0x00000216                I2C2_IRQHandler
+                0x00000216                RTC_IRQHandler
+                0x00000216                TIMER0_IRQHandler
+                0x00000216                SPI_IRQHandler
+                0x00000216                RIT_IRQHandler
+                0x00000216                EINT1_IRQHandler
+                0x00000216                TIMER1_IRQHandler
+                0x00000216                UART2_IRQHandler
+                0x00000216                SSP1_IRQHandler
+                0x00000216                USB_IRQHandler
+                0x00000216                BOD_IRQHandler
+                0x00000216                PWM1_IRQHandler
+                0x00000216                WDT_IRQHandler
+                0x00000216                I2S_IRQHandler
+                0x00000216                QEI_IRQHandler
+                0x00000216                EINT0_IRQHandler
+                0x00000216                PLL1_IRQHandler
+                0x00000216                DMA_IRQHandler
+                0x00000216                TIMER2_IRQHandler
+                0x00000216                UART3_IRQHandler
+                0x00000216                MCPWM_IRQHandler
+                0x00000216                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000021c       0xe0 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./Driver/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.HayPresencia
+                0x00000300       0x28 ./Primitivas/AP_FuncionesMdeE.o
+                0x00000300                HayPresencia
+ .text.NoHayPresencia
+                0x00000328       0x2e ./Primitivas/AP_FuncionesMdeE.o
+                0x00000328                NoHayPresencia
+ .text.cerro    0x00000356       0x28 ./Primitivas/AP_FuncionesMdeE.o
+                0x00000356                cerro
+ .text.abrio    0x0000037e       0x28 ./Primitivas/AP_FuncionesMdeE.o
+                0x0000037e                abrio
+ .text.PrenderRele1
+                0x000003a6       0x10 ./Primitivas/AP_FuncionesMdeE.o
+                0x000003a6                PrenderRele1
+ .text.ApagarRele1
+                0x000003b6       0x10 ./Primitivas/AP_FuncionesMdeE.o
+                0x000003b6                ApagarRele1
+ .text.PrenderRele2
+                0x000003c6       0x10 ./Primitivas/AP_FuncionesMdeE.o
+                0x000003c6                PrenderRele2
+ .text.ApagarRele2
+                0x000003d6       0x10 ./Primitivas/AP_FuncionesMdeE.o
+                0x000003d6                ApagarRele2
+ *fill*         0x000003e6        0x2 ff
+ .text.maquina_puerta
+                0x000003e8      0x138 ./Primitivas/AP_MdeE.o
+                0x000003e8                maquina_puerta
+ .text.main     0x00000520       0x12 ./Aplicacion/PuertaCorrediza.o
+                0x00000520                main
+ .text.Inicializacion
+                0x00000532       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                0x00000532                Inicializacion
+ *fill*         0x00000572        0x2 ff
+ .text.InicializarPLL
+                0x00000574      0x140 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+                0x00000574                InicializarPLL
+ .text.InicializarRGB
+                0x000006b4       0x44 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+                0x000006b4                InicializarRGB
+ .text.RefrescoSalidas
+                0x000006f8       0x6c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                0x000006f8                RefrescoSalidas
+ .text.InicializarSalidas
+                0x00000764       0x58 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                0x00000764                InicializarSalidas
+ .text.InicializarSysTick
+                0x000007bc       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                0x000007bc                InicializarSysTick
+ .text.SysTick_Handler
+                0x000007fc       0x24 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                0x000007fc                SysTick_Handler
+ .text.InicializarTeclado
+                0x00000820       0x80 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                0x00000820                InicializarTeclado
+ .text.DriverTecladoSW
+                0x000008a0       0x98 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                0x000008a0                DriverTecladoSW
+ .text.DriverTecladoHW
+                0x00000938       0x64 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                0x00000938                DriverTecladoHW
+ .text.AnalizarTimers
+                0x0000099c       0x70 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                0x0000099c                AnalizarTimers
+ .text.UART0_IRQHandler
+                0x00000a0c       0x70 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                0x00000a0c                UART0_IRQHandler
+ .text.UART0_Inicializacion
+                0x00000a7c       0x94 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                0x00000a7c                UART0_Inicializacion
+ .text.UART0_PushRX
+                0x00000b10       0x44 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                0x00000b10                UART0_PushRX
+ .text.UART0_PopTX
+                0x00000b54       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                0x00000b54                UART0_PopTX
+ .text.UART1_IRQHandler
+                0x00000bb4       0x70 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                0x00000bb4                UART1_IRQHandler
+ .text.UART1_Inicializacion
+                0x00000c24       0x94 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                0x00000c24                UART1_Inicializacion
+ .text.UART1_PushRX
+                0x00000cb8       0x44 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                0x00000cb8                UART1_PushRX
+ .text.UART1_PopTX
+                0x00000cfc       0x60 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                0x00000cfc                UART1_PopTX
+ .text.ADC_IRQHandler
+                0x00000d5c      0x168 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x00000d5c                ADC_IRQHandler
+ .text.InicializarADC
+                0x00000ec4      0x10c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x00000ec4                InicializarADC
+ .text.SetDIR   0x00000fd0       0x78 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                0x00000fd0                SetDIR
+ .text.SetPIN   0x00001048       0x7c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                0x00001048                SetPIN
+ .text.SetMODE  0x000010c4       0xa0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                0x000010c4                SetMODE
+ .text.GetPIN   0x00001164       0x54 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                0x00001164                GetPIN
+ .text.InicializarLCD
+                0x000011b8      0x150 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x000011b8                InicializarLCD
+ .text.LCD_Push
+                0x00001308       0xb8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x00001308                LCD_Push
+ .text.LCD_Pop  0x000013c0       0x74 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x000013c0                LCD_Pop
+ .text.EscrituraLCD
+                0x00001434      0x104 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x00001434                EscrituraLCD
+ .text.SetPINSEL
+                0x00001538       0x8a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+                0x00001538                SetPINSEL
+ *fill*         0x000015c2        0x2 ff
+ .text.Relays   0x000015c4       0x50 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+                0x000015c4                Relays
+ .text.BarridoDisplay
+                0x00001614      0x1a0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                0x00001614                BarridoDisplay
+ .text.InicializarDisplayExp2
+                0x000017b4       0x94 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                0x000017b4                InicializarDisplayExp2
+ .text.RefrescoBuzzer
+                0x00001848       0x24 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                0x00001848                RefrescoBuzzer
+ .text.InicializarBuzzer
+                0x0000186c       0x26 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                0x0000186c                InicializarBuzzer
+ *fill*         0x00001892        0x2 ff
+ .text.DebounceEntradas
+                0x00001894       0xec C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                0x00001894                DebounceEntradas
+ .text.InicializarEntradas
+                0x00001980       0x44 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                0x00001980                InicializarEntradas
+ .text.__weak_main
+                0x000019c4        0x4 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                0x000019c4                __weak_main
+                0x000019c4                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x000019c8                . = ALIGN (0x4)
+
+.glue_7         0x000019c8        0x0
+ .glue_7        0x000019c8        0x0 linker stubs
+
+.glue_7t        0x000019c8        0x0
+ .glue_7t       0x000019c8        0x0 linker stubs
+
+.vfp11_veneer   0x000019c8        0x0
+ .vfp11_veneer  0x000019c8        0x0 linker stubs
+
+.v4_bx          0x000019c8        0x0
+ .v4_bx         0x000019c8        0x0 linker stubs
+
+.iplt           0x000019c8        0x0
+ .iplt          0x000019c8        0x0 ./Primitivas/AP_FuncionesMdeE.o
+
+.rel.dyn        0x000019c8        0x0
+ .rel.iplt      0x000019c8        0x0 ./Primitivas/AP_FuncionesMdeE.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000019c8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000019c8                __exidx_end = .
+                0x000019c8                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x000019c8
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2 = .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2)
+ *(.data.$RamAHB32)
+ *(.data.$RAM2.*)
+ *(.data.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2 = .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+                0x10000000                . = ALIGN (0x4)
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x000019c8
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.Tecla    0x10000000        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                0x10000000                Tecla
+ .data.CodigoAnterior.3725
+                0x10000001        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .data.indice_ad.3665
+                0x10000002        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x10000004                . = ALIGN (0x4)
+ *fill*         0x10000003        0x1 ff
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x000019cc
+ .igot.plt      0x10000004        0x0 ./Primitivas/AP_FuncionesMdeE.o
+
+.bss_RAM2       0x2007c000        0x0
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__start_bss_RAM2 = .)
+ *(.bss.$RAM2)
+ *(.bss.$RamAHB32)
+ *(.bss.$RAM2.*)
+ *(.bss.$RamAHB32.*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2 = .)
+
+.bss            0x10000004     0x1054
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.m_abrir   0x10000004        0x4 ./Primitivas/AP_MdeE.o
+                0x10000004                m_abrir
+ .bss.m_cerrar  0x10000008        0x4 ./Primitivas/AP_MdeE.o
+                0x10000008                m_cerrar
+ .bss.estado.3682
+                0x1000000c        0x4 ./Primitivas/AP_MdeE.o
+ .bss.BufferSalidas
+                0x10000010        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                0x10000010                BufferSalidas
+ .bss.EstadosEstables.3726
+                0x10000014        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ *fill*         0x10000015        0x3 
+ .bss.Tmr_Run   0x10000018       0x78 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                0x10000018                Tmr_Run
+ .bss.TMR_Events
+                0x10000090       0x1e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                0x10000090                TMR_Events
+ *fill*         0x100000ae        0x2 
+ .bss.TMR_StandBy
+                0x100000b0       0x1e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                0x100000b0                TMR_StandBy
+ *fill*         0x100000ce        0x2 
+ .bss.UART0_BufferRx
+                0x100000d0      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss.UART0_BufferTx
+                0x100002d0      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss.UART0_inRX
+                0x100004d0        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss.UART0_inTX
+                0x100004d1        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .bss.UART0_outTX
+                0x100004d2        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ *fill*         0x100004d3        0x1 
+ .bss.UART0_flagTx
+                0x100004d4        0x2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ *fill*         0x100004d6        0x2 
+ .bss.UART1_BufferRx
+                0x100004d8      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss.UART1_BufferTx
+                0x100006d8      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss.UART1_inRX
+                0x100008d8        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss.UART1_inTX
+                0x100008d9        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .bss.UART1_outTX
+                0x100008da        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ *fill*         0x100008db        0x1 
+ .bss.UART1_flagTx
+                0x100008dc        0x2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ *fill*         0x100008de        0x2 
+ .bss.valorADC1
+                0x100008e0      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x100008e0                valorADC1
+ .bss.valorADC2
+                0x10000ae0      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x10000ae0                valorADC2
+ .bss.valorADC5
+                0x10000ce0      0x200 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                0x10000ce0                valorADC5
+ .bss.muestra.3666
+                0x10000ee0        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .bss.lcdDelay  0x10000ee4        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x10000ee4                lcdDelay
+ .bss.lcdBuffer
+                0x10000ee8      0x154 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x10000ee8                lcdBuffer
+ .bss.lcdInxIn  0x1000103c        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x1000103c                lcdInxIn
+ .bss.lcdInxOut
+                0x10001040        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x10001040                lcdInxOut
+ .bss.lcdDataCount
+                0x10001044        0x4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                0x10001044                lcdDataCount
+ .bss.Digito_Display
+                0x10001048        0x6 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                0x10001048                Digito_Display
+ .bss.Indice_Display.3716
+                0x1000104e        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .bss.BufferBuzzer
+                0x1000104f        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                0x1000104f                BufferBuzzer
+ .bss.BufferEntradas
+                0x10001050        0x1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                0x10001050                BufferEntradas
+ *fill*         0x10001051        0x3 
+ .bss.ContadorEntradas.3715
+                0x10001054        0x3 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ *(COMMON)
+                0x10001058                . = ALIGN (0x4)
+ *fill*         0x10001057        0x1 
+                0x10001058                _ebss = .
+                [!provide]                PROVIDE (end = .)
+
+.noinit_RAM2    0x2007c000        0x0
+                0x2007c000                . = ALIGN (0x4)
+ *(.noinit.$RAM2)
+ *(.noinit.$RamAHB32)
+ *(.noinit.$RAM2.*)
+ *(.noinit.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x10001058        0x0
+                0x10001058                . = ALIGN (0x4)
+                0x10001058                _noinit = .
+ *(.noinit*)
+                0x10001058                . = ALIGN (0x4)
+                0x10001058                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74f2                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x00000000                _image_start = LOADADDR (.text)
+                0x000019cc                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x000019cc                _image_size = (_image_end - _image_start)
+OUTPUT(PuertaCorrediza.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x207f
+ .debug_info    0x00000000      0x293 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_info    0x00000293       0x7a ./Primitivas/AP_MdeE.o
+ .debug_info    0x0000030d      0x276 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000583       0x40 ./Driver/crp.o
+ .debug_info    0x000005c3      0x1d5 ./Aplicacion/PuertaCorrediza.o
+ .debug_info    0x00000798      0x185 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_info    0x0000091d       0x70 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_info    0x0000098d      0x123 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_info    0x00000ab0      0x14c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_info    0x00000bfc      0x225 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_info    0x00000e21      0x1a9 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_info    0x00000fca      0x16d C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_info    0x00001137      0x204 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_info    0x0000133b      0x204 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_info    0x0000153f      0x11f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_info    0x0000165e      0x1c1 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_info    0x0000181f      0x23a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_info    0x00001a59       0xa6 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_info    0x00001aff      0x14b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_info    0x00001c4a      0x161 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_info    0x00001dab      0x14c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_info    0x00001ef7      0x188 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_abbrev   0x00000000      0xfb7
+ .debug_abbrev  0x00000000       0xe2 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_abbrev  0x000000e2       0x60 ./Primitivas/AP_MdeE.o
+ .debug_abbrev  0x00000142      0x12a ./Driver/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000026c       0x38 ./Driver/crp.o
+ .debug_abbrev  0x000002a4       0x99 ./Aplicacion/PuertaCorrediza.o
+ .debug_abbrev  0x0000033d       0x91 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_abbrev  0x000003ce       0x52 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_abbrev  0x00000420       0x91 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_abbrev  0x000004b1       0x9e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_abbrev  0x0000054f      0x104 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_abbrev  0x00000653       0xe3 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_abbrev  0x00000736       0xc2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_abbrev  0x000007f8       0xe8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_abbrev  0x000008e0       0xe8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_abbrev  0x000009c8       0xb0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_abbrev  0x00000a78       0xd4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_abbrev  0x00000b4c      0x11b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_abbrev  0x00000c67       0x70 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_abbrev  0x00000cd7       0xa0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_abbrev  0x00000d77       0xc5 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_abbrev  0x00000e3c       0x9e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_abbrev  0x00000eda       0xdd C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_aranges  0x00000000      0x418
+ .debug_aranges
+                0x00000000       0x58 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_aranges
+                0x00000058       0x20 ./Primitivas/AP_MdeE.o
+ .debug_aranges
+                0x00000078       0x80 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x000000f8       0x18 ./Driver/crp.o
+ .debug_aranges
+                0x00000110       0x20 ./Aplicacion/PuertaCorrediza.o
+ .debug_aranges
+                0x00000130       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_aranges
+                0x00000150       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_aranges
+                0x00000170       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_aranges
+                0x00000190       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_aranges
+                0x000001b8       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_aranges
+                0x000001e0       0x30 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_aranges
+                0x00000210       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_aranges
+                0x00000238       0x48 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_aranges
+                0x00000280       0x48 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_aranges
+                0x000002c8       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_aranges
+                0x000002f0       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_aranges
+                0x00000328       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_aranges
+                0x00000360       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_aranges
+                0x00000380       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_aranges
+                0x000003a0       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_aranges
+                0x000003c8       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_aranges
+                0x000003f0       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_ranges   0x00000000      0x2b0
+ .debug_ranges  0x00000000       0x48 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_ranges  0x00000048       0x10 ./Primitivas/AP_MdeE.o
+ .debug_ranges  0x00000058       0x70 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x000000c8       0x10 ./Aplicacion/PuertaCorrediza.o
+ .debug_ranges  0x000000d8       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_ranges  0x000000e8       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_ranges  0x000000f8       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_ranges  0x00000108       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_ranges  0x00000120       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_ranges  0x00000138       0x20 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_ranges  0x00000158       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_ranges  0x00000170       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_ranges  0x000001a8       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_ranges  0x000001e0       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_ranges  0x000001f8       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_ranges  0x00000220       0x28 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_ranges  0x00000248       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_ranges  0x00000258       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_ranges  0x00000268       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_ranges  0x00000280       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_ranges  0x00000298       0x18 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_macro    0x00000000     0x3038
+ .debug_macro   0x00000000      0x176 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000176      0xa9c ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000c12       0x22 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000c34       0x2e ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000c62      0x130 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000d92       0x64 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000df6      0x172 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00000f68      0x196 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000010fe       0x76 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001174      0x118 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x0000128c       0x40 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000012cc       0x16 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000012e2       0x16 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000012f8       0x10 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001308       0x10 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001318       0x10 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001328       0x28 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001350      0x100 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001450       0x40 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x00001490       0x28 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000014b8       0x10 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000014c8       0x1c ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000014e4       0x16 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_macro   0x000014fa       0x23 ./Primitivas/AP_MdeE.o
+ .debug_macro   0x0000151d       0x3a ./Primitivas/AP_MdeE.o
+ .debug_macro   0x00001557       0x1d ./Driver/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00001574       0x1a ./Driver/crp.o
+ .debug_macro   0x0000158e       0x34 ./Driver/crp.o
+ .debug_macro   0x000015c2      0x17f ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x00001741       0x82 ./Aplicacion/PuertaCorrediza.o
+ .debug_macro   0x000017c3       0xed C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x000018b0      0xa66 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00002316       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00002326       0x3a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00002360      0x136 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_macro   0x00002496       0x29 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_macro   0x000024bf      0x112 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_macro   0x000025d1       0xa2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_macro   0x00002673       0x9e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_macro   0x00002711       0xc4 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_macro   0x000027d5       0xad C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x00002882       0x22 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_macro   0x000028a4       0x2e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_macro   0x000028d2       0xf7 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x000029c9       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_macro   0x000029d9       0xa9 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00002a82       0x10 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_macro   0x00002a92       0x5b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_macro   0x00002aed       0x29 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00002b16      0x16c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00002c82       0xa7 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_macro   0x00002d29       0x29 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00002d52       0x5e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00002db0       0xa8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_macro   0x00002e58       0xa3 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_macro   0x00002efb       0x9e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00002f99       0x9f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_line     0x00000000     0x22be
+ .debug_line    0x00000000      0x3d7 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_line    0x000003d7      0x177 ./Primitivas/AP_MdeE.o
+ .debug_line    0x0000054e      0x162 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_line    0x000006b0       0xb4 ./Driver/crp.o
+ .debug_line    0x00000764      0x386 ./Aplicacion/PuertaCorrediza.o
+ .debug_line    0x00000aea      0x1d7 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_line    0x00000cc1       0xf3 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_line    0x00000db4      0x162 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_line    0x00000f16      0x181 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_line    0x00001097      0x1ac C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_line    0x00001243      0x1b2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_line    0x000013f5       0xee C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_line    0x000014e3      0x16b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_line    0x0000164e      0x16b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_line    0x000017b9      0x131 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_line    0x000018ea       0xff C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_line    0x000019e9      0x1ff C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_line    0x00001be8       0xbd C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_line    0x00001ca5      0x177 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_line    0x00001e1c      0x189 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_line    0x00001fa5      0x177 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_line    0x0000211c      0x1a2 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+.debug_str      0x00000000     0x5e61
+ .debug_str     0x00000000     0x4d7c ./Primitivas/AP_FuncionesMdeE.o
+                               0x4dc6 (size before relaxing)
+ .debug_str     0x00004d7c       0x8f ./Primitivas/AP_MdeE.o
+                               0x2e75 (size before relaxing)
+ .debug_str     0x00004e0b      0x1d9 ./Driver/cr_startup_lpc175x_6x.o
+                               0x2f9e (size before relaxing)
+ .debug_str     0x00004fe4       0xec ./Driver/crp.o
+                               0x2eab (size before relaxing)
+ .debug_str     0x000050d0      0x46e ./Aplicacion/PuertaCorrediza.o
+                               0x51f1 (size before relaxing)
+ .debug_str     0x0000553e      0x1b7 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                               0x4374 (size before relaxing)
+ .debug_str     0x000056f5       0x1f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+                               0x32e2 (size before relaxing)
+ .debug_str     0x00005714       0x1f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+                               0x3d28 (size before relaxing)
+ .debug_str     0x00005733       0x37 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                               0x3d52 (size before relaxing)
+ .debug_str     0x0000576a       0x4c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                               0x3ed3 (size before relaxing)
+ .debug_str     0x000057b6       0x84 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                               0x3db1 (size before relaxing)
+ .debug_str     0x0000583a       0x2d C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                               0x2e20 (size before relaxing)
+ .debug_str     0x00005867      0x321 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                               0x4117 (size before relaxing)
+ .debug_str     0x00005b88       0xc3 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                               0x3fe7 (size before relaxing)
+ .debug_str     0x00005c4b       0x40 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                               0x428f (size before relaxing)
+ .debug_str     0x00005c8b       0x4a C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                               0x3237 (size before relaxing)
+ .debug_str     0x00005cd5       0x74 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                               0x3e09 (size before relaxing)
+ .debug_str     0x00005d49       0x29 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+                               0x2ee3 (size before relaxing)
+ .debug_str     0x00005d72       0x21 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+                               0x3d60 (size before relaxing)
+ .debug_str     0x00005d93       0x4f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                               0x3d36 (size before relaxing)
+ .debug_str     0x00005de2       0x34 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                               0x3d4d (size before relaxing)
+ .debug_str     0x00005e16       0x4b C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                               0x3d32 (size before relaxing)
+
+.comment        0x00000000       0xf3
+ .comment       0x00000000       0x75 ./Primitivas/AP_FuncionesMdeE.o
+                                 0x76 (size before relaxing)
+ .comment       0x00000075       0x76 ./Primitivas/AP_MdeE.o
+ .comment       0x00000075       0x76 ./Driver/cr_startup_lpc175x_6x.o
+ .comment       0x00000075       0x76 ./Driver/crp.o
+ .comment       0x00000075       0x76 ./Aplicacion/PuertaCorrediza.o
+ .comment       0x00000075       0x7e C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                                 0x7f (size before relaxing)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .comment       0x000000f3       0x7f C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .comment       0x000000f3       0x76 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2d ./Primitivas/AP_FuncionesMdeE.o
+ .ARM.attributes
+                0x0000002d       0x2d ./Primitivas/AP_MdeE.o
+ .ARM.attributes
+                0x0000005a       0x2d ./Driver/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x00000087       0x33 ./Driver/crp.o
+ .ARM.attributes
+                0x000000ba       0x2d ./Aplicacion/PuertaCorrediza.o
+ .ARM.attributes
+                0x000000e7       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .ARM.attributes
+                0x0000011a       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .ARM.attributes
+                0x0000014d       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .ARM.attributes
+                0x00000180       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .ARM.attributes
+                0x000001b3       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .ARM.attributes
+                0x000001e6       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .ARM.attributes
+                0x00000219       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .ARM.attributes
+                0x0000024c       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .ARM.attributes
+                0x0000027f       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .ARM.attributes
+                0x000002b2       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .ARM.attributes
+                0x000002e5       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .ARM.attributes
+                0x00000318       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .ARM.attributes
+                0x0000034b       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .ARM.attributes
+                0x0000037e       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .ARM.attributes
+                0x000003b1       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .ARM.attributes
+                0x000003e4       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .ARM.attributes
+                0x00000417       0x33 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+ .ARM.attributes
+                0x0000044a       0x2d c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x9b8
+ .debug_frame   0x00000000      0x110 ./Primitivas/AP_FuncionesMdeE.o
+ .debug_frame   0x00000110       0x2c ./Primitivas/AP_MdeE.o
+ .debug_frame   0x0000013c      0x170 ./Driver/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000002ac       0x2c ./Aplicacion/PuertaCorrediza.o
+ .debug_frame   0x000002d8       0x2c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+ .debug_frame   0x00000304       0x30 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+ .debug_frame   0x00000334       0x2c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+ .debug_frame   0x00000360       0x48 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+ .debug_frame   0x000003a8       0x4c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ .debug_frame   0x000003f4       0x74 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+ .debug_frame   0x00000468       0x5c C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+ .debug_frame   0x000004c4       0xf8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+ .debug_frame   0x000005bc       0xf8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+ .debug_frame   0x000006b4       0x54 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+ .debug_frame   0x00000708       0xb0 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+ .debug_frame   0x000007b8       0xa8 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+ .debug_frame   0x00000860       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+ .debug_frame   0x00000898       0x38 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+ .debug_frame   0x000008d0       0x50 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+ .debug_frame   0x00000920       0x48 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_frame   0x00000968       0x50 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                                                  ./Driver/cr_startup_lpc175x_6x.o
+AnalizarTimers                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+ApagarRele1                                       ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+ApagarRele2                                       ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+BOD_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+BarridoDisplay                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+BufferBuzzer                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+BufferEntradas                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+BufferSalidas                                     C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+BusFault_Handler                                  ./Driver/cr_startup_lpc175x_6x.o
+CANActivity_IRQHandler                            ./Driver/cr_startup_lpc175x_6x.o
+CAN_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+CRP_WORD                                          ./Driver/crp.o
+DMA_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+DebounceEntradas                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+DebugMon_Handler                                  ./Driver/cr_startup_lpc175x_6x.o
+Digito_Display                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+DriverTecladoHW                                   C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+DriverTecladoSW                                   C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+EINT0_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+EINT1_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+EINT2_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+EINT3_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+ENET_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+EscrituraLCD                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+GetPIN                                            C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                                                  ./Primitivas/AP_FuncionesMdeE.o
+HardFault_Handler                                 ./Driver/cr_startup_lpc175x_6x.o
+HayPresencia                                      ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+I2C0_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+I2C1_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+I2C2_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+I2S_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+Inicializacion                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                                                  ./Aplicacion/PuertaCorrediza.o
+InicializarADC                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarBuzzer                                 C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarDisplayExp2                            C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarEntradas                               C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarLCD                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarPLL                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_PLL.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarRGB                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarSalidas                                C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+                                                  ./Aplicacion/PuertaCorrediza.o
+InicializarSysTick                                C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+InicializarTeclado                                C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+IntDefaultHandler                                 ./Driver/cr_startup_lpc175x_6x.o
+LCD_Pop                                           C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+LCD_Push                                          C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+MCPWM_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+MemManage_Handler                                 ./Driver/cr_startup_lpc175x_6x.o
+NMI_Handler                                       ./Driver/cr_startup_lpc175x_6x.o
+NoHayPresencia                                    ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+PLL0_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+PLL1_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+PWM1_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+PendSV_Handler                                    ./Driver/cr_startup_lpc175x_6x.o
+PrenderRele1                                      ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+PrenderRele2                                      ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+QEI_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+RIT_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+RTC_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+RefrescoBuzzer                                    C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+RefrescoSalidas                                   C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+Relays                                            C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(PR_Relays.o)
+                                                  ./Primitivas/AP_FuncionesMdeE.o
+ResetISR                                          ./Driver/cr_startup_lpc175x_6x.o
+SPI_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+SSP0_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+SSP1_IRQHandler                                   ./Driver/cr_startup_lpc175x_6x.o
+SVC_Handler                                       ./Driver/cr_startup_lpc175x_6x.o
+SetDIR                                            C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+SetMODE                                           C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+SetPIN                                            C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_7seg.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+SetPINSEL                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_pinsel.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Salidas.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_RGB.o)
+SysTick_Handler                                   C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_SysTick.o)
+                                                  ./Driver/cr_startup_lpc175x_6x.o
+TIMER0_IRQHandler                                 ./Driver/cr_startup_lpc175x_6x.o
+TIMER1_IRQHandler                                 ./Driver/cr_startup_lpc175x_6x.o
+TIMER2_IRQHandler                                 ./Driver/cr_startup_lpc175x_6x.o
+TIMER3_IRQHandler                                 ./Driver/cr_startup_lpc175x_6x.o
+TMR_Events                                        C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+TMR_StandBy                                       C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+TMR_handlers                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+Tecla                                             C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Teclado.o)
+TimerEvent                                        C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+Tmr_Base                                          C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+Tmr_Run                                           C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Timers.o)
+UART0_IRQHandler                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                                                  ./Driver/cr_startup_lpc175x_6x.o
+UART0_Inicializacion                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+UART0_PopRX                                       C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+UART0_PopTX                                       C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+UART0_PushRX                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+UART0_PushTX                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART0.o)
+UART1_IRQHandler                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                                                  ./Driver/cr_startup_lpc175x_6x.o
+UART1_Inicializacion                              C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+                                                  C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_Inicializacion.o)
+UART1_PopRX                                       C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+UART1_PopTX                                       C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+UART1_PushRX                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+UART1_PushTX                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_UART1.o)
+UART2_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+UART3_IRQHandler                                  ./Driver/cr_startup_lpc175x_6x.o
+USBActivity_IRQHandler                            ./Driver/cr_startup_lpc175x_6x.o
+USB_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+UsageFault_Handler                                ./Driver/cr_startup_lpc175x_6x.o
+WDT_IRQHandler                                    ./Driver/cr_startup_lpc175x_6x.o
+__bss_section_table_end                           ./Driver/cr_startup_lpc175x_6x.o
+__data_section_table                              ./Driver/cr_startup_lpc175x_6x.o
+__data_section_table_end                          ./Driver/cr_startup_lpc175x_6x.o
+__main                                            c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                                                  ./Driver/cr_startup_lpc175x_6x.o
+__valid_user_code_checksum                        ./Driver/cr_startup_lpc175x_6x.o
+__weak_main                                       c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+_vStackTop                                        ./Driver/cr_startup_lpc175x_6x.o
+abrio                                             ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+bss_init                                          ./Driver/cr_startup_lpc175x_6x.o
+cerro                                             ./Primitivas/AP_FuncionesMdeE.o
+                                                  ./Primitivas/AP_MdeE.o
+data_init                                         ./Driver/cr_startup_lpc175x_6x.o
+g_pfnVectors                                      ./Driver/cr_startup_lpc175x_6x.o
+lcdBuffer                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+lcdDataCount                                      C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+lcdDelay                                          C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+lcdInxIn                                          C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+lcdInxOut                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_lcd.o)
+m_abrir                                           ./Primitivas/AP_MdeE.o
+m_cerrar                                          ./Primitivas/AP_MdeE.o
+main                                              ./Aplicacion/PuertaCorrediza.o
+                                                  c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+maquina_puerta                                    ./Primitivas/AP_MdeE.o
+                                                  ./Aplicacion/PuertaCorrediza.o
+valorADC1                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+valorADC2                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
+valorADC5                                         C:\Users\nicoc\Documents\MCUXpressoIDE_11.0.0_2516\workspace\PuertaCorrediza\Biblioteca info 2 LPC\libBibliotecaInfoII.a(DR_adc.o)
