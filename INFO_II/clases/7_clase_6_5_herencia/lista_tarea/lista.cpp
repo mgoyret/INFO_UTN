@@ -65,6 +65,7 @@ int lista::insertar(int num)
             cantidad++;
             exit = aux2->valor;
         }
+    }
 /*///////////   VIEJO   //////////////
         if(((aux1 = new nodo) != nullptr) && ((aux2 = new nodo) != nullptr))
         {

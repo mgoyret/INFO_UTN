@@ -76,7 +76,7 @@ int main (int argc, char** argv)
                     printf("ERROR [4]\n");
             }
             else
-                printf("ERROR [3]\n");
+                printf("ERROR n[3] - qid = %d\n", qid);
         }
         else
             printf("ERROR [2]\n");

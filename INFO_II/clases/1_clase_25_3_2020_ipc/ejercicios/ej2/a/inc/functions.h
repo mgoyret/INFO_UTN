@@ -20,7 +20,7 @@
 /* 1. Defines para comodidad de indentacion */
 #define MAX     30
 #define TOTAL   (30*3)+8+1
-#define END     -1
+#define END     0
 
 /* 2. Estrructura a enviar a la cola de mensajes */
 typedef struct qmsg
