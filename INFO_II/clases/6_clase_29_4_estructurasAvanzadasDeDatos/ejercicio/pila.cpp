@@ -49,9 +49,9 @@ pila::pila(const pila &orig)
 
 pila::~pila()
 {
-    int i = 0;
+    int i = 0, auxCant = cantidad;
 
-    while(i < cantidad)
+    while(i < auxCant)
     {
         RetirarElemento();
         i++;

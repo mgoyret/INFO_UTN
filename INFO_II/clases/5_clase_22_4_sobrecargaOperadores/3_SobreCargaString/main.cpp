@@ -9,16 +9,19 @@ int main()
     cadena otro = "hola";
     cadena final;
 
-    if(miCadena == otro)
+    if(miCadena != otro)
     {
 
-        cout<<"son iguales" << endl;
+        cout<<"son diferentes" << endl;
     }
     else
-    cout<<"son diferentes" << endl;
+        cout<<"son iguales" << endl;
+
+
     miCadena.view();
     otro.view();
     final = miCadena + otro;
     final.view();
+
     return 0;
 }

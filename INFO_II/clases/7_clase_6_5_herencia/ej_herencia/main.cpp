@@ -28,7 +28,6 @@ int main()
 
     cout << " objC: "<<endl;
     c.Base::display();
-    cout << " objC: "<<endl;
     cout << "z = " << c.getZ() << endl;
     cout << "setear \"z\" a: ";
     cin >> num;

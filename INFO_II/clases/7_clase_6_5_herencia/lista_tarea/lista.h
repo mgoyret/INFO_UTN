@@ -1,6 +1,6 @@
 /*
     Lista contará con un método público denominado: int insertar (int); el cual recibe el dato y lo
-    insertará de forma ordenada, si se produce error devuelve -1
+    insertará de forma ordenada (de menor a mayor), si se produce error devuelve -1
 */
 
 #ifndef LISTA_H
