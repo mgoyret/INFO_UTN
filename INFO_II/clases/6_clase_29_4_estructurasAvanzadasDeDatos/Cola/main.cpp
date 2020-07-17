@@ -91,6 +91,13 @@ int main()
 
     cout << "-----------------------------------" << endl;
 
+    // Para probar destructor
+    cout << "Creo nodo con 1, 2, 4" << endl;
+    MiCola.AgregarElemento(1);
+    MiCola.AgregarElemento(2);
+    MiCola.AgregarElemento(4);
+    MiCola.Listar();
+
 
 
 

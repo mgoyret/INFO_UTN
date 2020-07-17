@@ -17,7 +17,7 @@ private:
     nodo *h;
 
 public:
-    //constructor
+    //constructor por defecto
     Cola():cantidad(0),h(nullptr){}
 
     //constructor sobrecargado
@@ -33,7 +33,7 @@ public:
 
     int AgregarElemento(int);
     int RetirarElemento();
-    //void Liberar();
+    void Liberar();
     bool EstaVacio();
     void Listar();
 

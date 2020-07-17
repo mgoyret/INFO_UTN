@@ -31,61 +31,44 @@ int lista::insertar(int num)
         //es el primer dato, no importa si lo coloco delante o detras
         AgregarDelante(num);
     }
-    //chequeo si debo agregarlo al final
-    aux1 = h;
-    while(aux1->sig != nullptr)
+    else
     {
-        aux1 = aux1->sig;
-    }
-
-    if(aux1->valor < num)
-    {
-        exit = AgregarFinal(num);
-    }
-    else if (h->valor > num)
-    {
-        exit = AgregarDelante(num);
-    }
-    else if (cantidad > 1)
-    {   
-        //nesecitare aux2 si o si, por lo que si falla new() ya corto la funcion, total no funcionara
-        if((aux2 = new nodo) != nullptr)
+        //chequeo si debo agregarlo al final
+        aux1 = h;
+        while(aux1->sig != nullptr)
         {
-            aux1 = h;
-            while (aux1->valor < num)
+            aux1 = aux1->sig;
+        }
+
+        if(aux1->valor < num)
+        {
+            exit = AgregarFinal(num);
+        }
+        else if (h->valor > num)
+        {
+            exit = AgregarDelante(num);
+        }
+        else if (cantidad > 1)
+        {
+            //nesecitare aux2 si o si, por lo que si falla new() ya corto la funcion, total no funcionara
+            if((aux2 = new nodo) != nullptr)
             {
-                if((aux1->sig)->valor > num)
-                    break;
-                aux1 = aux1->sig;
+                aux1 = h;
+                while (aux1->valor < num)
+                {
+                    if((aux1->sig)->valor > num)
+                        break;
+                    aux1 = aux1->sig;
+                }
+                // el siguiente a aux1 tiene valor mas grande que num, debo agregar num seguido de aux1
+                aux2->valor = num;
+                aux2->sig = aux1->sig;
+                aux1->sig = aux2;
+                cantidad++;
+                exit = aux2->valor;
             }
-            // el siguiente a aux1 tiene valor mas grande que num, debo agregar num seguido de aux1
-            aux2->valor = num;
-            aux2->sig = aux1->sig;
-            aux1->sig = aux2;
-            cantidad++;
-            exit = aux2->valor;
         }
     }
-/*///////////   VIEJO   //////////////
-        if(((aux1 = new nodo) != nullptr) && ((aux2 = new nodo) != nullptr))
-        {
-            aux1 = h;
-            while (aux1->valor < num)
-            {
-                if((aux1->sig)->valor > num)
-                    break;
-                aux1 = aux1->sig;
-            }
-            // el siguiente a aux1 tiene valor mas grande que num, debo agregar num seguido de aux1
-            aux2->valor = num;
-            aux2->sig = aux1->sig;
-            aux1->sig = aux2;
-            cantidad++;
-            exit = aux2->valor;
-        }
-/////////////////////////////////////////
-*/
-
     //retorna el valor agregado, o -1 en caso de error
     return exit;
 }

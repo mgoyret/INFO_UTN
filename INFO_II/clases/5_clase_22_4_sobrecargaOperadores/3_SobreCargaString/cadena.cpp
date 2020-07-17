@@ -40,18 +40,17 @@ void cadena::setcad(const char* c)
     nchar = strlen(c);
     delete [] pstr;
     pstr = new char[nchar + 1];
+    memset(pstr, '\0', nchar+1);
     strcpy(pstr, c);
-
 }
 
 void cadena::view()
 {
-
     cout << pstr << endl;
 }
 
 // operador de asignación
-//sobrecargado (=) cadena&
+// sobrecargado (=) cadena&
 cadena& cadena::operator= (const cadena& cd)
 {
     if(*this != cd)
@@ -62,7 +61,6 @@ cadena& cadena::operator= (const cadena& cd)
         strcpy(pstr, cd.pstr);
     }
     return *this;
-
 }
 /*
 //operadores para concatenar cadenas
@@ -86,7 +84,7 @@ cadena operator+ (const cadena& c1, const cadena& c2)
     strcpy(res.pstr, c1.pstr);
     strcat(res.pstr, c2.pstr);
 
-    return(res);
+    return res;
 }
 
 cadena operator+ (const cadena& a, const char*ch)
@@ -119,12 +117,7 @@ int operator== (const cadena& c1, const cadena& c2)
 
 int operator!= (const cadena& c1, const cadena& c2)
 {
-    int dif = strcmp(c1.pstr, c2.pstr);
-
-    if(dif<0)
-        return (-1);
-
-    if(dif==0)
+    if( !strcmp(c1.pstr, c2.pstr) )
         return 0;
     else
         return 1;

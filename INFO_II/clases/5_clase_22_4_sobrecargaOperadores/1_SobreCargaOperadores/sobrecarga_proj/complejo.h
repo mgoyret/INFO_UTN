@@ -20,7 +20,8 @@ public:
     ~Complejo();                                            // Destructor
 
     // Metodos o funciones miembro de la clase
-    inline void SetComplejo(float x, float y){
+    inline void SetComplejo(float x, float y)
+    {
         real = x;
         imag = y;
     }
