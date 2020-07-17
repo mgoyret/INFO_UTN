@@ -34,7 +34,9 @@ void build_msg(qmsg* msg, char *line)
     token = strtok(NULL, "\n");
     strcpy(msg->apellido, token);
 
-    msg->type = (long)msg->area;
+    /* Al sumarle '1' me aseguro que ningun msg.type sera 1 ya que ningun area vale 0. Asi, el msg.type 1
+        queda reservado para el fin de cola */
+    msg->type = (long)msg->area + 1;
 }
 
 /**
@@ -47,7 +49,9 @@ void build_msg(qmsg* msg, char *line)
 
 void clean_struct(qmsg* msg)
 {
-    msg->type = 0;
+    /* El type nunca debe ser negativo, pero esto es solo para limpiar la estructura
+        Al llegar cualquier mensaje, el type se modificara a un numero mayor o igual que 0 */
+    msg->type = -1; 
     memset(msg->legajo, '\0', MAX);
     msg->area = 0;
     memset(msg->nombre, '\0', MAX);

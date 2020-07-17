@@ -18,23 +18,20 @@
 int main (int argc, char** argv)
 {
     key_t qkey;
-    int qid, i = 0;
+    int qid, i = 0, aux;
     qmsg msg;
     FILE* fp;
     char line[TOTAL];
 
     if(argc == 2)
     {
-        /* 1. Doy tiempo a arrancar prog2 */
-        sleep(2);
-
-        /* 2. Igual que en cualquier recurso compartido (memoria compartida, semaforos o colas) se obtiene una clave a partir de
+        /* 1. Igual que en cualquier recurso compartido (memoria compartida, semaforos o colas) se obtiene una clave a partir de
             un archivo existente cualquiera y de un entero cualquiera. Todos los procesos que quieran compartir este semaforo,
             deben usar el mismo archivo y el mismo entero */
-        qkey = ftok("../key.txt", 10);
+        qkey = ftok("../key.txt", 15);
         if (qkey != (key_t)-1)
         {
-            /* 3. Se crea la cola de mensajes y se obtiene un identificador para ella. El IPC_CREAT indica que cree la cola de mensajes si no lo está ya.
+            /* 2. Se crea la cola de mensajes y se obtiene un identificador para ella. El IPC_CREAT indica que cree la cola de mensajes si no lo está ya.
                 El 0600 son permisos de lectura y escritura para el usuario que inicie los procesos. Es importante el 0 delante para que se interprete en octal */
             qid = msgget(qkey, 0600 | IPC_CREAT);
             if (qid != -1)
@@ -44,7 +41,7 @@ int main (int argc, char** argv)
                 {
                     while(!feof(fp))
                     {
-                        /* 4. La ultima vuelta el fgets toma 0 bytes, cuando encuentra el EOF */
+                        /* 3. La ultima vuelta el fgets toma 0 bytes, cuando encuentra el EOF */
                         if(fgets(line, TOTAL, fp) > 0)
                         {
                             build_msg(&msg, line);
@@ -59,14 +56,20 @@ int main (int argc, char** argv)
                             printf("FIN DEL ARCHIVO\n");
                             clean_struct(&msg);
                             msg.type = END;
-
-                            /* 5. Se envia el mensaje. Los parámetros son:
+                            
+                            /* 4. Se envia el mensaje. Los parámetros son:
                                 - Id de la cola de mensajes.
                                 - Dirección al mensaje, convirtiéndola en puntero a (struct msgbuf*)
                                 - Tamaño total de los campos de datos de nuestro mensaje, es decir de Dato_Numerico y de Mensaje
                                 - Unos flags. IPC_NOWAIT indica que si el mensaje no se puede enviar (habitualmente porque la cola de mensajes esta llena),
                                     que no espere y de un error. Si no se pone este flag, el programa queda bloqueado hasta que se pueda enviar el mensaje */
-                            msgsnd(qid, (struct msgbuf*)&msg, sizeof(msg.legajo)+sizeof(msg.area)+sizeof(msg.nombre)+sizeof(msg.apellido), IPC_NOWAIT);
+                            aux = msgsnd(qid, (struct msgbuf*)&msg, sizeof(msg.legajo)+sizeof(msg.area)+sizeof(msg.nombre)+sizeof(msg.apellido), IPC_NOWAIT);
+                            if( !aux )
+                            {
+                                printf("END enviado\n");
+                            }
+                            else
+                                printf("Error al enviar END. [aux = %d]\n", aux);
                         }
                     }
 
