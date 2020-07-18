@@ -20,14 +20,15 @@ class PRODUCTOenSTOCK: public Producto
             if(Proveedor != nullptr)
             {
                 memset(Proveedor, '\0', strlen("proveedor")+1);
+                strcpy(Proveedor, "sin proveedor");
             }
         }
 
 
-        PRODUCTOenSTOCK(char*, int, unsigned int, char*, int, int, int);
+        PRODUCTOenSTOCK(char*, int, unsigned int, char*, Fecha);
         PRODUCTOenSTOCK(PRODUCTOenSTOCK&);
 
-        void Set_Datos(char*, int, unsigned int, char*, int, int, int);
+        void Set_Datos(char*, int, unsigned int, char*, Fecha);
 
         PRODUCTOenSTOCK operator++(int);
         PRODUCTOenSTOCK operator--(int);

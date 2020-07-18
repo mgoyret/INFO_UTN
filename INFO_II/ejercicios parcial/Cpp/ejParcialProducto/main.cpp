@@ -47,13 +47,15 @@ int main()
     cout << "nombre: ";
     cin>>name;
     clean();
-    PRODUCTOenSTOCK p, q(name, 15, 1, name, 2, 2, 11);
+    Fecha fechaMain(2, 2, 11);
+    PRODUCTOenSTOCK p, q(name, 15, 1, name, fechaMain);
     cout << "5. " << p;
     cout << "6. " << q;
 
     PRODUCTOenSTOCK r(q);
     cout << "7. " << q;
-    p.Set_Datos(name, 199, 4, name, 11, 10, 1999);
+    Fecha nuevaFecha(11, 10, 1999);
+    p.Set_Datos(name, 199, 4, name, nuevaFecha);
     cout << "8. " << p;
     p++; p++;
     cout << "9. " << p;

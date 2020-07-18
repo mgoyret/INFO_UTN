@@ -13,8 +13,10 @@ inline PRODUCTOenSTOCK::PRODUCTOenSTOCK(): Producto(nullptr, 0), fecha_compra(1,
 }
 */
 /* Constructor parametrizado */
-PRODUCTOenSTOCK::PRODUCTOenSTOCK(char* pName, int pCod, unsigned int cant, char* prov, int d, int m, int a):
-                                                                                          Producto(pName, pCod), fecha_compra(d, m, a)
+
+
+PRODUCTOenSTOCK::PRODUCTOenSTOCK(char* pName, int pCod, unsigned int cant, char* prov, Fecha fechaMain):
+                                                                                       Producto(pName, pCod), fecha_compra(fechaMain)
 {
     Cantidad = cant;
     Proveedor = new char[strlen(prov)+1];
@@ -31,15 +33,17 @@ PRODUCTOenSTOCK::PRODUCTOenSTOCK(PRODUCTOenSTOCK& p): Producto(p.Get_Nombre(), p
         strcpy(Proveedor, p.Proveedor);
 }
 
-void PRODUCTOenSTOCK::Set_Datos(char* pName, int pCod, unsigned int cant, char* prov, int d, int m, int a)
+void PRODUCTOenSTOCK::Set_Datos(char* pName, int pCod, unsigned int cant, char* prov, Fecha nuevaFecha)
 {
     Producto::Set_Nombre(pName);
     codigo = pCod;
     Cantidad = cant;
+    fecha_compra=nuevaFecha;
+    if(Proveedor != nullptr)
+        delete[] Proveedor;
     Proveedor = new char[strlen(prov)+1];
     if(Proveedor != nullptr)
         strcpy(Proveedor, prov);
-    fecha_compra=Fecha(d, m, a);
 }
 
 PRODUCTOenSTOCK PRODUCTOenSTOCK::operator++(int)

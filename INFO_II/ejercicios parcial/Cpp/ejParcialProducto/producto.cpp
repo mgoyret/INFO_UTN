@@ -30,7 +30,7 @@ void Producto::Set_Datos(char* nom, int cod)
 void Producto::Set_Nombre (char* nom)
 {
     if(nombre != nullptr)
-        delete nombre;
+        delete[] nombre;
     if(nom != nullptr)
     {
         nombre = new char [strlen(nom)+1];
@@ -39,8 +39,11 @@ void Producto::Set_Nombre (char* nom)
     }else
     {
         nombre = new char [strlen("sin nombre")+1];
-        memset(nombre, '\0', strlen("sin nombre")+1);
-        strcpy(nombre, "sin nombre");
+        if(nombre != nullptr)
+        {
+            memset(nombre, '\0', strlen("sin nombre")+1);
+            strcpy(nombre, "sin nombre");
+        }
     }
 }
 
