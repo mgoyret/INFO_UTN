@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <pthread.h>
 
+
 // NOTA: compilar con -lpthread
 
 

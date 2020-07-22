@@ -11,8 +11,18 @@
 
 #define MSGTAM  100
 
+#define TEMPERATURA 1
+#define PRESION     2
+#define HUMEDAD     3
+
+
 typedef struct msg
 {
     long type;
-    char msg[MSGTAM];
+    long data;
 }msg;
+
+struct datos {
+    char tipo_sensor;
+    long data;
+};

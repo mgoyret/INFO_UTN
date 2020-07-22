@@ -3,8 +3,8 @@
 int main(int argc, char* argv[])
 {
     key_t key;
-    int qid;
     msg miMsg;
+    int qid;
 
     key = ftok(KEYPATH, KEYNUM);
     if (key == (key_t)-1)
@@ -19,17 +19,11 @@ int main(int argc, char* argv[])
         exit (-1);
     }
 
-    do
-    {
-        if((msgrcv(qid, (struct msgbuf*)&miMsg, sizeof(msg)-sizeof(miMsg.type), 0, 0)) > 0)
-        printf("recivi: %s\n", miMsg.msg);   
-    } while (strcmp(miMsg.msg, "fin"));
-    if(msgctl(qid, IPC_RMID, NULL)==-1)
-    {
-        perror("error deleting message queue\n");
-        exit(1);
-    }else
-        printf("FIN - cola eliminada\n"); 
+    while(msgrcv(qid, (struct msgbuf*)&miMsg, sizeof(msg)-sizeof(miMsg.type), PRESION, IPC_NOWAIT) != -1)
+        printf("recivi: tipo [%ld] - data [%ld]\n", miMsg.type, miMsg.data);   
+
+
+    printf("FIN\n"); 
 
     return 0;
 }
