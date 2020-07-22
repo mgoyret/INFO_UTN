@@ -6,7 +6,6 @@
 #include <sys/sem.h>
 
 // NOTA: compilar con -lpthread
-
 #define FILE1   "Archivo1"
 #define FILE2   "Archivo2"
 #define KEYFILE "key"
@@ -14,7 +13,7 @@
 
 #define LINE_MAX    32
 
-// Estructura para semaforo
+// Union para semaforo
 union semun {
   int              val;    /* Value for SETVAL */
   struct semid_ds *buf;    /* Buffer for IPC_STAT, IPC_SET */
