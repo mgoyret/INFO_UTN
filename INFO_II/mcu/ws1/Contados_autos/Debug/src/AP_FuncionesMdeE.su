@@ -1,0 +1,6 @@
+AP_FuncionesMdeE.c:91:5:Sensor1	16	static
+AP_FuncionesMdeE.c:109:5:Sensor2	16	static
+AP_FuncionesMdeE.c:127:6:Timer10	4	static
+AP_FuncionesMdeE.c:145:6:EnciendoSirena	8	static
+AP_FuncionesMdeE.c:159:6:ApagoSirena	8	static
+AP_FuncionesMdeE.c:173:6:Iniciotimer10	8	static

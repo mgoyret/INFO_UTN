@@ -1,0 +1,8 @@
+AP_FuncionesMdeE.c:87:5:HayPresencia	16	static
+AP_FuncionesMdeE.c:104:5:NoHayPresencia	16	static
+AP_FuncionesMdeE.c:123:5:cerro	16	static
+AP_FuncionesMdeE.c:140:5:abrio	16	static
+AP_FuncionesMdeE.c:152:6:PrenderRele1	8	static
+AP_FuncionesMdeE.c:164:6:ApagarRele1	8	static
+AP_FuncionesMdeE.c:176:6:PrenderRele2	8	static
+AP_FuncionesMdeE.c:188:6:ApagarRele2	8	static

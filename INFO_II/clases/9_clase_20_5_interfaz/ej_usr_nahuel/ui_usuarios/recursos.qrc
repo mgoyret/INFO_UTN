@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/imagenes">
-        <file>img/cog.png</file>
-        <file>img/computer.png</file>
-        <file>img/delete.png</file>
-        <file>img/hammer.png</file>
-        <file>img/keyboard.png</file>
-    </qresource>
-</RCC>

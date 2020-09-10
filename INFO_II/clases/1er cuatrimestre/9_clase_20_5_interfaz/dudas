@@ -1,0 +1,7 @@
+no entiendo por que los metaobjetos se generan como cpp aparte e inclusive se compilan aparte generando un ejecutable propio
+
+un slot puede ser public, private o pretected. Pero afectara si es llamada como funcion, no como slot. NO ENTENDI ESTO
+
+por que en el .h de la clase mainwindow el *ui se hace lo del namespace. No se podria escribir directamente MainWindow *ui ya que ya sabe que la clase se llama asi
+
+

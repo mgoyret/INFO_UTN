@@ -1,0 +1,9 @@
+funciones.c:10:6:inicializar	8	static
+funciones.c:17:9:checkExt	16	static
+funciones.c:25:9:checkInt	16	static
+funciones.c:37:6:reset_control_autos	4	static
+funciones.c:48:6:prenderAlarma	8	static
+funciones.c:53:6:apagarAlarma	8	static
+funciones.c:58:6:IniciarTimer0_10S	8	static
+funciones.c:64:6:timerHandler	4	static
+funciones.c:69:6:reset_alarma	8	static

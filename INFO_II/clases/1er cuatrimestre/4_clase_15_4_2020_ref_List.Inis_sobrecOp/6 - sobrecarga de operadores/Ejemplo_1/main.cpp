@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+class A
+{
+
+    public:
+        A(int i=0) : a(i) {}    // Constructor sobrecargado
+
+        void Ver() { cout << "Metodo de la clase: " << a << endl; }
+
+    private:
+        int a;
+
+        friend void Ver(A); // "Ver" es amiga de la clase A
+};
+
+
+void Ver(A Xa)
+{
+   // La función Ver puede acceder a miembros privados
+   // de la clase A, ya que ha sido declarada "amiga" de A
+
+   cout << "Funcion amiga: " << Xa.a << endl;
+}
+
+int main()
+{
+    A Na(10);
+
+    Ver(Na);  // Ver el valor de Na.a
+    Na.Ver(); // Equivalente a la anterior
+
+    return 0;
+}
+

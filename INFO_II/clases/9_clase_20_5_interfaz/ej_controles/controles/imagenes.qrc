@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/misRecursos">
-        <file alias="logo">UTN_logo.jpg</file>
-    </qresource>
-</RCC>

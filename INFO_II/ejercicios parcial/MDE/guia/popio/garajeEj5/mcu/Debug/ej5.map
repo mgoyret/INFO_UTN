@@ -1,0 +1,1007 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+                              ./src/funciones.o (Buzzer)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+                              ./src/funciones.o (Entradas)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                              ./src/funciones.o (TimerStart)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+                              C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o) (BufferBuzzer)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+                              C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o) (BufferEntradas)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                              C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o) (Tmr_Run)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+                              C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o) (SetDIR)
+C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+                              C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o) (SetPINSEL)
+c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc175x_6x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./src/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0xc ./src/crp.o
+ .group         0x00000000        0xc ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .debug_macro   0x00000000      0xa9c ./src/crp.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .group         0x00000000        0xc ./src/ej5.o
+ .text          0x00000000        0x0 ./src/ej5.o
+ .data          0x00000000        0x0 ./src/ej5.o
+ .bss           0x00000000        0x0 ./src/ej5.o
+ .debug_macro   0x00000000      0xa9c ./src/ej5.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .group         0x00000000        0xc ./src/funciones.o
+ .text          0x00000000        0x0 ./src/funciones.o
+ .data          0x00000000        0x0 ./src/funciones.o
+ .bss           0x00000000        0x0 ./src/funciones.o
+ .debug_macro   0x00000000      0xa9c ./src/funciones.o
+ .debug_macro   0x00000000       0x2e ./src/funciones.o
+ .debug_macro   0x00000000      0x130 ./src/funciones.o
+ .debug_macro   0x00000000       0x64 ./src/funciones.o
+ .debug_macro   0x00000000      0x172 ./src/funciones.o
+ .debug_macro   0x00000000      0x196 ./src/funciones.o
+ .debug_macro   0x00000000       0x76 ./src/funciones.o
+ .debug_macro   0x00000000      0x118 ./src/funciones.o
+ .debug_macro   0x00000000       0x40 ./src/funciones.o
+ .debug_macro   0x00000000       0x16 ./src/funciones.o
+ .debug_macro   0x00000000       0x16 ./src/funciones.o
+ .debug_macro   0x00000000       0x10 ./src/funciones.o
+ .debug_macro   0x00000000       0x10 ./src/funciones.o
+ .debug_macro   0x00000000       0x10 ./src/funciones.o
+ .debug_macro   0x00000000       0x28 ./src/funciones.o
+ .debug_macro   0x00000000      0x100 ./src/funciones.o
+ .debug_macro   0x00000000       0x40 ./src/funciones.o
+ .debug_macro   0x00000000       0x28 ./src/funciones.o
+ .debug_macro   0x00000000       0x10 ./src/funciones.o
+ .debug_macro   0x00000000       0x1c ./src/funciones.o
+ .debug_macro   0x00000000       0x16 ./src/funciones.o
+ .debug_macro   0x00000000       0x52 ./src/funciones.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .group         0x00000000        0xc ./src/mde.o
+ .text          0x00000000        0x0 ./src/mde.o
+ .data          0x00000000        0x0 ./src/mde.o
+ .bss           0x00000000        0x0 ./src/mde.o
+ .debug_macro   0x00000000      0xa9c ./src/mde.o
+ .debug_macro   0x00000000       0x2e ./src/mde.o
+ .debug_macro   0x00000000      0x130 ./src/mde.o
+ .debug_macro   0x00000000       0x64 ./src/mde.o
+ .debug_macro   0x00000000      0x172 ./src/mde.o
+ .debug_macro   0x00000000      0x196 ./src/mde.o
+ .debug_macro   0x00000000       0x76 ./src/mde.o
+ .debug_macro   0x00000000      0x118 ./src/mde.o
+ .debug_macro   0x00000000       0x40 ./src/mde.o
+ .debug_macro   0x00000000       0x16 ./src/mde.o
+ .debug_macro   0x00000000       0x16 ./src/mde.o
+ .debug_macro   0x00000000       0x10 ./src/mde.o
+ .debug_macro   0x00000000       0x10 ./src/mde.o
+ .debug_macro   0x00000000       0x10 ./src/mde.o
+ .debug_macro   0x00000000       0x28 ./src/mde.o
+ .debug_macro   0x00000000      0x100 ./src/mde.o
+ .debug_macro   0x00000000       0x40 ./src/mde.o
+ .debug_macro   0x00000000       0x28 ./src/mde.o
+ .debug_macro   0x00000000       0x10 ./src/mde.o
+ .debug_macro   0x00000000       0x1c ./src/mde.o
+ .debug_macro   0x00000000       0x16 ./src/mde.o
+ .debug_macro   0x00000000       0x52 ./src/mde.o
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000      0x172 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x40 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000      0x118 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x64 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x00000000      0x100 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000      0x172 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x40 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000      0x118 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x64 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000      0x100 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .text.SetTimer
+                0x00000000       0x68 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .text.GetTimer
+                0x00000000       0x74 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .text.StandByTimer
+                0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .text.RefrescoBuzzer
+                0x00000000       0x24 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .text.InicializarBuzzer
+                0x00000000       0x26 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x172 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x40 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x118 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x64 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x00000000      0x100 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .text.DebounceEntradas
+                0x00000000       0xec C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .text.InicializarEntradas
+                0x00000000       0x44 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .bss.ContadorEntradas.3715
+                0x00000000        0x3 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x172 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x40 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x118 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x64 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000      0x100 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .text.AnalizarTimers
+                0x00000000       0x70 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .text.TimerEvent
+                0x00000000       0x48 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .text.SetDIR   0x00000000       0x78 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .text.SetPIN   0x00000000       0x7c C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .text.SetMODE  0x00000000       0xa0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .text.GetPIN   0x00000000       0x54 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_info    0x00000000      0x1c1 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_abbrev  0x00000000       0xd4 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_aranges
+                0x00000000       0x38 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_ranges  0x00000000       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000       0x29 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_macro   0x00000000      0x16c C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_line    0x00000000       0xff C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_str     0x00000000     0x3237 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .comment       0x00000000       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .debug_frame   0x00000000       0xb0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .group         0x00000000        0xc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .text          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .data          0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .bss           0x00000000        0x0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .text.SetPINSEL
+                0x00000000       0x8a C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_info    0x00000000       0xa6 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_abbrev  0x00000000       0x70 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000       0x29 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_macro   0x00000000       0x5e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_line    0x00000000       0xbd C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_str     0x00000000     0x2ee3 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .comment       0x00000000       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .debug_frame   0x00000000       0x38 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .ARM.attributes
+                0x00000000       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/cr_startup_lpc175x_6x.o
+LOAD ./src/crp.o
+LOAD ./src/ej5.o
+LOAD ./src/funciones.o
+LOAD ./src/mde.o
+LOAD C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a
+START GROUP
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libcr_eabihelpers.a
+LOAD c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0x768
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./src/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x768 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x768 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x15c SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x128 ./src/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000136                bss_init
+                0x0000016c                ResetISR
+                0x000001e0                NMI_Handler
+                0x000001e6                HardFault_Handler
+                0x000001ec                MemManage_Handler
+                0x000001f2                BusFault_Handler
+                0x000001f8                UsageFault_Handler
+                0x000001fe                SVC_Handler
+                0x00000204                DebugMon_Handler
+                0x0000020a                PendSV_Handler
+                0x00000210                SysTick_Handler
+                0x00000216                EINT3_IRQHandler
+                0x00000216                CANActivity_IRQHandler
+                0x00000216                TIMER3_IRQHandler
+                0x00000216                UART0_IRQHandler
+                0x00000216                UART1_IRQHandler
+                0x00000216                EINT2_IRQHandler
+                0x00000216                USBActivity_IRQHandler
+                0x00000216                IntDefaultHandler
+                0x00000216                PLL0_IRQHandler
+                0x00000216                I2C0_IRQHandler
+                0x00000216                I2C1_IRQHandler
+                0x00000216                SSP0_IRQHandler
+                0x00000216                I2S_IRQHandler
+                0x00000216                I2C2_IRQHandler
+                0x00000216                RTC_IRQHandler
+                0x00000216                TIMER0_IRQHandler
+                0x00000216                SPI_IRQHandler
+                0x00000216                RIT_IRQHandler
+                0x00000216                EINT1_IRQHandler
+                0x00000216                TIMER1_IRQHandler
+                0x00000216                UART2_IRQHandler
+                0x00000216                ADC_IRQHandler
+                0x00000216                SSP1_IRQHandler
+                0x00000216                USB_IRQHandler
+                0x00000216                BOD_IRQHandler
+                0x00000216                PLL1_IRQHandler
+                0x00000216                WDT_IRQHandler
+                0x00000216                PWM1_IRQHandler
+                0x00000216                QEI_IRQHandler
+                0x00000216                EINT0_IRQHandler
+                0x00000216                CAN_IRQHandler
+                0x00000216                DMA_IRQHandler
+                0x00000216                TIMER2_IRQHandler
+                0x00000216                UART3_IRQHandler
+                0x00000216                MCPWM_IRQHandler
+                0x00000216                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000021c       0xe0 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x34 ./src/ej5.o
+                0x00000300                main
+ .text.inicializar
+                0x00000334       0x10 ./src/funciones.o
+                0x00000334                inicializar
+ .text.checkExt
+                0x00000344       0x24 ./src/funciones.o
+                0x00000344                checkExt
+ .text.checkInt
+                0x00000368       0x24 ./src/funciones.o
+                0x00000368                checkInt
+ .text.reset_control_autos
+                0x0000038c       0x2c ./src/funciones.o
+                0x0000038c                reset_control_autos
+ .text.prenderAlarma
+                0x000003b8        0xe ./src/funciones.o
+                0x000003b8                prenderAlarma
+ .text.apagarAlarma
+                0x000003c6        0xe ./src/funciones.o
+                0x000003c6                apagarAlarma
+ .text.IniciarTimer0_10S
+                0x000003d4       0x24 ./src/funciones.o
+                0x000003d4                IniciarTimer0_10S
+ .text.timerHandler
+                0x000003f8        0xc ./src/funciones.o
+                0x000003f8                timerHandler
+ .text.reset_alarma
+                0x00000404        0xc ./src/funciones.o
+                0x00000404                reset_alarma
+ .text.maquina_control_autos
+                0x00000410      0x158 ./src/mde.o
+                0x00000410                maquina_control_autos
+ .text.maquina_alarma
+                0x00000568       0x88 ./src/mde.o
+                0x00000568                maquina_alarma
+ .text.Buzzer   0x000005f0       0x20 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+                0x000005f0                Buzzer
+ .text.Entradas
+                0x00000610       0x30 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+                0x00000610                Entradas
+ .text.TimerStart
+                0x00000640       0xa4 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                0x00000640                TimerStart
+ .text.TimerStop
+                0x000006e4       0x54 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                0x000006e4                TimerStop
+ .text.TimerClose
+                0x00000738       0x2a C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                0x00000738                TimerClose
+ .text.__weak_main
+                0x00000762        0x4 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                0x00000762                __weak_main
+                0x00000762                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000768                . = ALIGN (0x4)
+ *fill*         0x00000766        0x2 ff
+
+.glue_7         0x00000768        0x0
+ .glue_7        0x00000768        0x0 linker stubs
+
+.glue_7t        0x00000768        0x0
+ .glue_7t       0x00000768        0x0 linker stubs
+
+.vfp11_veneer   0x00000768        0x0
+ .vfp11_veneer  0x00000768        0x0 linker stubs
+
+.v4_bx          0x00000768        0x0
+ .v4_bx         0x00000768        0x0 linker stubs
+
+.iplt           0x00000768        0x0
+ .iplt          0x00000768        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.rel.dyn        0x00000768        0x0
+ .rel.iplt      0x00000768        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x00000768        0x0
+                0x00000768                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000768                __exidx_end = .
+                0x00000768                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000768
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2 = .)
+                [!provide]                PROVIDE (__start_data_RamAHB32 = .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2)
+ *(.data.$RamAHB32)
+ *(.data.$RAM2.*)
+ *(.data.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2 = .)
+                [!provide]                PROVIDE (__end_data_RamAHB32 = .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+                0x10000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x00000768
+ FILL mask 0xff
+                0x10000000                _data = .
+                [!provide]                PROVIDE (__start_data_RAM = .)
+                [!provide]                PROVIDE (__start_data_RamLoc32 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.estado.3898
+                0x10000000        0x4 ./src/mde.o
+                0x10000004                . = ALIGN (0x4)
+                0x10000004                _edata = .
+                [!provide]                PROVIDE (__end_data_RAM = .)
+                [!provide]                PROVIDE (__end_data_RamLoc32 = .)
+
+.igot.plt       0x10000004        0x0 load address 0x0000076c
+ .igot.plt      0x10000004        0x0 ./src/cr_startup_lpc175x_6x.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2 = .)
+                [!provide]                PROVIDE (__start_bss_RamAHB32 = .)
+ *(.bss.$RAM2)
+ *(.bss.$RamAHB32)
+ *(.bss.$RAM2.*)
+ *(.bss.$RamAHB32.*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2 = .)
+                [!provide]                PROVIDE (__end_bss_RamAHB32 = .)
+
+.bss            0x10000004      0x15c
+                0x10000004                _bss = .
+                [!provide]                PROVIDE (__start_bss_RAM = .)
+                [!provide]                PROVIDE (__start_bss_RamLoc32 = .)
+ *(.bss*)
+ .bss.extSensor
+                0x10000004        0x1 ./src/ej5.o
+                0x10000004                extSensor
+ .bss.intSensor
+                0x10000005        0x1 ./src/ej5.o
+                0x10000005                intSensor
+ .bss.cnt_autos
+                0x10000006        0x1 ./src/ej5.o
+                0x10000006                cnt_autos
+ .bss.timerFin  0x10000007        0x1 ./src/ej5.o
+                0x10000007                timerFin
+ .bss.estado.3888
+                0x10000008        0x4 ./src/mde.o
+ .bss.BufferBuzzer
+                0x1000000c        0x1 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+                0x1000000c                BufferBuzzer
+ .bss.BufferEntradas
+                0x1000000d        0x1 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+                0x1000000d                BufferEntradas
+ *fill*         0x1000000e        0x2 
+ .bss.Tmr_Run   0x10000010       0x78 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                0x10000010                Tmr_Run
+ .bss.TMR_Events
+                0x10000088       0x1e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                0x10000088                TMR_Events
+ *fill*         0x100000a6        0x2 
+ .bss.TMR_handlers
+                0x100000a8       0x78 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                0x100000a8                TMR_handlers
+ .bss.TMR_StandBy
+                0x10000120       0x1e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                0x10000120                TMR_StandBy
+ *fill*         0x1000013e        0x2 
+ .bss.Tmr_Base  0x10000140       0x1e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                0x10000140                Tmr_Base
+ *(COMMON)
+                0x10000160                . = ALIGN (0x4)
+ *fill*         0x1000015e        0x2 
+                0x10000160                _ebss = .
+                [!provide]                PROVIDE (__end_bss_RAM = .)
+                [!provide]                PROVIDE (__end_bss_RamLoc32 = .)
+                [!provide]                PROVIDE (end = .)
+
+.noinit_RAM2    0x2007c000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__start_noinit_RamAHB32 = .)
+ *(.noinit.$RAM2)
+ *(.noinit.$RamAHB32)
+ *(.noinit.$RAM2.*)
+ *(.noinit.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__end_noinit_RamAHB32 = .)
+
+.noinit         0x10000160        0x0
+                0x10000160                _noinit = .
+                [!provide]                PROVIDE (__start_noinit_RAM = .)
+                [!provide]                PROVIDE (__start_noinit_RamLoc32 = .)
+ *(.noinit*)
+                0x10000160                . = ALIGN (0x4)
+                0x10000160                _end_noinit = .
+                [!provide]                PROVIDE (__end_noinit_RAM = .)
+                [!provide]                PROVIDE (__end_noinit_RamLoc32 = .)
+                [!provide]                PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74f2                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x00000000                _image_start = LOADADDR (.text)
+                0x0000076c                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000076c                _image_size = (_image_end - _image_start)
+OUTPUT(ej5.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x125e
+ .debug_info    0x00000000      0x276 ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000276       0x40 ./src/crp.o
+ .debug_info    0x000002b6      0x205 ./src/ej5.o
+ .debug_info    0x000004bb      0x2a9 ./src/funciones.o
+ .debug_info    0x00000764      0x225 ./src/mde.o
+ .debug_info    0x00000989      0x13d C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_info    0x00000ac6      0x136 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_info    0x00000bfc      0x221 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_info    0x00000e1d      0x14c C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_info    0x00000f69      0x188 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_info    0x000010f1      0x16d C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_abbrev   0x00000000      0x834
+ .debug_abbrev  0x00000000      0x12a ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000012a       0x38 ./src/crp.o
+ .debug_abbrev  0x00000162       0xac ./src/ej5.o
+ .debug_abbrev  0x0000020e       0xda ./src/funciones.o
+ .debug_abbrev  0x000002e8       0xc4 ./src/mde.o
+ .debug_abbrev  0x000003ac       0xa0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_abbrev  0x0000044c       0xa2 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_abbrev  0x000004ee      0x109 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_abbrev  0x000005f7       0x9e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_abbrev  0x00000695       0xdd C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_abbrev  0x00000772       0xc2 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_aranges  0x00000000      0x240
+ .debug_aranges
+                0x00000000       0x80 ./src/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000080       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000098       0x20 ./src/ej5.o
+ .debug_aranges
+                0x000000b8       0x60 ./src/funciones.o
+ .debug_aranges
+                0x00000118       0x28 ./src/mde.o
+ .debug_aranges
+                0x00000140       0x20 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_aranges
+                0x00000160       0x20 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_aranges
+                0x00000180       0x48 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_aranges
+                0x000001c8       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_aranges
+                0x000001f0       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_aranges
+                0x00000218       0x28 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_ranges   0x00000000      0x188
+ .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000070       0x10 ./src/ej5.o
+ .debug_ranges  0x00000080       0x50 ./src/funciones.o
+ .debug_ranges  0x000000d0       0x18 ./src/mde.o
+ .debug_ranges  0x000000e8       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_ranges  0x000000f8       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_ranges  0x00000108       0x38 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_ranges  0x00000140       0x18 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_ranges  0x00000158       0x18 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_ranges  0x00000170       0x18 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_macro    0x00000000     0x26ba
+ .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x0000001d      0xa9c ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000ab9       0x1a ./src/crp.o
+ .debug_macro   0x00000ad3       0x34 ./src/crp.o
+ .debug_macro   0x00000b07      0x185 ./src/ej5.o
+ .debug_macro   0x00000c8c       0x82 ./src/ej5.o
+ .debug_macro   0x00000d0e       0x2e ./src/ej5.o
+ .debug_macro   0x00000d3c      0x130 ./src/ej5.o
+ .debug_macro   0x00000e6c       0x64 ./src/ej5.o
+ .debug_macro   0x00000ed0      0x172 ./src/ej5.o
+ .debug_macro   0x00001042      0x196 ./src/ej5.o
+ .debug_macro   0x000011d8       0x76 ./src/ej5.o
+ .debug_macro   0x0000124e      0x118 ./src/ej5.o
+ .debug_macro   0x00001366       0x40 ./src/ej5.o
+ .debug_macro   0x000013a6       0x16 ./src/ej5.o
+ .debug_macro   0x000013bc       0x16 ./src/ej5.o
+ .debug_macro   0x000013d2       0x10 ./src/ej5.o
+ .debug_macro   0x000013e2       0x10 ./src/ej5.o
+ .debug_macro   0x000013f2       0x10 ./src/ej5.o
+ .debug_macro   0x00001402       0x28 ./src/ej5.o
+ .debug_macro   0x0000142a      0x100 ./src/ej5.o
+ .debug_macro   0x0000152a       0x40 ./src/ej5.o
+ .debug_macro   0x0000156a       0x28 ./src/ej5.o
+ .debug_macro   0x00001592       0x10 ./src/ej5.o
+ .debug_macro   0x000015a2       0x1c ./src/ej5.o
+ .debug_macro   0x000015be       0x16 ./src/ej5.o
+ .debug_macro   0x000015d4       0x52 ./src/ej5.o
+ .debug_macro   0x00001626      0x17c ./src/funciones.o
+ .debug_macro   0x000017a2      0x17c ./src/mde.o
+ .debug_macro   0x0000191e       0xa8 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x000019c6      0xa66 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x0000242c       0x10 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_macro   0x0000243c       0xa9 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_macro   0x000024e5       0x48 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_macro   0x0000252d       0x22 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_macro   0x0000254f       0x9e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_macro   0x000025ed       0x9f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_macro   0x0000268c       0x2e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_line     0x00000000     0x147d
+ .debug_line    0x00000000      0x15f ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x0000015f       0xb1 ./src/crp.o
+ .debug_line    0x00000210      0x318 ./src/ej5.o
+ .debug_line    0x00000528      0x337 ./src/funciones.o
+ .debug_line    0x0000085f      0x3e9 ./src/mde.o
+ .debug_line    0x00000c48      0x173 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_line    0x00000dbb      0x168 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_line    0x00000f23      0x153 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_line    0x00001076      0x177 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_line    0x000011ed      0x1a2 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_line    0x0000138f       0xee C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+.debug_str      0x00000000     0x58a0
+ .debug_str     0x00000000     0x2f73 ./src/cr_startup_lpc175x_6x.o
+                               0x2f86 (size before relaxing)
+ .debug_str     0x00002f73       0xe9 ./src/crp.o
+                               0x2e93 (size before relaxing)
+ .debug_str     0x0000305c     0x2454 ./src/ej5.o
+                               0x522e (size before relaxing)
+ .debug_str     0x000054b0       0x8c ./src/funciones.o
+                               0x4e5f (size before relaxing)
+ .debug_str     0x0000553c       0x39 ./src/mde.o
+                               0x4e0c (size before relaxing)
+ .debug_str     0x00005575      0x1c0 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+                               0x3d57 (size before relaxing)
+ .debug_str     0x00005735       0x1e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+                               0x3d2d (size before relaxing)
+ .debug_str     0x00005753       0xa1 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                               0x2ecd (size before relaxing)
+ .debug_str     0x000057f4       0x34 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+                               0x3d4d (size before relaxing)
+ .debug_str     0x00005828       0x4b C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+                               0x3d32 (size before relaxing)
+ .debug_str     0x00005873       0x2d C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                               0x2e20 (size before relaxing)
+
+.comment        0x00000000       0xf4
+ .comment       0x00000000       0x76 ./src/cr_startup_lpc175x_6x.o
+                                 0x77 (size before relaxing)
+ .comment       0x00000076       0x77 ./src/crp.o
+ .comment       0x00000076       0x77 ./src/ej5.o
+ .comment       0x00000076       0x77 ./src/funciones.o
+ .comment       0x00000076       0x77 ./src/mde.o
+ .comment       0x00000076       0x7e C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+                                 0x7f (size before relaxing)
+ .comment       0x000000f4       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .comment       0x000000f4       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .comment       0x000000f4       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .comment       0x000000f4       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .comment       0x000000f4       0x7f C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .comment       0x000000f4       0x77 c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2d ./src/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x0000002d       0x33 ./src/crp.o
+ .ARM.attributes
+                0x00000060       0x2d ./src/ej5.o
+ .ARM.attributes
+                0x0000008d       0x2d ./src/funciones.o
+ .ARM.attributes
+                0x000000ba       0x2d ./src/mde.o
+ .ARM.attributes
+                0x000000e7       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .ARM.attributes
+                0x0000011a       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .ARM.attributes
+                0x0000014d       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .ARM.attributes
+                0x00000180       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .ARM.attributes
+                0x000001b3       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .ARM.attributes
+                0x000001e6       0x33 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+ .ARM.attributes
+                0x00000219       0x2d c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x568
+ .debug_frame   0x00000000      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x00000170       0x2c ./src/ej5.o
+ .debug_frame   0x0000019c      0x124 ./src/funciones.o
+ .debug_frame   0x000002c0       0x48 ./src/mde.o
+ .debug_frame   0x00000308       0x38 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+ .debug_frame   0x00000340       0x38 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+ .debug_frame   0x00000378       0xfc C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+ .debug_frame   0x00000474       0x48 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ .debug_frame   0x000004bc       0x50 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+ .debug_frame   0x0000050c       0x5c C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+AnalizarTimers                                    C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+BOD_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+BufferBuzzer                                      C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+BufferEntradas                                    C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+BusFault_Handler                                  ./src/cr_startup_lpc175x_6x.o
+Buzzer                                            C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Buzzer.o)
+                                                  ./src/funciones.o
+CANActivity_IRQHandler                            ./src/cr_startup_lpc175x_6x.o
+CAN_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+CRP_WORD                                          ./src/crp.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+DebounceEntradas                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+DebugMon_Handler                                  ./src/cr_startup_lpc175x_6x.o
+EINT0_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+EINT1_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+EINT2_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+EINT3_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+ENET_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+Entradas                                          C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Entradas.o)
+                                                  ./src/funciones.o
+GetPIN                                            C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+GetTimer                                          C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+HardFault_Handler                                 ./src/cr_startup_lpc175x_6x.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+I2C2_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+I2S_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+InicializarBuzzer                                 C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+InicializarEntradas                               C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+IniciarTimer0_10S                                 ./src/funciones.o
+                                                  ./src/mde.o
+IntDefaultHandler                                 ./src/cr_startup_lpc175x_6x.o
+MCPWM_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+MemManage_Handler                                 ./src/cr_startup_lpc175x_6x.o
+NMI_Handler                                       ./src/cr_startup_lpc175x_6x.o
+PLL0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+PLL1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+PWM1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+PendSV_Handler                                    ./src/cr_startup_lpc175x_6x.o
+QEI_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+RIT_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+RTC_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+RefrescoBuzzer                                    C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+ResetISR                                          ./src/cr_startup_lpc175x_6x.o
+SPI_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+SSP0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+SSP1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
+SVC_Handler                                       ./src/cr_startup_lpc175x_6x.o
+SetDIR                                            C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+SetMODE                                           C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Entradas.o)
+SetPIN                                            C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_gpio.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+SetPINSEL                                         C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_pinsel.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Buzzer.o)
+SetTimer                                          C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+StandByTimer                                      C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+SysTick_Handler                                   ./src/cr_startup_lpc175x_6x.o
+TIMER0_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
+TIMER1_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
+TIMER2_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
+TIMER3_IRQHandler                                 ./src/cr_startup_lpc175x_6x.o
+TMR_Events                                        C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+TMR_StandBy                                       C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+TMR_handlers                                      C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+TimerClose                                        C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                                                  ./src/funciones.o
+TimerEvent                                        C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+TimerStart                                        C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+                                                  ./src/funciones.o
+TimerStop                                         C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+Tmr_Base                                          C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+Tmr_Run                                           C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(DR_Timers.o)
+                                                  C:\Users\marco\OneDrive\Escritorio\ej\bibliotecaInfo2\libbibliotecaInfoII.a(PR_Timers.o)
+UART0_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+UART3_IRQHandler                                  ./src/cr_startup_lpc175x_6x.o
+USBActivity_IRQHandler                            ./src/cr_startup_lpc175x_6x.o
+USB_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+UsageFault_Handler                                ./src/cr_startup_lpc175x_6x.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc175x_6x.o
+__bss_section_table_end                           ./src/cr_startup_lpc175x_6x.o
+__data_section_table                              ./src/cr_startup_lpc175x_6x.o
+__data_section_table_end                          ./src/cr_startup_lpc175x_6x.o
+__main                                            c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc175x_6x.o
+__valid_user_code_checksum                        ./src/cr_startup_lpc175x_6x.o
+__weak_main                                       c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+_vStackTop                                        ./src/cr_startup_lpc175x_6x.o
+apagarAlarma                                      ./src/funciones.o
+                                                  ./src/mde.o
+bss_init                                          ./src/cr_startup_lpc175x_6x.o
+checkExt                                          ./src/funciones.o
+                                                  ./src/ej5.o
+checkInt                                          ./src/funciones.o
+                                                  ./src/ej5.o
+cnt_autos                                         ./src/ej5.o
+                                                  ./src/mde.o
+                                                  ./src/funciones.o
+data_init                                         ./src/cr_startup_lpc175x_6x.o
+extSensor                                         ./src/ej5.o
+                                                  ./src/mde.o
+                                                  ./src/funciones.o
+g_pfnVectors                                      ./src/cr_startup_lpc175x_6x.o
+inicializar                                       ./src/funciones.o
+                                                  ./src/ej5.o
+intSensor                                         ./src/ej5.o
+                                                  ./src/mde.o
+                                                  ./src/funciones.o
+main                                              ./src/ej5.o
+                                                  c:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+maquina_alarma                                    ./src/mde.o
+                                                  ./src/ej5.o
+maquina_control_autos                             ./src/mde.o
+                                                  ./src/ej5.o
+prenderAlarma                                     ./src/funciones.o
+                                                  ./src/mde.o
+reset_alarma                                      ./src/funciones.o
+reset_control_autos                               ./src/funciones.o
+                                                  ./src/mde.o
+timerFin                                          ./src/ej5.o
+                                                  ./src/mde.o
+                                                  ./src/funciones.o
+timerHandler                                      ./src/funciones.o

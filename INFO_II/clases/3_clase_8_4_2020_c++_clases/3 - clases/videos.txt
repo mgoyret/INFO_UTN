@@ -1,5 +1,0 @@
-Clase 3: componentes de una clase
-https://www.youtube.com/watch?v=9TtItno-Lhs&feature=emb_title
-
-Ejemplo Clase Cuenta
-https://www.youtube.com/watch?v=jeRtl5IOurs&feature=emb_title
