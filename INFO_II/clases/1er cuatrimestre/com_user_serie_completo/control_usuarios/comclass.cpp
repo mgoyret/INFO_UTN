@@ -68,8 +68,7 @@ void ComClass::on_conectarButton_clicked()
             connect(&puerto, SIGNAL(readyRead()), this, SLOT(on_datosRecibidos()));
         }else
         {
-            QMessageBox::critical(this, "ERROR",
-                                  "No pudo abrirse el puerto: "+portName);
+            QMessageBox::critical(this, "ERROR", "No pudo abrirse el puerto: "+portName);
         }
     } else
     {

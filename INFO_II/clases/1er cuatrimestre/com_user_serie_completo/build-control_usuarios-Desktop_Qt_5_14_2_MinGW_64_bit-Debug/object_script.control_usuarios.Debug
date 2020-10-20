@@ -1,0 +1,12 @@
+debug/alta.o
+debug/comclass.o
+debug/dialog.o
+debug/ingreso.o
+debug/main.o
+debug/mainwindow.o
+debug/qrc_recursos.o
+debug/moc_alta.o
+debug/moc_comclass.o
+debug/moc_dialog.o
+debug/moc_ingreso.o
+debug/moc_mainwindow.o

@@ -1,0 +1,12 @@
+release/alta.o
+release/comclass.o
+release/dialog.o
+release/ingreso.o
+release/main.o
+release/mainwindow.o
+release/qrc_recursos.o
+release/moc_alta.o
+release/moc_comclass.o
+release/moc_dialog.o
+release/moc_ingreso.o
+release/moc_mainwindow.o

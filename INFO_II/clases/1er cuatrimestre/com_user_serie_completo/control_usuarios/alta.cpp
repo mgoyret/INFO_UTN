@@ -11,10 +11,10 @@ using namespace std;
 
 #define ADD_LINE stream<<nombre<<","<<apellido<<","<<email<<","<<usuario<<","<<clave<<"\n";
 #define FILE_NAME "dataBase.csv"
-#define ADD 1
-#define EDIT 2
+#define ADD     1
+#define EDIT    2
 
-alta::alta(QWidget *parent) :
+alta::alta(QWidget *parent):
     QDialog(parent),
     ui(new Ui::alta)
 {
