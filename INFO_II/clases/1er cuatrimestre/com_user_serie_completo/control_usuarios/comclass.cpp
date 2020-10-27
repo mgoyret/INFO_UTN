@@ -29,8 +29,8 @@ void ComClass::enumerarPuertos()
     int i;
     QList<QSerialPortInfo> puertos;
 
-    puertos = QSerialPortInfo::availablePorts();
     ui->puertosComboBox->clear();
+    puertos = QSerialPortInfo::availablePorts();
     for(i=0; i<puertos.count(); i++)
     {
         ui->puertosComboBox->addItem(puertos.at(i).portName());

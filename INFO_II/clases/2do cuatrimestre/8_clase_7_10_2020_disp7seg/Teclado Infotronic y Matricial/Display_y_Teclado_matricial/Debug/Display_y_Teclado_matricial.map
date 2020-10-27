@@ -1,0 +1,609 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+                              ./drivers/src/cr_startup_lpc176x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/FW_InitExpansion3.o
+ .text          0x00000000        0x0 ./drivers/src/FW_InitExpansion3.o
+ .data          0x00000000        0x0 ./drivers/src/FW_InitExpansion3.o
+ .bss           0x00000000        0x0 ./drivers/src/FW_InitExpansion3.o
+ .group         0x00000000        0xc ./drivers/src/GPIO.o
+ .group         0x00000000        0xc ./drivers/src/GPIO.o
+ .text          0x00000000        0x0 ./drivers/src/GPIO.o
+ .data          0x00000000        0x0 ./drivers/src/GPIO.o
+ .bss           0x00000000        0x0 ./drivers/src/GPIO.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/GPIO.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/GPIO.o
+ .group         0x00000000        0xc ./drivers/src/Inic_PLL.o
+ .group         0x00000000        0xc ./drivers/src/Inic_PLL.o
+ .group         0x00000000        0xc ./drivers/src/Inic_PLL.o
+ .text          0x00000000        0x0 ./drivers/src/Inic_PLL.o
+ .data          0x00000000        0x0 ./drivers/src/Inic_PLL.o
+ .bss           0x00000000        0x0 ./drivers/src/Inic_PLL.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/Inic_PLL.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/Inic_PLL.o
+ .group         0x00000000        0xc ./drivers/src/Init_GPIO.o
+ .group         0x00000000        0xc ./drivers/src/Init_GPIO.o
+ .group         0x00000000        0xc ./drivers/src/Init_GPIO.o
+ .group         0x00000000        0xc ./drivers/src/Init_GPIO.o
+ .group         0x00000000        0xc ./drivers/src/Init_GPIO.o
+ .text          0x00000000        0x0 ./drivers/src/Init_GPIO.o
+ .data          0x00000000        0x0 ./drivers/src/Init_GPIO.o
+ .bss           0x00000000        0x0 ./drivers/src/Init_GPIO.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/Init_GPIO.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/Init_GPIO.o
+ .debug_macro   0x00000000       0x40 ./drivers/src/Init_GPIO.o
+ .debug_macro   0x00000000       0xfa ./drivers/src/Init_GPIO.o
+ .debug_macro   0x00000000       0x8e ./drivers/src/Init_GPIO.o
+ .group         0x00000000        0xc ./drivers/src/RGB.o
+ .group         0x00000000        0xc ./drivers/src/RGB.o
+ .group         0x00000000        0xc ./drivers/src/RGB.o
+ .group         0x00000000        0xc ./drivers/src/RGB.o
+ .text          0x00000000        0x0 ./drivers/src/RGB.o
+ .data          0x00000000        0x0 ./drivers/src/RGB.o
+ .bss           0x00000000        0x0 ./drivers/src/RGB.o
+ .text.apagarRGB
+                0x00000000       0x26 ./drivers/src/RGB.o
+ .debug_info    0x00000000       0x50 ./drivers/src/RGB.o
+ .debug_abbrev  0x00000000       0x3a ./drivers/src/RGB.o
+ .debug_aranges
+                0x00000000       0x20 ./drivers/src/RGB.o
+ .debug_ranges  0x00000000       0x10 ./drivers/src/RGB.o
+ .debug_macro   0x00000000       0x39 ./drivers/src/RGB.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/RGB.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/RGB.o
+ .debug_macro   0x00000000       0x40 ./drivers/src/RGB.o
+ .debug_macro   0x00000000       0x8e ./drivers/src/RGB.o
+ .debug_line    0x00000000      0x13d ./drivers/src/RGB.o
+ .debug_str     0x00000000     0x3d3d ./drivers/src/RGB.o
+ .comment       0x00000000       0x7f ./drivers/src/RGB.o
+ .debug_frame   0x00000000       0x2c ./drivers/src/RGB.o
+ .ARM.attributes
+                0x00000000       0x33 ./drivers/src/RGB.o
+ .group         0x00000000        0xc ./drivers/src/Systick.o
+ .group         0x00000000        0xc ./drivers/src/Systick.o
+ .group         0x00000000        0xc ./drivers/src/Systick.o
+ .group         0x00000000        0xc ./drivers/src/Systick.o
+ .group         0x00000000        0xc ./drivers/src/Systick.o
+ .text          0x00000000        0x0 ./drivers/src/Systick.o
+ .data          0x00000000        0x0 ./drivers/src/Systick.o
+ .bss           0x00000000        0x0 ./drivers/src/Systick.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/Systick.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/Systick.o
+ .debug_macro   0x00000000       0x40 ./drivers/src/Systick.o
+ .debug_macro   0x00000000       0x8e ./drivers/src/Systick.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/Teclado.o
+ .text          0x00000000        0x0 ./drivers/src/Teclado.o
+ .data          0x00000000        0x0 ./drivers/src/Teclado.o
+ .bss           0x00000000        0x0 ./drivers/src/Teclado.o
+ .text.DriverTeclado
+                0x00000000       0x1e ./drivers/src/Teclado.o
+ .text.TecladoHW
+                0x00000000       0x78 ./drivers/src/Teclado.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/Teclado.o
+ .debug_macro   0x00000000      0x397 ./drivers/src/Teclado.o
+ .debug_macro   0x00000000       0x1c ./drivers/src/Teclado.o
+ .debug_macro   0x00000000       0x40 ./drivers/src/Teclado.o
+ .debug_macro   0x00000000       0x8e ./drivers/src/Teclado.o
+ .debug_macro   0x00000000       0xca ./drivers/src/Teclado.o
+ .group         0x00000000        0xc ./drivers/src/cr_startup_lpc176x.o
+ .text          0x00000000        0x0 ./drivers/src/cr_startup_lpc176x.o
+ .data          0x00000000        0x0 ./drivers/src/cr_startup_lpc176x.o
+ .bss           0x00000000        0x0 ./drivers/src/cr_startup_lpc176x.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/cr_startup_lpc176x.o
+ .group         0x00000000        0xc ./drivers/src/crp.o
+ .group         0x00000000        0xc ./drivers/src/crp.o
+ .text          0x00000000        0x0 ./drivers/src/crp.o
+ .data          0x00000000        0x0 ./drivers/src/crp.o
+ .bss           0x00000000        0x0 ./drivers/src/crp.o
+ .debug_macro   0x00000000      0xa66 ./drivers/src/crp.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./aplicacion/src/main.o
+ .text          0x00000000        0x0 ./aplicacion/src/main.o
+ .data          0x00000000        0x0 ./aplicacion/src/main.o
+ .bss           0x00000000        0x0 ./aplicacion/src/main.o
+ .bss.msgDisplay
+                0x00000000        0x6 ./aplicacion/src/main.o
+ .bss.Val.3689  0x00000000        0x4 ./aplicacion/src/main.o
+ .debug_macro   0x00000000      0xa66 ./aplicacion/src/main.o
+ .debug_macro   0x00000000       0xca ./aplicacion/src/main.o
+ .debug_macro   0x00000000      0x397 ./aplicacion/src/main.o
+ .debug_macro   0x00000000       0x76 ./aplicacion/src/main.o
+ .debug_macro   0x00000000       0x40 ./aplicacion/src/main.o
+ .debug_macro   0x00000000       0x8e ./aplicacion/src/main.o
+ .group         0x00000000        0xc ./Primitivas/PR_7Seg.o
+ .group         0x00000000        0xc ./Primitivas/PR_7Seg.o
+ .group         0x00000000        0xc ./Primitivas/PR_7Seg.o
+ .group         0x00000000        0xc ./Primitivas/PR_7Seg.o
+ .group         0x00000000        0xc ./Primitivas/PR_7Seg.o
+ .text          0x00000000        0x0 ./Primitivas/PR_7Seg.o
+ .data          0x00000000        0x0 ./Primitivas/PR_7Seg.o
+ .bss           0x00000000        0x0 ./Primitivas/PR_7Seg.o
+ .text.Display  0x00000000       0x6e ./Primitivas/PR_7Seg.o
+ .debug_info    0x00000000      0x10d ./Primitivas/PR_7Seg.o
+ .debug_abbrev  0x00000000       0xb7 ./Primitivas/PR_7Seg.o
+ .debug_aranges
+                0x00000000       0x20 ./Primitivas/PR_7Seg.o
+ .debug_ranges  0x00000000       0x10 ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x3f ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0xa66 ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0xca ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000      0x397 ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x76 ./Primitivas/PR_7Seg.o
+ .debug_macro   0x00000000       0x40 ./Primitivas/PR_7Seg.o
+ .debug_line    0x00000000      0x1a0 ./Primitivas/PR_7Seg.o
+ .debug_str     0x00000000     0x3e19 ./Primitivas/PR_7Seg.o
+ .comment       0x00000000       0x7f ./Primitivas/PR_7Seg.o
+ .debug_frame   0x00000000       0x34 ./Primitivas/PR_7Seg.o
+ .ARM.attributes
+                0x00000000       0x33 ./Primitivas/PR_7Seg.o
+ .group         0x00000000        0xc ./Primitivas/teclado_prim.o
+ .group         0x00000000        0xc ./Primitivas/teclado_prim.o
+ .group         0x00000000        0xc ./Primitivas/teclado_prim.o
+ .group         0x00000000        0xc ./Primitivas/teclado_prim.o
+ .text          0x00000000        0x0 ./Primitivas/teclado_prim.o
+ .data          0x00000000        0x0 ./Primitivas/teclado_prim.o
+ .bss           0x00000000        0x0 ./Primitivas/teclado_prim.o
+ .debug_macro   0x00000000      0xa66 ./Primitivas/teclado_prim.o
+ .debug_macro   0x00000000      0x397 ./Primitivas/teclado_prim.o
+ .debug_macro   0x00000000       0x40 ./Primitivas/teclado_prim.o
+ .debug_macro   0x00000000       0x1c ./Primitivas/teclado_prim.o
+ .text          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./drivers/src/FW_InitExpansion3.o
+LOAD ./drivers/src/GPIO.o
+LOAD ./drivers/src/Inic_PLL.o
+LOAD ./drivers/src/Init_GPIO.o
+LOAD ./drivers/src/RGB.o
+LOAD ./drivers/src/Systick.o
+LOAD ./drivers/src/Teclado.o
+LOAD ./drivers/src/cr_startup_lpc176x.o
+LOAD ./drivers/src/crp.o
+LOAD ./aplicacion/src/main.o
+LOAD ./Primitivas/PR_7Seg.o
+LOAD ./Primitivas/teclado_prim.o
+START GROUP
+LOAD c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a
+LOAD c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0xb2c
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./drivers/src/cr_startup_lpc176x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0xb2c LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0xb2c LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000004 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x8 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x128 ./drivers/src/cr_startup_lpc176x.o
+                0x000000f4                data_init
+                0x00000136                bss_init
+                0x0000016c                ResetISR
+                0x000001e0                NMI_Handler
+                0x000001e6                HardFault_Handler
+                0x000001ec                MemManage_Handler
+                0x000001f2                BusFault_Handler
+                0x000001f8                UsageFault_Handler
+                0x000001fe                SVC_Handler
+                0x00000204                DebugMon_Handler
+                0x0000020a                PendSV_Handler
+                0x00000216                UART1_IRQHandler
+                0x00000216                EINT3_IRQHandler
+                0x00000216                CANActivity_IRQHandler
+                0x00000216                TIMER3_IRQHandler
+                0x00000216                UART0_IRQHandler
+                0x00000216                USBActivity_IRQHandler
+                0x00000216                EINT2_IRQHandler
+                0x00000216                IntDefaultHandler
+                0x00000216                PLL0_IRQHandler
+                0x00000216                CAN_IRQHandler
+                0x00000216                I2C0_IRQHandler
+                0x00000216                SSP0_IRQHandler
+                0x00000216                I2C1_IRQHandler
+                0x00000216                I2C2_IRQHandler
+                0x00000216                RTC_IRQHandler
+                0x00000216                TIMER0_IRQHandler
+                0x00000216                SPI_IRQHandler
+                0x00000216                RIT_IRQHandler
+                0x00000216                EINT1_IRQHandler
+                0x00000216                TIMER1_IRQHandler
+                0x00000216                UART2_IRQHandler
+                0x00000216                ADC_IRQHandler
+                0x00000216                SSP1_IRQHandler
+                0x00000216                USB_IRQHandler
+                0x00000216                BOD_IRQHandler
+                0x00000216                PWM1_IRQHandler
+                0x00000216                WDT_IRQHandler
+                0x00000216                I2S_IRQHandler
+                0x00000216                QEI_IRQHandler
+                0x00000216                EINT0_IRQHandler
+                0x00000216                PLL1_IRQHandler
+                0x00000216                DMA_IRQHandler
+                0x00000216                TIMER2_IRQHandler
+                0x00000216                UART3_IRQHandler
+                0x00000216                MCPWM_IRQHandler
+                0x00000216                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000021c       0xe0 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./drivers/src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.Inicializar_TecladoMatricial
+                0x00000300       0xa8 ./drivers/src/FW_InitExpansion3.o
+                0x00000300                Inicializar_TecladoMatricial
+ .text.SetPINSEL
+                0x000003a8       0x8a ./drivers/src/GPIO.o
+                0x000003a8                SetPINSEL
+ *fill*         0x00000432        0x2 ff
+ .text.SetPINMODE
+                0x00000434       0x80 ./drivers/src/GPIO.o
+                0x00000434                SetPINMODE
+ .text.SetDIR   0x000004b4       0x74 ./drivers/src/GPIO.o
+                0x000004b4                SetDIR
+ .text.SetPIN   0x00000528       0x78 ./drivers/src/GPIO.o
+                0x00000528                SetPIN
+ .text.GetPIN   0x000005a0       0x4a ./drivers/src/GPIO.o
+                0x000005a0                GetPIN
+ *fill*         0x000005ea        0x2 ff
+ .text.InicPLL  0x000005ec      0x140 ./drivers/src/Inic_PLL.o
+                0x000005ec                InicPLL
+ .text.Inicializar_Teclado
+                0x0000072c       0x8a ./drivers/src/Init_GPIO.o
+                0x0000072c                Inicializar_Teclado
+ .text.Inicializar_RGB
+                0x000007b6       0x62 ./drivers/src/Init_GPIO.o
+                0x000007b6                Inicializar_RGB
+ .text.Inicializar_Systick
+                0x00000818       0x40 ./drivers/src/Init_GPIO.o
+                0x00000818                Inicializar_Systick
+ .text.Inicializar
+                0x00000858       0x1c ./drivers/src/Init_GPIO.o
+                0x00000858                Inicializar
+ .text.SysTick_Handler
+                0x00000874       0x1e ./drivers/src/Systick.o
+                0x00000874                SysTick_Handler
+ .text.barridoTeclado
+                0x00000892       0xd2 ./drivers/src/Teclado.o
+                0x00000892                barridoTeclado
+ .text.tecladoSW
+                0x00000964       0xd8 ./drivers/src/Teclado.o
+                0x00000964                tecladoSW
+ .text.main     0x00000a3c       0x62 ./aplicacion/src/main.o
+                0x00000a3c                main
+ .text.ROJO     0x00000a9e       0x1e ./aplicacion/src/main.o
+                0x00000a9e                ROJO
+ .text.AZUL     0x00000abc       0x1e ./aplicacion/src/main.o
+                0x00000abc                AZUL
+ .text.VERDE    0x00000ada       0x1e ./aplicacion/src/main.o
+                0x00000ada                VERDE
+ .text.Teclado  0x00000af8       0x30 ./Primitivas/teclado_prim.o
+                0x00000af8                Teclado
+ .text.__weak_main
+                0x00000b28        0x4 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+                0x00000b28                __weak_main
+                0x00000b28                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000b2c                . = ALIGN (0x4)
+
+.glue_7         0x00000b2c        0x0
+ .glue_7        0x00000b2c        0x0 linker stubs
+
+.glue_7t        0x00000b2c        0x0
+ .glue_7t       0x00000b2c        0x0 linker stubs
+
+.vfp11_veneer   0x00000b2c        0x0
+ .vfp11_veneer  0x00000b2c        0x0 linker stubs
+
+.v4_bx          0x00000b2c        0x0
+ .v4_bx         0x00000b2c        0x0 linker stubs
+
+.iplt           0x00000b2c        0x0
+ .iplt          0x00000b2c        0x0 ./drivers/src/FW_InitExpansion3.o
+
+.rel.dyn        0x00000b2c        0x0
+ .rel.iplt      0x00000b2c        0x0 ./drivers/src/FW_InitExpansion3.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000b2c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000b2c                __exidx_end = .
+                0x00000b2c                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000b2c
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2, .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2*)
+ *(.data.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2, .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x4 load address 0x00000b2c
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+ .data.codigoAnterior.3710
+                0x10000000        0x1 ./drivers/src/Teclado.o
+ .data.buffKey  0x10000001        0x1 ./aplicacion/src/main.o
+                0x10000001                buffKey
+                0x10000004                . = ALIGN (0x4)
+ *fill*         0x10000002        0x2 ff
+                0x10000004                _edata = .
+
+.igot.plt       0x10000004        0x0 load address 0x00000b30
+ .igot.plt      0x10000004        0x0 ./drivers/src/FW_InitExpansion3.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2, .)
+ *(.bss.$RAM2*)
+ *(.bss.$RamAHB32*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2, .)
+
+.bss            0x10000004        0x8
+                0x10000004                _bss = .
+ *(.bss*)
+ .bss.estado.3712
+                0x10000004        0x4 ./drivers/src/Teclado.o
+ .bss.contador.3711
+                0x10000008        0x1 ./drivers/src/Teclado.o
+ *(COMMON)
+                0x1000000c                . = ALIGN (0x4)
+ *fill*         0x10000009        0x3 
+                0x1000000c                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit_RAM2    0x2007c000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamAHB32*)
+                0x2007c000                . = ALIGN (0x4)
+
+.noinit         0x1000000c        0x0
+                0x1000000c                _noinit = .
+ *(.noinit*)
+                0x1000000c                . = ALIGN (0x4)
+                0x1000000c                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                [!provide]                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x00000000                _image_start = LOADADDR (.text)
+                0x00000b30                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000b30                _image_size = (_image_end - _image_start)
+OUTPUT(Display_y_Teclado_matricial.axf elf32-littlearm)
+
+.debug_info     0x00000000      0xa44
+ .debug_info    0x00000000       0x50 ./drivers/src/FW_InitExpansion3.o
+ .debug_info    0x00000050      0x195 ./drivers/src/GPIO.o
+ .debug_info    0x000001e5       0x5b ./drivers/src/Inic_PLL.o
+ .debug_info    0x00000240      0x178 ./drivers/src/Init_GPIO.o
+ .debug_info    0x000003b8       0x6a ./drivers/src/Systick.o
+ .debug_info    0x00000422      0x110 ./drivers/src/Teclado.o
+ .debug_info    0x00000532      0x251 ./drivers/src/cr_startup_lpc176x.o
+ .debug_info    0x00000783       0x3f ./drivers/src/crp.o
+ .debug_info    0x000007c2      0x209 ./aplicacion/src/main.o
+ .debug_info    0x000009cb       0x79 ./Primitivas/teclado_prim.o
+
+.debug_abbrev   0x00000000      0x614
+ .debug_abbrev  0x00000000       0x3a ./drivers/src/FW_InitExpansion3.o
+ .debug_abbrev  0x0000003a       0x9b ./drivers/src/GPIO.o
+ .debug_abbrev  0x000000d5       0x47 ./drivers/src/Inic_PLL.o
+ .debug_abbrev  0x0000011c      0x12b ./drivers/src/Init_GPIO.o
+ .debug_abbrev  0x00000247       0x56 ./drivers/src/Systick.o
+ .debug_abbrev  0x0000029d       0xd1 ./drivers/src/Teclado.o
+ .debug_abbrev  0x0000036e      0x103 ./drivers/src/cr_startup_lpc176x.o
+ .debug_abbrev  0x00000471       0x36 ./drivers/src/crp.o
+ .debug_abbrev  0x000004a7      0x104 ./aplicacion/src/main.o
+ .debug_abbrev  0x000005ab       0x69 ./Primitivas/teclado_prim.o
+
+.debug_aranges  0x00000000      0x200
+ .debug_aranges
+                0x00000000       0x20 ./drivers/src/FW_InitExpansion3.o
+ .debug_aranges
+                0x00000020       0x40 ./drivers/src/GPIO.o
+ .debug_aranges
+                0x00000060       0x20 ./drivers/src/Inic_PLL.o
+ .debug_aranges
+                0x00000080       0x38 ./drivers/src/Init_GPIO.o
+ .debug_aranges
+                0x000000b8       0x20 ./drivers/src/Systick.o
+ .debug_aranges
+                0x000000d8       0x38 ./drivers/src/Teclado.o
+ .debug_aranges
+                0x00000110       0x80 ./drivers/src/cr_startup_lpc176x.o
+ .debug_aranges
+                0x00000190       0x18 ./drivers/src/crp.o
+ .debug_aranges
+                0x000001a8       0x38 ./aplicacion/src/main.o
+ .debug_aranges
+                0x000001e0       0x20 ./Primitivas/teclado_prim.o
+
+.debug_ranges   0x00000000      0x158
+ .debug_ranges  0x00000000       0x10 ./drivers/src/FW_InitExpansion3.o
+ .debug_ranges  0x00000010       0x30 ./drivers/src/GPIO.o
+ .debug_ranges  0x00000040       0x10 ./drivers/src/Inic_PLL.o
+ .debug_ranges  0x00000050       0x28 ./drivers/src/Init_GPIO.o
+ .debug_ranges  0x00000078       0x10 ./drivers/src/Systick.o
+ .debug_ranges  0x00000088       0x28 ./drivers/src/Teclado.o
+ .debug_ranges  0x000000b0       0x70 ./drivers/src/cr_startup_lpc176x.o
+ .debug_ranges  0x00000120       0x28 ./aplicacion/src/main.o
+ .debug_ranges  0x00000148       0x10 ./Primitivas/teclado_prim.o
+
+.debug_macro    0x00000000     0x13fc
+ .debug_macro   0x00000000       0x5a ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x0000005a      0xa66 ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00000ac0      0x397 ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00000e57       0x40 ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00000e97       0x8e ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00000f25       0xca ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00000fef       0x76 ./drivers/src/FW_InitExpansion3.o
+ .debug_macro   0x00001065       0x1a ./drivers/src/GPIO.o
+ .debug_macro   0x0000107f       0x23 ./drivers/src/Inic_PLL.o
+ .debug_macro   0x000010a2       0xfa ./drivers/src/Inic_PLL.o
+ .debug_macro   0x0000119c       0x42 ./drivers/src/Init_GPIO.o
+ .debug_macro   0x000011de       0x42 ./drivers/src/Systick.o
+ .debug_macro   0x00001220       0x1c ./drivers/src/Systick.o
+ .debug_macro   0x0000123c       0x5a ./drivers/src/Teclado.o
+ .debug_macro   0x00001296       0x76 ./drivers/src/Teclado.o
+ .debug_macro   0x0000130c       0x1d ./drivers/src/cr_startup_lpc176x.o
+ .debug_macro   0x00001329       0x1a ./drivers/src/crp.o
+ .debug_macro   0x00001343       0x34 ./drivers/src/crp.o
+ .debug_macro   0x00001377       0x55 ./aplicacion/src/main.o
+ .debug_macro   0x000013cc       0x30 ./Primitivas/teclado_prim.o
+
+.debug_line     0x00000000      0xd29
+ .debug_line    0x00000000      0x189 ./drivers/src/FW_InitExpansion3.o
+ .debug_line    0x00000189      0x111 ./drivers/src/GPIO.o
+ .debug_line    0x0000029a      0x110 ./drivers/src/Inic_PLL.o
+ .debug_line    0x000003aa      0x19e ./drivers/src/Init_GPIO.o
+ .debug_line    0x00000548      0x14b ./drivers/src/Systick.o
+ .debug_line    0x00000693      0x212 ./drivers/src/Teclado.o
+ .debug_line    0x000008a5       0xd7 ./drivers/src/cr_startup_lpc176x.o
+ .debug_line    0x0000097c       0x7d ./drivers/src/crp.o
+ .debug_line    0x000009f9      0x1e8 ./aplicacion/src/main.o
+ .debug_line    0x00000be1      0x148 ./Primitivas/teclado_prim.o
+
+.debug_str      0x00000000     0x4a23
+ .debug_str     0x00000000     0x406c ./drivers/src/FW_InitExpansion3.o
+                               0x409f (size before relaxing)
+ .debug_str     0x0000406c       0x6c ./drivers/src/GPIO.o
+                               0x3ab9 (size before relaxing)
+ .debug_str     0x000040d8      0x4cf ./drivers/src/Inic_PLL.o
+                               0x3f25 (size before relaxing)
+ .debug_str     0x000045a7       0x84 ./drivers/src/Init_GPIO.o
+                               0x42bf (size before relaxing)
+ .debug_str     0x0000462b       0x62 ./drivers/src/Systick.o
+                               0x3d88 (size before relaxing)
+ .debug_str     0x0000468d       0x7e ./drivers/src/Teclado.o
+                               0x4125 (size before relaxing)
+ .debug_str     0x0000470b      0x1cb ./drivers/src/cr_startup_lpc176x.o
+                               0x2edf (size before relaxing)
+ .debug_str     0x000048d6       0xf1 ./drivers/src/crp.o
+                               0x2def (size before relaxing)
+ .debug_str     0x000049c7       0x3f ./aplicacion/src/main.o
+                               0x40ca (size before relaxing)
+ .debug_str     0x00004a06       0x1d ./Primitivas/teclado_prim.o
+                               0x3afc (size before relaxing)
+
+.comment        0x00000000       0x7e
+ .comment       0x00000000       0x7e ./drivers/src/FW_InitExpansion3.o
+                                 0x7f (size before relaxing)
+ .comment       0x0000007e       0x7f ./drivers/src/GPIO.o
+ .comment       0x0000007e       0x7f ./drivers/src/Inic_PLL.o
+ .comment       0x0000007e       0x7f ./drivers/src/Init_GPIO.o
+ .comment       0x0000007e       0x7f ./drivers/src/Systick.o
+ .comment       0x0000007e       0x7f ./drivers/src/Teclado.o
+ .comment       0x0000007e       0x7f ./drivers/src/cr_startup_lpc176x.o
+ .comment       0x0000007e       0x7f ./drivers/src/crp.o
+ .comment       0x0000007e       0x7f ./aplicacion/src/main.o
+ .comment       0x0000007e       0x7f ./Primitivas/teclado_prim.o
+ .comment       0x0000007e       0x7f c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./drivers/src/FW_InitExpansion3.o
+ .ARM.attributes
+                0x00000033       0x33 ./drivers/src/GPIO.o
+ .ARM.attributes
+                0x00000066       0x33 ./drivers/src/Inic_PLL.o
+ .ARM.attributes
+                0x00000099       0x33 ./drivers/src/Init_GPIO.o
+ .ARM.attributes
+                0x000000cc       0x33 ./drivers/src/Systick.o
+ .ARM.attributes
+                0x000000ff       0x33 ./drivers/src/Teclado.o
+ .ARM.attributes
+                0x00000132       0x33 ./drivers/src/cr_startup_lpc176x.o
+ .ARM.attributes
+                0x00000165       0x33 ./drivers/src/crp.o
+ .ARM.attributes
+                0x00000198       0x33 ./aplicacion/src/main.o
+ .ARM.attributes
+                0x000001cb       0x33 ./Primitivas/teclado_prim.o
+ .ARM.attributes
+                0x000001fe       0x33 c:/nxp/mcuxpressoide_10.2.0_759/ide/tools/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x4cc
+ .debug_frame   0x00000000       0x2c ./drivers/src/FW_InitExpansion3.o
+ .debug_frame   0x0000002c       0xd8 ./drivers/src/GPIO.o
+ .debug_frame   0x00000104       0x30 ./drivers/src/Inic_PLL.o
+ .debug_frame   0x00000134       0x84 ./drivers/src/Init_GPIO.o
+ .debug_frame   0x000001b8       0x34 ./drivers/src/Systick.o
+ .debug_frame   0x000001ec       0x9c ./drivers/src/Teclado.o
+ .debug_frame   0x00000288      0x170 ./drivers/src/cr_startup_lpc176x.o
+ .debug_frame   0x000003f8       0x9c ./aplicacion/src/main.o
+ .debug_frame   0x00000494       0x38 ./Primitivas/teclado_prim.o

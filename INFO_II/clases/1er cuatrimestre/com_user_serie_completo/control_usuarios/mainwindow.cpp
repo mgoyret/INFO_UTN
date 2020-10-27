@@ -22,7 +22,11 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->actionSalir, SIGNAL(triggered()), this, SLOT(salir()));
     enableOut();
     totalUsers = cntUsers();
-
+    //////////////////////////////////////////////////////////////////////
+    ui->actionComunicacion->setEnabled(true); // lo tengo asi para usarlo sin tener que iniciar
+    ComClass a;
+    a.exec();
+    /////////////////////////////////////////////////////////////////////
 }
 
 MainWindow::~MainWindow()
@@ -303,6 +307,6 @@ void MainWindow::enableOut()
     ui->actionCerrar_Sesion->setEnabled(false);
     ui->actionModificar_Usuario->setEnabled(false);
     ui->actionEliminar_Usuario->setEnabled(false);
-    ui->actionComunicacion->setEnabled(false);
+    //ui->actionComunicacion->setEnabled(false); // lo tengo asi para usarlo sin tener que iniciar
     ui->actionIniciar_Sesion->setEnabled(true);
 }

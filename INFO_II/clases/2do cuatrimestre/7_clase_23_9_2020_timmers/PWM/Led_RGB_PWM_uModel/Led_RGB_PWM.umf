@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proyecto>
+    <general>
+        <nombre>Led_RGB_PWM</nombre>
+        <autores>NicoCampos</autores>
+        <creacion>28-08-2019 09:24:29</creacion>
+        <modificacion>03-09-2019 17:00:50</modificacion>
+        <carpeta>C:/Users/nicoc/uModelFactory</carpeta>
+    </general>
+    <configuracion>
+        <hardware/>
+        <target/>
+    </configuracion>
+    <recursos>
+        <archivosC/>
+        <archivosH/>
+    </recursos>
+    <maquinas>
+        <maquina0>
+            <nombre>maquina_RGB</nombre>
+            <estadoInicial>
+                <pos_x>-978</pos_x>
+                <pos_y>-647.5</pos_y>
+                <idAcciones>key_rgb = FALSE,Iniciar_juego1()</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-951.4,-627.2</midPos>
+                <textPos>0,-53</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>JUEGO_RGB1</nombre>
+                    <color>#d2b48c</color>
+                    <pos_x>-883</pos_x>
+                    <pos_y>-575</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>key_rgb == TRUE</idEvento>
+                        <idAcciones>Iniciar_juego2(),key_rgb = FALSE</idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-736.1,-537.3</midPos>
+                        <textPos>0,-53</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>JUEGO_RGB2</nombre>
+                    <color>#90ee90</color>
+                    <pos_x>-661</pos_x>
+                    <pos_y>-448</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>key_rgb == TRUE</idEvento>
+                        <idAcciones>Iniciar_juego3(),key_rgb = FALSE</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-757.3,-361.9</midPos>
+                        <textPos>-5,3</textPos>
+                    </tr0>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>JUEGO_RGB3</nombre>
+                    <color>#add8e6</color>
+                    <pos_x>-893</pos_x>
+                    <pos_y>-341</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>key_rgb == TRUE</idEvento>
+                        <idAcciones>Iniciar_juego1(),key_rgb = FALSE</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-925.6,-460.8</midPos>
+                        <textPos>-125,-35</textPos>
+                    </tr0>
+                </transiciones>
+            </estado2>
+        </maquina0>
+    </maquinas>
+    <eventos/>
+    <acciones>
+        <acc0>Iniciar_juego1()</acc0>
+        <acc1>Iniciar_juego2()</acc1>
+        <acc2>Iniciar_juego3()</acc2>
+    </acciones>
+    <variables>
+        <var0>key_rgb</var0>
+    </variables>
+    <constantes>
+        <cons0>TRUE</cons0>
+        <cons1>FALSE</cons1>
+    </constantes>
+</proyecto>

@@ -1,0 +1,2 @@
+init.c:15:6:inicializar	8	static
+init.c:27:6:Init_GPIO	8	static

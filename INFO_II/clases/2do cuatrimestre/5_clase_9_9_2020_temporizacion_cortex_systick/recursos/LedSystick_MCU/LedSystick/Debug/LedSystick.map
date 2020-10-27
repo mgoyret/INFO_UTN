@@ -1,0 +1,651 @@
+Archive member included to satisfy reference by file (symbol)
+
+n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                              ./Drivers/cr_startup_lpc175x_6x.o (__main)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./Primitivas/PR_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/PR_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/PR_FuncionesMdeE.o
+ .text          0x00000000        0x0 ./Primitivas/PR_FuncionesMdeE.o
+ .data          0x00000000        0x0 ./Primitivas/PR_FuncionesMdeE.o
+ .bss           0x00000000        0x0 ./Primitivas/PR_FuncionesMdeE.o
+ .group         0x00000000        0xc ./Primitivas/PR_MdeE.o
+ .group         0x00000000        0xc ./Primitivas/PR_MdeE.o
+ .group         0x00000000        0xc ./Primitivas/PR_MdeE.o
+ .text          0x00000000        0x0 ./Primitivas/PR_MdeE.o
+ .data          0x00000000        0x0 ./Primitivas/PR_MdeE.o
+ .bss           0x00000000        0x0 ./Primitivas/PR_MdeE.o
+ .debug_macro   0x00000000      0xa9c ./Primitivas/PR_MdeE.o
+ .debug_macro   0x00000000       0x28 ./Primitivas/PR_MdeE.o
+ .group         0x00000000        0xc ./Drivers/DR_GPIO.o
+ .group         0x00000000        0xc ./Drivers/DR_GPIO.o
+ .group         0x00000000        0xc ./Drivers/DR_GPIO.o
+ .text          0x00000000        0x0 ./Drivers/DR_GPIO.o
+ .data          0x00000000        0x0 ./Drivers/DR_GPIO.o
+ .bss           0x00000000        0x0 ./Drivers/DR_GPIO.o
+ .text.GetPIN   0x00000000       0x46 ./Drivers/DR_GPIO.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/DR_GPIO.o
+ .debug_macro   0x00000000       0x10 ./Drivers/DR_GPIO.o
+ .group         0x00000000        0xc ./Drivers/DR_PINSEL.o
+ .group         0x00000000        0xc ./Drivers/DR_PINSEL.o
+ .group         0x00000000        0xc ./Drivers/DR_PINSEL.o
+ .text          0x00000000        0x0 ./Drivers/DR_PINSEL.o
+ .data          0x00000000        0x0 ./Drivers/DR_PINSEL.o
+ .bss           0x00000000        0x0 ./Drivers/DR_PINSEL.o
+ .text.SetPINMODE
+                0x00000000       0x80 ./Drivers/DR_PINSEL.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/DR_PINSEL.o
+ .debug_macro   0x00000000       0x10 ./Drivers/DR_PINSEL.o
+ .group         0x00000000        0xc ./Drivers/DR_PLL.o
+ .group         0x00000000        0xc ./Drivers/DR_PLL.o
+ .text          0x00000000        0x0 ./Drivers/DR_PLL.o
+ .data          0x00000000        0x0 ./Drivers/DR_PLL.o
+ .bss           0x00000000        0x0 ./Drivers/DR_PLL.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/DR_PLL.o
+ .group         0x00000000        0xc ./Drivers/DR_Systick.o
+ .group         0x00000000        0xc ./Drivers/DR_Systick.o
+ .group         0x00000000        0xc ./Drivers/DR_Systick.o
+ .text          0x00000000        0x0 ./Drivers/DR_Systick.o
+ .data          0x00000000        0x0 ./Drivers/DR_Systick.o
+ .bss           0x00000000        0x0 ./Drivers/DR_Systick.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/DR_Systick.o
+ .debug_macro   0x00000000       0x10 ./Drivers/DR_Systick.o
+ .group         0x00000000        0xc ./Drivers/cr_startup_lpc175x_6x.o
+ .text          0x00000000        0x0 ./Drivers/cr_startup_lpc175x_6x.o
+ .data          0x00000000        0x0 ./Drivers/cr_startup_lpc175x_6x.o
+ .bss           0x00000000        0x0 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/cr_startup_lpc175x_6x.o
+ .group         0x00000000        0xc ./Drivers/crp.o
+ .group         0x00000000        0xc ./Drivers/crp.o
+ .text          0x00000000        0x0 ./Drivers/crp.o
+ .data          0x00000000        0x0 ./Drivers/crp.o
+ .bss           0x00000000        0x0 ./Drivers/crp.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/crp.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .group         0x00000000        0xc ./Drivers/init.o
+ .text          0x00000000        0x0 ./Drivers/init.o
+ .data          0x00000000        0x0 ./Drivers/init.o
+ .bss           0x00000000        0x0 ./Drivers/init.o
+ .debug_macro   0x00000000      0xa9c ./Drivers/init.o
+ .debug_macro   0x00000000       0x28 ./Drivers/init.o
+ .debug_macro   0x00000000      0x10c ./Drivers/init.o
+ .debug_macro   0x00000000       0x10 ./Drivers/init.o
+ .debug_macro   0x00000000       0x22 ./Drivers/init.o
+ .debug_macro   0x00000000       0x28 ./Drivers/init.o
+ .debug_macro   0x00000000       0xd6 ./Drivers/init.o
+ .group         0x00000000        0xc ./Aplicacion/LedSystick.o
+ .group         0x00000000        0xc ./Aplicacion/LedSystick.o
+ .group         0x00000000        0xc ./Aplicacion/LedSystick.o
+ .group         0x00000000        0xc ./Aplicacion/LedSystick.o
+ .text          0x00000000        0x0 ./Aplicacion/LedSystick.o
+ .data          0x00000000        0x0 ./Aplicacion/LedSystick.o
+ .bss           0x00000000        0x0 ./Aplicacion/LedSystick.o
+ .debug_macro   0x00000000      0xa9c ./Aplicacion/LedSystick.o
+ .debug_macro   0x00000000       0x22 ./Aplicacion/LedSystick.o
+ .debug_macro   0x00000000       0x34 ./Aplicacion/LedSystick.o
+ .text          0x00000000        0x0 n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash512        0x00000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamAHB32         0x2007c000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Primitivas/PR_FuncionesMdeE.o
+LOAD ./Primitivas/PR_MdeE.o
+LOAD ./Drivers/DR_GPIO.o
+LOAD ./Drivers/DR_PINSEL.o
+LOAD ./Drivers/DR_PLL.o
+LOAD ./Drivers/DR_Systick.o
+LOAD ./Drivers/cr_startup_lpc175x_6x.o
+LOAD ./Drivers/crp.o
+LOAD ./Drivers/init.o
+LOAD ./Aplicacion/LedSystick.o
+START GROUP
+LOAD n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a
+LOAD n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libcr_eabihelpers.a
+LOAD n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/thumb/v7-m/nofp\libgcc.a
+END GROUP
+                0x00000000                __base_MFlash512 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00080000                __top_MFlash512 = 0x80000
+                0x00080000                __top_Flash = 0x80000
+                0x10000000                __base_RamLoc32 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x10008000                __top_RAM = 0x10008000
+                0x2007c000                __base_RamAHB32 = 0x2007c000
+                0x2007c000                __base_RAM2 = 0x2007c000
+                0x20084000                __top_RamAHB32 = 0x20084000
+                0x20084000                __top_RAM2 = 0x20084000
+
+.text           0x00000000      0x754
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xcc ./Drivers/cr_startup_lpc175x_6x.o
+                0x00000000                g_pfnVectors
+                0x000000cc                . = ALIGN (0x4)
+                0x000000cc                __section_table_start = .
+                0x000000cc                __data_section_table = .
+                0x000000cc        0x4 LONG 0x754 LOADADDR (.data)
+                0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x754 LOADADDR (.data_RAM2)
+                0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
+                0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x000000e4                __data_section_table_end = .
+                0x000000e4                __bss_section_table = .
+                0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x8 SIZEOF (.bss)
+                0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
+                0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x000000f4                __bss_section_table_end = .
+                0x000000f4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000f4      0x128 ./Drivers/cr_startup_lpc175x_6x.o
+                0x000000f4                data_init
+                0x00000136                bss_init
+                0x0000016c                ResetISR
+                0x000001e0                NMI_Handler
+                0x000001e6                HardFault_Handler
+                0x000001ec                MemManage_Handler
+                0x000001f2                BusFault_Handler
+                0x000001f8                UsageFault_Handler
+                0x000001fe                SVC_Handler
+                0x00000204                DebugMon_Handler
+                0x0000020a                PendSV_Handler
+                0x00000216                UART1_IRQHandler
+                0x00000216                EINT3_IRQHandler
+                0x00000216                CANActivity_IRQHandler
+                0x00000216                TIMER3_IRQHandler
+                0x00000216                UART0_IRQHandler
+                0x00000216                USBActivity_IRQHandler
+                0x00000216                EINT2_IRQHandler
+                0x00000216                IntDefaultHandler
+                0x00000216                PLL0_IRQHandler
+                0x00000216                CAN_IRQHandler
+                0x00000216                I2C0_IRQHandler
+                0x00000216                SSP0_IRQHandler
+                0x00000216                I2C1_IRQHandler
+                0x00000216                I2C2_IRQHandler
+                0x00000216                RTC_IRQHandler
+                0x00000216                TIMER0_IRQHandler
+                0x00000216                SPI_IRQHandler
+                0x00000216                RIT_IRQHandler
+                0x00000216                EINT1_IRQHandler
+                0x00000216                TIMER1_IRQHandler
+                0x00000216                UART2_IRQHandler
+                0x00000216                ADC_IRQHandler
+                0x00000216                SSP1_IRQHandler
+                0x00000216                USB_IRQHandler
+                0x00000216                BOD_IRQHandler
+                0x00000216                PWM1_IRQHandler
+                0x00000216                WDT_IRQHandler
+                0x00000216                I2S_IRQHandler
+                0x00000216                QEI_IRQHandler
+                0x00000216                EINT0_IRQHandler
+                0x00000216                PLL1_IRQHandler
+                0x00000216                DMA_IRQHandler
+                0x00000216                TIMER2_IRQHandler
+                0x00000216                UART3_IRQHandler
+                0x00000216                MCPWM_IRQHandler
+                0x00000216                ENET_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x0000021c       0xe0 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__ = .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./Drivers/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__ = .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.Timer0_1S
+                0x00000300       0x28 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000300                Timer0_1S
+ .text.Timer0_2S
+                0x00000328       0x28 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000328                Timer0_2S
+ .text.IniciarTimer0_1S
+                0x00000350       0x18 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000350                IniciarTimer0_1S
+ .text.IniciarTimer0_2S
+                0x00000368       0x18 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000368                IniciarTimer0_2S
+ .text.ApagarLed0
+                0x00000380       0x12 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000380                ApagarLed0
+ .text.PrenderLed0
+                0x00000392       0x12 ./Primitivas/PR_FuncionesMdeE.o
+                0x00000392                PrenderLed0
+ .text.maquina_Led
+                0x000003a4       0x5c ./Primitivas/PR_MdeE.o
+                0x000003a4                maquina_Led
+ .text.SetDIR   0x00000400       0x74 ./Drivers/DR_GPIO.o
+                0x00000400                SetDIR
+ .text.SetPIN   0x00000474       0x78 ./Drivers/DR_GPIO.o
+                0x00000474                SetPIN
+ .text.SetPINSEL
+                0x000004ec       0x8a ./Drivers/DR_PINSEL.o
+                0x000004ec                SetPINSEL
+ *fill*         0x00000576        0x2 ff
+ .text.Init_PLL
+                0x00000578      0x140 ./Drivers/DR_PLL.o
+                0x00000578                Init_PLL
+ .text.Init_Systick
+                0x000006b8       0x34 ./Drivers/DR_Systick.o
+                0x000006b8                Init_Systick
+ .text.SysTick_Handler
+                0x000006ec       0x1c ./Drivers/DR_Systick.o
+                0x000006ec                SysTick_Handler
+ .text.inicializar
+                0x00000708       0x14 ./Drivers/init.o
+                0x00000708                inicializar
+ .text.Init_GPIO
+                0x0000071c       0x26 ./Drivers/init.o
+                0x0000071c                Init_GPIO
+ .text.main     0x00000742        0xe ./Aplicacion/LedSystick.o
+                0x00000742                main
+ .text.__weak_main
+                0x00000750        0x4 n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                0x00000750                __weak_main
+                0x00000750                __main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x00000754                . = ALIGN (0x4)
+
+.glue_7         0x00000754        0x0
+ .glue_7        0x00000754        0x0 linker stubs
+
+.glue_7t        0x00000754        0x0
+ .glue_7t       0x00000754        0x0 linker stubs
+
+.vfp11_veneer   0x00000754        0x0
+ .vfp11_veneer  0x00000754        0x0 linker stubs
+
+.v4_bx          0x00000754        0x0
+ .v4_bx         0x00000754        0x0 linker stubs
+
+.iplt           0x00000754        0x0
+ .iplt          0x00000754        0x0 ./Primitivas/PR_FuncionesMdeE.o
+
+.rel.dyn        0x00000754        0x0
+ .rel.iplt      0x00000754        0x0 ./Primitivas/PR_FuncionesMdeE.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x00000754        0x0
+                0x00000754                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00000754                __exidx_end = .
+                0x00000754                _etext = .
+
+.data_RAM2      0x2007c000        0x0 load address 0x00000754
+ FILL mask 0xff
+                [!provide]                PROVIDE (__start_data_RAM2 = .)
+                [!provide]                PROVIDE (__start_data_RamAHB32 = .)
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM2)
+ *(.data.$RamAHB32)
+ *(.data.$RAM2.*)
+ *(.data.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_data_RAM2 = .)
+                [!provide]                PROVIDE (__end_data_RamAHB32 = .)
+
+.uninit_RESERVED
+                0x10000000        0x0
+                0x10000000                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x00000754
+ FILL mask 0xff
+                0x10000000                _data = .
+                [!provide]                PROVIDE (__start_data_RAM = .)
+                [!provide]                PROVIDE (__start_data_RamLoc32 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+                [!provide]                PROVIDE (__end_data_RAM = .)
+                [!provide]                PROVIDE (__end_data_RamLoc32 = .)
+
+.igot.plt       0x10000000        0x0 load address 0x00000754
+ .igot.plt      0x10000000        0x0 ./Primitivas/PR_FuncionesMdeE.o
+
+.bss_RAM2       0x2007c000        0x0
+                [!provide]                PROVIDE (__start_bss_RAM2 = .)
+                [!provide]                PROVIDE (__start_bss_RamAHB32 = .)
+ *(.bss.$RAM2)
+ *(.bss.$RamAHB32)
+ *(.bss.$RAM2.*)
+ *(.bss.$RamAHB32.*)
+                0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
+                [!provide]                PROVIDE (__end_bss_RAM2 = .)
+                [!provide]                PROVIDE (__end_bss_RamAHB32 = .)
+
+.bss            0x10000000        0x8
+                0x10000000                _bss = .
+                [!provide]                PROVIDE (__start_bss_RAM = .)
+                [!provide]                PROVIDE (__start_bss_RamLoc32 = .)
+ *(.bss*)
+ .bss.estado.3676
+                0x10000000        0x4 ./Primitivas/PR_MdeE.o
+ .bss.tiempo    0x10000004        0x4 ./Drivers/DR_Systick.o
+                0x10000004                tiempo
+ *(COMMON)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                [!provide]                PROVIDE (__end_bss_RAM = .)
+                [!provide]                PROVIDE (__end_bss_RamLoc32 = .)
+                [!provide]                PROVIDE (end = .)
+
+.noinit_RAM2    0x2007c000        0x0
+                [!provide]                PROVIDE (__start_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__start_noinit_RamAHB32 = .)
+ *(.noinit.$RAM2)
+ *(.noinit.$RamAHB32)
+ *(.noinit.$RAM2.*)
+ *(.noinit.$RamAHB32.*)
+                0x2007c000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__end_noinit_RAM2 = .)
+                [!provide]                PROVIDE (__end_noinit_RamAHB32 = .)
+
+.noinit         0x10000008        0x0
+                0x10000008                _noinit = .
+                [!provide]                PROVIDE (__start_noinit_RAM = .)
+                [!provide]                PROVIDE (__start_noinit_RamLoc32 = .)
+ *(.noinit*)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _end_noinit = .
+                [!provide]                PROVIDE (__end_noinit_RAM = .)
+                [!provide]                PROVIDE (__end_noinit_RamLoc32 = .)
+                [!provide]                PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
+                0xefff74f2                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
+                0x00000000                _image_start = LOADADDR (.text)
+                0x00000754                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000754                _image_size = (_image_end - _image_start)
+OUTPUT(LedSystick.axf elf32-littlearm)
+
+.debug_info     0x00000000      0x770
+ .debug_info    0x00000000       0xe3 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_info    0x000000e3       0x5a ./Primitivas/PR_MdeE.o
+ .debug_info    0x0000013d      0x11e ./Drivers/DR_GPIO.o
+ .debug_info    0x0000025b       0xd4 ./Drivers/DR_PINSEL.o
+ .debug_info    0x0000032f       0x67 ./Drivers/DR_PLL.o
+ .debug_info    0x00000396       0x81 ./Drivers/DR_Systick.o
+ .debug_info    0x00000417      0x276 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_info    0x0000068d       0x40 ./Drivers/crp.o
+ .debug_info    0x000006cd       0x5c ./Drivers/init.o
+ .debug_info    0x00000729       0x47 ./Aplicacion/LedSystick.o
+
+.debug_abbrev   0x00000000      0x4dc
+ .debug_abbrev  0x00000000       0xbf ./Primitivas/PR_FuncionesMdeE.o
+ .debug_abbrev  0x000000bf       0x4f ./Primitivas/PR_MdeE.o
+ .debug_abbrev  0x0000010e       0xae ./Drivers/DR_GPIO.o
+ .debug_abbrev  0x000001bc       0x89 ./Drivers/DR_PINSEL.o
+ .debug_abbrev  0x00000245       0x52 ./Drivers/DR_PLL.o
+ .debug_abbrev  0x00000297       0x69 ./Drivers/DR_Systick.o
+ .debug_abbrev  0x00000300      0x12a ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x0000042a       0x38 ./Drivers/crp.o
+ .debug_abbrev  0x00000462       0x3c ./Drivers/init.o
+ .debug_abbrev  0x0000049e       0x3e ./Aplicacion/LedSystick.o
+
+.debug_aranges  0x00000000      0x1e8
+ .debug_aranges
+                0x00000000       0x48 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_aranges
+                0x00000048       0x20 ./Primitivas/PR_MdeE.o
+ .debug_aranges
+                0x00000068       0x30 ./Drivers/DR_GPIO.o
+ .debug_aranges
+                0x00000098       0x28 ./Drivers/DR_PINSEL.o
+ .debug_aranges
+                0x000000c0       0x20 ./Drivers/DR_PLL.o
+ .debug_aranges
+                0x000000e0       0x28 ./Drivers/DR_Systick.o
+ .debug_aranges
+                0x00000108       0x80 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_aranges
+                0x00000188       0x18 ./Drivers/crp.o
+ .debug_aranges
+                0x000001a0       0x28 ./Drivers/init.o
+ .debug_aranges
+                0x000001c8       0x20 ./Aplicacion/LedSystick.o
+
+.debug_ranges   0x00000000      0x140
+ .debug_ranges  0x00000000       0x38 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_ranges  0x00000038       0x10 ./Primitivas/PR_MdeE.o
+ .debug_ranges  0x00000048       0x20 ./Drivers/DR_GPIO.o
+ .debug_ranges  0x00000068       0x18 ./Drivers/DR_PINSEL.o
+ .debug_ranges  0x00000080       0x10 ./Drivers/DR_PLL.o
+ .debug_ranges  0x00000090       0x18 ./Drivers/DR_Systick.o
+ .debug_ranges  0x000000a8       0x70 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_ranges  0x00000118       0x18 ./Drivers/init.o
+ .debug_ranges  0x00000130       0x10 ./Aplicacion/LedSystick.o
+
+.debug_macro    0x00000000      0xfe4
+ .debug_macro   0x00000000       0x2d ./Primitivas/PR_FuncionesMdeE.o
+ .debug_macro   0x0000002d      0xa9c ./Primitivas/PR_FuncionesMdeE.o
+ .debug_macro   0x00000ac9       0x28 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_macro   0x00000af1       0x10 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_macro   0x00000b01       0x23 ./Primitivas/PR_MdeE.o
+ .debug_macro   0x00000b24       0x22 ./Primitivas/PR_MdeE.o
+ .debug_macro   0x00000b46       0x33 ./Drivers/DR_GPIO.o
+ .debug_macro   0x00000b79       0x28 ./Drivers/DR_GPIO.o
+ .debug_macro   0x00000ba1       0x33 ./Drivers/DR_PINSEL.o
+ .debug_macro   0x00000bd4       0xd6 ./Drivers/DR_PINSEL.o
+ .debug_macro   0x00000caa       0x1a ./Drivers/DR_PLL.o
+ .debug_macro   0x00000cc4      0x10c ./Drivers/DR_PLL.o
+ .debug_macro   0x00000dd0       0x2f ./Drivers/DR_Systick.o
+ .debug_macro   0x00000dff       0x22 ./Drivers/DR_Systick.o
+ .debug_macro   0x00000e21       0x1d ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00000e3e       0x1a ./Drivers/crp.o
+ .debug_macro   0x00000e58       0x34 ./Drivers/crp.o
+ .debug_macro   0x00000e8c       0x76 ./Drivers/init.o
+ .debug_macro   0x00000f02       0x34 ./Drivers/init.o
+ .debug_macro   0x00000f36       0x2c ./Aplicacion/LedSystick.o
+ .debug_macro   0x00000f62       0x82 ./Aplicacion/LedSystick.o
+
+.debug_line     0x00000000      0xbc0
+ .debug_line    0x00000000      0x166 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_line    0x00000166       0xed ./Primitivas/PR_MdeE.o
+ .debug_line    0x00000253      0x142 ./Drivers/DR_GPIO.o
+ .debug_line    0x00000395      0x12b ./Drivers/DR_PINSEL.o
+ .debug_line    0x000004c0      0x183 ./Drivers/DR_PLL.o
+ .debug_line    0x00000643       0xe2 ./Drivers/DR_Systick.o
+ .debug_line    0x00000725      0x163 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_line    0x00000888       0xb5 ./Drivers/crp.o
+ .debug_line    0x0000093d      0x137 ./Drivers/init.o
+ .debug_line    0x00000a74      0x14c ./Aplicacion/LedSystick.o
+
+.debug_str      0x00000000     0x4095
+ .debug_str     0x00000000     0x2e94 ./Primitivas/PR_FuncionesMdeE.o
+                               0x2ec3 (size before relaxing)
+ .debug_str     0x00002e94       0x5d ./Primitivas/PR_MdeE.o
+                               0x2e69 (size before relaxing)
+ .debug_str     0x00002ef1      0x10e ./Drivers/DR_GPIO.o
+                               0x2f16 (size before relaxing)
+ .debug_str     0x00002fff      0x34c ./Drivers/DR_PINSEL.o
+                               0x3159 (size before relaxing)
+ .debug_str     0x0000334b      0x512 ./Drivers/DR_PLL.o
+                               0x330c (size before relaxing)
+ .debug_str     0x0000385d       0xc0 ./Drivers/DR_Systick.o
+                               0x2ec5 (size before relaxing)
+ .debug_str     0x0000391d      0x1ca ./Drivers/cr_startup_lpc175x_6x.o
+                               0x2fac (size before relaxing)
+ .debug_str     0x00003ae7       0xed ./Drivers/crp.o
+                               0x2eb9 (size before relaxing)
+ .debug_str     0x00003bd4       0x58 ./Drivers/init.o
+                               0x37f2 (size before relaxing)
+ .debug_str     0x00003c2c      0x469 ./Aplicacion/LedSystick.o
+                               0x3298 (size before relaxing)
+
+.comment        0x00000000       0x76
+ .comment       0x00000000       0x76 ./Primitivas/PR_FuncionesMdeE.o
+                                 0x77 (size before relaxing)
+ .comment       0x00000076       0x77 ./Primitivas/PR_MdeE.o
+ .comment       0x00000076       0x77 ./Drivers/DR_GPIO.o
+ .comment       0x00000076       0x77 ./Drivers/DR_PINSEL.o
+ .comment       0x00000076       0x77 ./Drivers/DR_PLL.o
+ .comment       0x00000076       0x77 ./Drivers/DR_Systick.o
+ .comment       0x00000076       0x77 ./Drivers/cr_startup_lpc175x_6x.o
+ .comment       0x00000076       0x77 ./Drivers/crp.o
+ .comment       0x00000076       0x77 ./Drivers/init.o
+ .comment       0x00000076       0x77 ./Aplicacion/LedSystick.o
+ .comment       0x00000076       0x77 n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2d ./Primitivas/PR_FuncionesMdeE.o
+ .ARM.attributes
+                0x0000002d       0x2d ./Primitivas/PR_MdeE.o
+ .ARM.attributes
+                0x0000005a       0x2d ./Drivers/DR_GPIO.o
+ .ARM.attributes
+                0x00000087       0x2d ./Drivers/DR_PINSEL.o
+ .ARM.attributes
+                0x000000b4       0x2d ./Drivers/DR_PLL.o
+ .ARM.attributes
+                0x000000e1       0x2d ./Drivers/DR_Systick.o
+ .ARM.attributes
+                0x0000010e       0x2d ./Drivers/cr_startup_lpc175x_6x.o
+ .ARM.attributes
+                0x0000013b       0x33 ./Drivers/crp.o
+ .ARM.attributes
+                0x0000016e       0x2d ./Drivers/init.o
+ .ARM.attributes
+                0x0000019b       0x2d ./Aplicacion/LedSystick.o
+ .ARM.attributes
+                0x000001c8       0x2d n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+
+.debug_frame    0x00000000      0x450
+ .debug_frame   0x00000000       0xd8 ./Primitivas/PR_FuncionesMdeE.o
+ .debug_frame   0x000000d8       0x2c ./Primitivas/PR_MdeE.o
+ .debug_frame   0x00000104       0x88 ./Drivers/DR_GPIO.o
+ .debug_frame   0x0000018c       0x60 ./Drivers/DR_PINSEL.o
+ .debug_frame   0x000001ec       0x30 ./Drivers/DR_PLL.o
+ .debug_frame   0x0000021c       0x50 ./Drivers/DR_Systick.o
+ .debug_frame   0x0000026c      0x170 ./Drivers/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000003dc       0x48 ./Drivers/init.o
+ .debug_frame   0x00000424       0x2c ./Aplicacion/LedSystick.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+ApagarLed0                                        ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+BOD_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+BusFault_Handler                                  ./Drivers/cr_startup_lpc175x_6x.o
+CANActivity_IRQHandler                            ./Drivers/cr_startup_lpc175x_6x.o
+CAN_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+CRP_WORD                                          ./Drivers/crp.o
+DMA_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+DebugMon_Handler                                  ./Drivers/cr_startup_lpc175x_6x.o
+EINT0_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+EINT1_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+EINT2_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+EINT3_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+ENET_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+GetPIN                                            ./Drivers/DR_GPIO.o
+HardFault_Handler                                 ./Drivers/cr_startup_lpc175x_6x.o
+I2C0_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+I2C1_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+I2C2_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+I2S_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+IniciarTimer0_1S                                  ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+IniciarTimer0_2S                                  ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+Init_GPIO                                         ./Drivers/init.o
+Init_PLL                                          ./Drivers/DR_PLL.o
+                                                  ./Drivers/init.o
+Init_Systick                                      ./Drivers/DR_Systick.o
+                                                  ./Drivers/init.o
+IntDefaultHandler                                 ./Drivers/cr_startup_lpc175x_6x.o
+MCPWM_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+MemManage_Handler                                 ./Drivers/cr_startup_lpc175x_6x.o
+NMI_Handler                                       ./Drivers/cr_startup_lpc175x_6x.o
+PLL0_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+PLL1_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+PWM1_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+PendSV_Handler                                    ./Drivers/cr_startup_lpc175x_6x.o
+PrenderLed0                                       ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+QEI_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+RIT_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+RTC_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+ResetISR                                          ./Drivers/cr_startup_lpc175x_6x.o
+SPI_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+SSP0_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+SSP1_IRQHandler                                   ./Drivers/cr_startup_lpc175x_6x.o
+SVC_Handler                                       ./Drivers/cr_startup_lpc175x_6x.o
+SetDIR                                            ./Drivers/DR_GPIO.o
+                                                  ./Drivers/init.o
+SetPIN                                            ./Drivers/DR_GPIO.o
+                                                  ./Drivers/init.o
+                                                  ./Primitivas/PR_FuncionesMdeE.o
+SetPINMODE                                        ./Drivers/DR_PINSEL.o
+SetPINSEL                                         ./Drivers/DR_PINSEL.o
+                                                  ./Drivers/init.o
+SysTick_Handler                                   ./Drivers/DR_Systick.o
+TIMER0_IRQHandler                                 ./Drivers/cr_startup_lpc175x_6x.o
+TIMER1_IRQHandler                                 ./Drivers/cr_startup_lpc175x_6x.o
+TIMER2_IRQHandler                                 ./Drivers/cr_startup_lpc175x_6x.o
+TIMER3_IRQHandler                                 ./Drivers/cr_startup_lpc175x_6x.o
+Timer0_1S                                         ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+Timer0_2S                                         ./Primitivas/PR_FuncionesMdeE.o
+                                                  ./Primitivas/PR_MdeE.o
+UART0_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+UART1_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+UART2_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+UART3_IRQHandler                                  ./Drivers/cr_startup_lpc175x_6x.o
+USBActivity_IRQHandler                            ./Drivers/cr_startup_lpc175x_6x.o
+USB_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+UsageFault_Handler                                ./Drivers/cr_startup_lpc175x_6x.o
+WDT_IRQHandler                                    ./Drivers/cr_startup_lpc175x_6x.o
+__bss_section_table_end                           ./Drivers/cr_startup_lpc175x_6x.o
+__data_section_table                              ./Drivers/cr_startup_lpc175x_6x.o
+__data_section_table_end                          ./Drivers/cr_startup_lpc175x_6x.o
+__main                                            n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                                                  ./Drivers/cr_startup_lpc175x_6x.o
+__valid_user_code_checksum                        ./Drivers/cr_startup_lpc175x_6x.o
+__weak_main                                       n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+_vStackTop                                        ./Drivers/cr_startup_lpc175x_6x.o
+bss_init                                          ./Drivers/cr_startup_lpc175x_6x.o
+data_init                                         ./Drivers/cr_startup_lpc175x_6x.o
+g_pfnVectors                                      ./Drivers/cr_startup_lpc175x_6x.o
+inicializar                                       ./Drivers/init.o
+                                                  ./Aplicacion/LedSystick.o
+main                                              ./Aplicacion/LedSystick.o
+                                                  n:/nxp/mcuxpressoide_11.1.1_3241/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.202001081728/tools/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+maquina_Led                                       ./Primitivas/PR_MdeE.o
+                                                  ./Aplicacion/LedSystick.o
+tiempo                                            ./Drivers/DR_Systick.o
+                                                  ./Primitivas/PR_FuncionesMdeE.o
